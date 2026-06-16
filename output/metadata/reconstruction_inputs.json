@@ -1,0 +1,248 @@
+{
+  "navigation": [
+    {
+      "section": "主页",
+      "items": [
+        {
+          "href": "/app/today",
+          "text": "今日"
+        },
+        {
+          "href": "/app/dashboard",
+          "text": "数据看板"
+        },
+        {
+          "href": "/app/workqueue",
+          "text": "待办工作台 2"
+        },
+        {
+          "href": "/app/attendance",
+          "text": "考勤打卡"
+        }
+      ]
+    },
+    {
+      "section": "营销",
+      "items": [
+        {
+          "href": "/app/campaigns",
+          "text": "市场活动"
+        },
+        {
+          "href": "/app/leads",
+          "text": "销售线索"
+        }
+      ]
+    },
+    {
+      "section": "🛍 零售业务",
+      "items": [
+        {
+          "href": "/app/retail",
+          "text": "零售运营"
+        }
+      ]
+    },
+    {
+      "section": "客户 & 联系人",
+      "items": [
+        {
+          "href": "/app/accounts",
+          "text": "客户列表 2"
+        },
+        {
+          "href": "/app/pool",
+          "text": "公海"
+        },
+        {
+          "href": "/app/contacts",
+          "text": "联系人"
+        },
+        {
+          "href": "/app/end-users",
+          "text": "终端用户"
+        }
+      ]
+    },
+    {
+      "section": "销售流程",
+      "items": [
+        {
+          "href": "/app/pipeline",
+          "text": "销售漏斗 3"
+        },
+        {
+          "href": "/app/log-activity",
+          "text": "记录跟进"
+        },
+        {
+          "href": "/app/project-updates",
+          "text": "项目进度"
+        }
+      ]
+    },
+    {
+      "section": "合同 & 订单",
+      "items": [
+        {
+          "href": "/app/contracts",
+          "text": "合同"
+        },
+        {
+          "href": "/app/orders",
+          "text": "订单中心"
+        },
+        {
+          "href": "/app/invoices",
+          "text": "开票申请"
+        },
+        {
+          "href": "/app/payments",
+          "text": "支付登记"
+        }
+      ]
+    },
+    {
+      "section": "目录",
+      "items": [
+        {
+          "href": "/app/products",
+          "text": "产品目录"
+        }
+      ]
+    },
+    {
+      "section": "报表分析",
+      "items": [
+        {
+          "href": "/app/country-reports",
+          "text": "国家报告"
+        },
+        {
+          "href": "/app/report",
+          "text": "高管报告"
+        }
+      ]
+    },
+    {
+      "section": "管理",
+      "items": [
+        {
+          "href": "/app/import",
+          "text": "📥 数据导入"
+        },
+        {
+          "href": "/app/invite",
+          "text": "邀请用户"
+        },
+        {
+          "href": "/app/team",
+          "text": "团队"
+        },
+        {
+          "href": "/app/settings",
+          "text": "设置"
+        }
+      ]
+    }
+  ],
+  "account_tabs": [
+    "概览",
+    "联系人 2",
+    "商机 4",
+    "合同 1",
+    "订单 2",
+    "回款 2",
+    "跟进记录 4",
+    "市场活动 1",
+    "文档附件"
+  ],
+  "settings_tabs": [
+    "品牌",
+    "市场",
+    "部门",
+    "角色与权限",
+    "年度目标",
+    "文档模板",
+    "通知",
+    "审计日志",
+    "账户"
+  ],
+  "bundle_insights": {
+    "accounts": "Li=[{id:`a1`,code:`RAFF`,name:`Raffles Hospitality`,market:`SG`,ownerId:`u2`,annualTargetUsd:8e5,yearToDateUsd:62e4,contractStatus:`active`,contractExpiresAt:Fi(180),createdAt:J(180),paymentAccount:{bankName:`DBS Bank Ltd`,bankAccountNumber:`0011-234567-001`,accountHolder:`Raffles Hospitality Pte Ltd`,swiftCode:`DBSSSGSG`,currency:`SGD`,bankAddress:`12 Marina Boulevard, Marina Bay Financial Centre, Singapore 018982`,taxId:`GST 200012345R`,addedById:`u8`,addedAt:J(80),updatedAt:J(80)},businessType:`commercial`,opportunityNotes:`集团总部正在评估5年统一供应商方案。新加坡总部决定后,东南亚 14 家分店有望统一采购。当前在用机型为竞品 Watergen WG-30,客户反馈滤芯成本偏高。`,customerResources:`集团旗下 14 家五星酒店(SG 5、HK 3、KL 2、BKK 2、JKT 2);Sands 集团对 F&B 装备有独立采购权;采购总监 Olivia Tan 与我司 Yang 总有 8 年合作关系。`,nextDigDirections:`1. 6 月底前完成集团框架协议初稿\n2. 推进 KL+BKK 分店试点装机(已立项)\n3. 介绍新一代战略品 AHT-WPU-7000 替换竞品`,landmarkCaseStatus:`in_progress`,marketingOwnerId:`u15`},{id:`a2`,code:`MARI`,name:`Marina Bay Sands`,market:`SG`,ownerId:`u2`,annualTargetUsd:12e5,yearToDateUsd:54e4,contractStatus:`expiring`,contractExpiresAt:Fi(22),createdAt:J(120),businessType:`commercial`,opportunityNotes:`合同 22 天后到期,客户对当前 12 台机器满意度高(NPS 9/10)。客户透露 2026 Q4 将启动 SkyPark 扩建,需新增 18 台 dispenser。`,customerResources:`新加坡最大综合度假村;3,000 客房 + 1,200 间会议厅;采购决策链清晰,Olivia(CFO)有最终决策权。`,nextDigDirections:`1. 续约谈判中,争取 3 年期 + 涨价 5%\n2. SkyPark Phase 2 提前介入设计阶段\n3. 推荐战略品 AHT-WPU-7000 至 VIP 套房`,landmarkCaseStatus:`completed`},{id:`a3`,code:`GENT`,name:`Genting Group`,market:`MY`,ownerId:`u2`,annualTargetUsd:6e5,yearToDateUsd:48e4,contractStatus:`active`,contractExpiresAt:Fi(150),createdAt:J(150),paymentAccount:{bankName:`Maybank Berhad`,bankAccountNumber:`5141-2233-4455-66`,accountHolder:`Genting Berhad`,swiftCode:`MBBEMYKL`,currency:`MYR`,bankAddress:`14, Persiaran KLCC, Kuala Lumpur 50088, Malaysia`,taxId:`GST-001234567`,addedById:`u9`,addedAt:J(35),updatedAt:J(35)}},{id:`a4`,code:`BANG`,name:`Bangkok Mall Group`,market:`TH`,ownerId:`u3`,annualTargetUsd:5e5,yearToDateUsd:24e4,contractStatus:`active`,contractExpiresAt:Fi(95),createdAt:J(120)},{id:`a5`,code:`SOEK`,name:`Soekarno Retail Distribution`,market:`ID`,ownerId:`u3`,annualTargetUsd:4e5,yearToDateUsd:11e4,contractStatus:`expiring`,contractExpiresAt:Fi(6),createdAt:J(60),businessType:`retail`,opportunityNotes:`印尼最大经销商之一,运营 42 家专卖店 + 8 家 Costco 渠道终端。家用净水机销售年增 22%。机会:东爪哇 / 苏拉威西 新区代理招商。`,customerResources:`42 家专卖店分布雅加达 / 万隆 / 泗水 / 棉兰;Tokopedia + Shopee 旗舰店年 GMV $1.2M;有自营售后服务网点。`,nextDigDirections:`1. Q3 新增 8 家专卖店净增计划支持\n2. 推 AHT-Home-3000 系列战略品(新一代家用)\n3. 联合营销:开斋节促销活动`,landmarkCaseStatus:`none`,marketingOwnerId:`u14`},{id:`a6`,code:`HKHO`,name:`HK Hospitality Corp`,market:`HK`,ownerId:`u4`,annualTargetUsd:7e5,yearToDateUsd:52e4,contractStatus:`active`,contractExpiresAt:Fi(200),createdAt:J(200)},{id:`a7`,code:`MGMM`,name:`MGM Macau`,market:`MO`,ownerId:`u4`,annualTargetUsd:9e5,yearToDateUsd:38e4,contractStatus:`active`,contractExpiresAt:Fi(120),createdAt:J(100)},{id:`a8`,code:`WEST`,name:`Westwind F&B`,market:`US`,ownerId:`u5`,annualTargetUsd:15e5,yearToDateUsd:98e4,contractStatus:`active`,contractExpiresAt:Fi(280),createdAt:J(140),businessType:`both`,opportunityNotes:`美西最大餐饮连锁集团,旗下 380 家门店。商用 + 零售自营双线;ELITE 系列在 Whole Foods 渠道铺货 12 个州。`,customerResources:`380 家门店覆盖 11 个州;Whole Foods 战略合作;自有冷链物流;员工 8,200+。`,nextDigDirections:`1. 推动 ELITE 战略品扩张至全部 380 店\n2. Costco 渠道立项谈判中\n3. 售后服务包年合同升级`,landmarkCaseStatus:`completed`,marketingOwnerId:`u15`},{id:`a9`,code:`PIVO`,name:`Pivot Industrial`,market:`US`,ownerId:null,annualTargetUsd:9e5,yearToDateUsd:0,contractStatus:`expired`,contractExpiresAt:J(40),createdAt:J(60),pooledAt:J(20),pooledReason:`manual`},{id:`a10`,code:`JOHO`,name:`Johor Bahru F&B Holdings`,market:`MY`,ownerId:null,annualTargetUsd:25e4,yearToDateUsd:0,contractStatus:`active`,contractExpiresAt:Fi(365),createdAt:J(5),pooledAt:J(5),pooledReason:`new`}];function Ri(e){return Li.find(t=>t.id===e)}var zi=[{id:`o1`,accountId:`a8`,productLine:`industrial`,dealType:`direct`,stage:`L1`,expectedValueUsd:8e4,ownerId:`u5",
+    "campaigns": "ea=[{id:`cmp-1`,code:`CMP-2026-Q1-DXB`,name:`GulfHost Dubai 2026 — Tradeshow`,type:`trade_show`,status:`completed`,market:`US`,startDate:J(95),endDate:J(92),budgetUsd:65e3,actualSpendUsd:61800,ownerId:`u15`,objective:`12+ qualified leads from GCC F&B + Hospitality buyers`,channels:[`Booth`,`Speaking slot`,`Sponsored cocktail hour`],rollupLeadCount:18,rollupConvertedAccountCount:4,rollupOpportunityValueUsd:95e4,notes:`Premium booth in F&B equipment hall. 3-person team rotation.`,createdAt:J(120)},{id:`cmp-2`,code:`CMP-2026-Q2-LINKEDIN`,name:`LinkedIn ABM — SEA Hospitality CIOs`,type:`paid_ads`,status:`active`,startDate:J(45),endDate:Fi(15),budgetUsd:18e3,actualSpendUsd:11400,ownerId:`u14`,objective:`Reach 50 hospitality F&B procurement directors in SG/MY/TH`,channels:[`LinkedIn Sponsored InMail`,`LinkedIn Video Ads`],rollupLeadCount:9,rollupConvertedAccountCount:1,rollupOpportunityValueUsd:18e4,notes:`A/B testing two creative variations. CTR running ahead of plan.`,createdAt:J(50)},{id:`cmp-3`,code:`CMP-2026-Q2-WEBINAR`,name:`Webinar: Water Quality Standards for Hospital Chains`,type:`webinar`,status:`completed`,startDate:J(28),endDate:J(28),budgetUsd:4500,actualSpendUsd:4120,ownerId:`u15`,objective:`80 registrations, 40 attendees, 8 qualified leads`,channels:[`Email list`,`LinkedIn organic`,`Partner co-marketing`],rollupLeadCount:11,rollupConvertedAccountCount:2,rollupOpportunityValueUsd:32e4,notes:`Featured Stephen Liu + 2 customer-success guest speakers.`,createdAt:J(45)},{id:`cmp-4`,code:`CMP-2026-Q2-REFERRAL`,name:`Q2 Distributor Referral Program`,type:`referral`,status:`active`,startDate:J(60),endDate:Fi(30),budgetUsd:25e3,actualSpendUsd:12500,ownerId:`u14`,objective:`20 referred leads from existing distributors`,channels:[`Distributor portal`,`Quarterly distributor email`],rollupLeadCount:14,rollupConvertedAccountCount:3,rollupOpportunityValueUsd:48e4,notes:`$500 spiff per qualified lead, $2k bonus on signed contract.`,createdAt:J(70)}],ta=[{id:`lead-1`,nameEn:`Faisal Al-Rashid`,title:`Head of Procurement`,companyName:`Emirates Palace Hospitality Group`,customerCountry:`AE`,email:`faisal.alrashid@emiratespalace.ae`,phone:`+971 50 123 4567`,whatsapp:`+971 50 123 4567`,status:`qualified`,source:`campaign`,campaignId:`cmp-1`,rating:5,estimatedValueUsd:28e4,productInterest:`fnb`,ownerId:`u5`,lastContactedAt:J(3),notes:`Met at GulfHost. Replacing entire dispenser fleet across 4 hotels Q3.`,createdAt:J(92)},{id:`lead-2`,nameEn:`Lim Wei Ming`,nameZh:`林伟明`,title:`F&B Procurement Director`,companyName:`Marina Bay Sands`,customerCountry:`SG`,email:`wm.lim@marinabaysands.sg`,phone:`+65 9876 5432`,status:`contacted`,source:`campaign`,campaignId:`cmp-2`,rating:4,estimatedValueUsd:18e4,productInterest:`fnb`,ownerId:`u2`,lastContactedAt:J(10),notes:`LinkedIn DM responded. Demo scheduled next week.`,createdAt:J(35)},{id:`lead-3`,nameEn:`Dr. Sarah Chen`,nameZh:`陈慧珊`,title:`Director of Facilities`,companyName:`Bangkok International Hospital`,customerCountry:`TH`,email:`s.chen@bih.co.th`,status:`new`,source:`campaign`,campaignId:`cmp-3`,rating:4,estimatedValueUsd:12e4,productInterest:`public`,ownerId:`u3`,notes:`Webinar attendee — asked great questions about water hardness compliance.`,createdAt:J(28)},{id:`lead-4`,nameEn:`James Lee`,title:`Operations VP`,companyName:`Raffles Hospitality (initial outreach)`,customerCountry:`SG`,email:`james.lee@raffles.com`,status:`converted`,source:`event`,campaignId:`cmp-1`,rating:5,estimatedValueUsd:46e4,productInterest:`fnb`,ownerId:`u2`,lastContactedAt:J(100),convertedAccountId:`a1`,convertedOpportunityId:`o13`,convertedAt:J(95),notes:`Originally met at F&B Asia 2025. Converted into Raffles full rollout deal.`,createdAt:J(135)},{id:`lead-5`,nameEn:`Andrea Wijaya`,title:`Procurement Manager`,companyName:`PT Aerowisata Hotels`,customerCountry:`ID`,email:`andrea.w@aerowisata.co.id`,phone:`+62 21 555 1234`,whatsapp:`+62 812 9999 0000`,status:`contacted`,source:`partner`,campaignId:`cmp-4`,rating:3,estimat",
+    "leads": "ta=[{id:`lead-1`,nameEn:`Faisal Al-Rashid`,title:`Head of Procurement`,companyName:`Emirates Palace Hospitality Group`,customerCountry:`AE`,email:`faisal.alrashid@emiratespalace.ae`,phone:`+971 50 123 4567`,whatsapp:`+971 50 123 4567`,status:`qualified`,source:`campaign`,campaignId:`cmp-1`,rating:5,estimatedValueUsd:28e4,productInterest:`fnb`,ownerId:`u5`,lastContactedAt:J(3),notes:`Met at GulfHost. Replacing entire dispenser fleet across 4 hotels Q3.`,createdAt:J(92)},{id:`lead-2`,nameEn:`Lim Wei Ming`,nameZh:`林伟明`,title:`F&B Procurement Director`,companyName:`Marina Bay Sands`,customerCountry:`SG`,email:`wm.lim@marinabaysands.sg`,phone:`+65 9876 5432`,status:`contacted`,source:`campaign`,campaignId:`cmp-2`,rating:4,estimatedValueUsd:18e4,productInterest:`fnb`,ownerId:`u2`,lastContactedAt:J(10),notes:`LinkedIn DM responded. Demo scheduled next week.`,createdAt:J(35)},{id:`lead-3`,nameEn:`Dr. Sarah Chen`,nameZh:`陈慧珊`,title:`Director of Facilities`,companyName:`Bangkok International Hospital`,customerCountry:`TH`,email:`s.chen@bih.co.th`,status:`new`,source:`campaign`,campaignId:`cmp-3`,rating:4,estimatedValueUsd:12e4,productInterest:`public`,ownerId:`u3`,notes:`Webinar attendee — asked great questions about water hardness compliance.`,createdAt:J(28)},{id:`lead-4`,nameEn:`James Lee`,title:`Operations VP`,companyName:`Raffles Hospitality (initial outreach)`,customerCountry:`SG`,email:`james.lee@raffles.com`,status:`converted`,source:`event`,campaignId:`cmp-1`,rating:5,estimatedValueUsd:46e4,productInterest:`fnb`,ownerId:`u2`,lastContactedAt:J(100),convertedAccountId:`a1`,convertedOpportunityId:`o13`,convertedAt:J(95),notes:`Originally met at F&B Asia 2025. Converted into Raffles full rollout deal.`,createdAt:J(135)},{id:`lead-5`,nameEn:`Andrea Wijaya`,title:`Procurement Manager`,companyName:`PT Aerowisata Hotels`,customerCountry:`ID`,email:`andrea.w@aerowisata.co.id`,phone:`+62 21 555 1234`,whatsapp:`+62 812 9999 0000`,status:`contacted`,source:`partner`,campaignId:`cmp-4`,rating:3,estimatedValueUsd:9e4,productInterest:`fnb`,ownerId:`u3`,lastContactedAt:J(7),notes:`Referred by PT Surya Distributor. Awaiting product spec sheet.`,createdAt:J(20)},{id:`lead-6`,nameEn:`Sophie Tan`,title:`Sustainability Lead`,companyName:`Genting Highlands Resort`,customerCountry:`MY`,email:`sophie.tan@genting.com.my`,status:`new`,source:`inbound_web`,rating:3,productInterest:`fnb`,ownerId:`u3`,notes:`Filled the contact form mentioning interest in low-energy dispensers.`,createdAt:J(5)},{id:`lead-7`,nameEn:`Mike Johnson`,title:`Student Researcher`,companyName:`University of Sydney`,customerCountry:`AU`,email:`mike.j@usyd.edu.au`,status:`unqualified`,source:`inbound_web`,rating:1,ownerId:`u5`,lastContactedAt:J(15),lostReason:`Not a buyer — research project only.`,notes:`PhD researcher comparing dispenser technologies for thesis.`,createdAt:J(15)}],na=[{id:`rp-1`,orderId:`o-ord-1`,accountId:`a4`,totalDueUsd:31440,currency:`USD`,createdAt:J(3),lines:[{id:`rpl-1-1`,stage:`deposit`,plannedDate:J(2),plannedAmountUsd:9432,receivedAmountUsd:9432,status:`received`},{id:`rpl-1-2`,stage:`acceptance`,plannedDate:Fi(45),plannedAmountUsd:22008,receivedAmountUsd:0,status:`pending`}]},{id:`rp-2`,orderId:`o-ord-2`,accountId:`a1`,totalDueUsd:23700,currency:`USD`,createdAt:J(20),lines:[{id:`rpl-2-1`,stage:`one_time`,plannedDate:J(19),plannedAmountUsd:23700,receivedAmountUsd:23700,status:`received`}]},{id:`rp-3`,orderId:`o-ord-3`,accountId:`a8`,totalDueUsd:108e3,currency:`USD`,createdAt:J(1),lines:[{id:`rpl-3-1`,stage:`pre_delivery`,plannedDate:Fi(30),plannedAmountUsd:54e3,receivedAmountUsd:0,status:`pending`},{id:`rpl-3-2`,stage:`on_delivery`,plannedDate:Fi(60),plannedAmountUsd:54e3,receivedAmountUsd:0,status:`pending`}]},{id:`rp-4`,orderId:`o-ord-4`,accountId:`a1`,totalDueUsd:13680,currency:`USD`,createdAt:J(8),lines:[{id:`rpl-4-1`,stage:`one_time`,plannedDate:Fi(22),plannedAmountUsd:13680,receivedAmountUsd:6840,status:`partial`}]}],ra=[{id:`pay-1`,orderId:`o-ord-1`,",
+    "orders": "orderNumber:`AHT-ORD-2026-0005`,accountId:`a5`,requestedById:`u3`,items:[{productId:`p3`,productSku:`ANG-RES-H500`,productNameEn:`Angel H500 Residential Whole-Home System`,quantity:24,unitPriceUsd:1800,lineTotalUsd:43200},{productId:`p4`,productSku:`ANG-RES-U200`,productNameEn:`Angel U200 Under-Sink Filter`,quantity:60,unitPriceUsd:480,lineTotalUsd:28800}],subtotalUsd:72e3,status:`completed`,piNumber:Oi(`ID`,new Date(Date.now()-20*864e5)),piIssuedAt:J(20),notes:`家用产品大单 — 印尼经销商 Q2 备货,准备开斋节促销。`,createdAt:J(22),updatedAt:J(5),orderType:`bulk`,paymentTerms:`net30`,poFileName:`Soekarno-PO-2026-05-09.pdf`,poFileUrl:`local://Soekarno-PO-2026-05-09.pdf`,poReceivedAt:J(18),shippedAt:J(12),customsDeclaredAt:J(10),shippedDeclaredValueUsd:72e3}],Ji=[{id:`pu1`,accountId:`a4`,postedById:`u12`,stage:`install`,summary:`Installed 8 of 12 D2000 units at Bangkok Mall main F&B floor. Remaining 4 scheduled for next week.`,unitsInstalled:8,createdAt:J(2)},{id:`pu2`,accountId:`a4`,postedById:`u12`,stage:`survey`,summary:`Completed site survey for the basement food court. Identified electrical capacity issue — flagged to procurement.`,createdAt:J(10)},{id:`pu3`,accountId:`a4`,postedById:`u12`,stage:`commissioning`,summary:`Commissioning of first batch complete. Quality test passed.`,unitsInstalled:8,createdAt:J(1)}],Yi=[{id:`dt1`,type:`PI`,name:`Standard Proforma Invoice (EN)`,description:`Default PI template used for distributor and direct sales orders.`,fileName:`AHT-PI-Template-EN-v2.docx`,uploadedById:`u11`,uploadedAt:J(40),isActive:!0},{id:`dt2`,type:`PI`,name:`标准形式发票（中文）`,description:`默认 PI 模板（中文版），用于经销商及直销订单。`,fileName:`AHT-PI-Template-ZH-v2.docx`,uploadedById:`u11`,uploadedAt:J(40),isActive:!1},{id:`dt3`,type:`contract`,name:`Distributor Contract Template`,description:`Used when on-boarding a new distributor partner.`,fileName:`AHT-Distributor-Contract-v3.docx`,uploadedById:`u11`,uploadedAt:J(90),isActive:!0},{id:`dt4`,type:`quote`,name:`Sales Quotation Template`,fileName:`AHT-Quote-Template-v1.docx`,uploadedById:`u11`,uploadedAt:J(120),isActive:!0}],Xi=[`Sales`,`Finance`,`Supply Chain`,`Orders`,`Legal`,`Marketing`,`Executive`,`Operations`,`Admin`],Zi=()=>new Date().toISOString().slice(0,10),Qi=e=>{let t=new Date;return t.setDate(t.getDate()-e),t.toISOString().slice(0,10)},$i=[{id:`dr-u1-today`,userId:`u1`,date:Zi(),todaySummary:`Reviewed Q2 pipeline with all 3 regions. Approved Westwind contract.`,tomorrowPlan:`Board prep + Westwind kickoff call.`,customersContacted:[`a8`],revenueUpdateNote:`No new bookings — focus is leadership.`,moodRating:4,submittedAt:new Date().toISOString()},{id:`dr-u2-yesterday`,userId:`u2`,date:Qi(1),todaySummary:`Marina Bay Sands site visit — 12 dispenser positions confirmed.`,tomorrowPlan:`Push Raffles reorder PI to client. Lunch with Genting.`,customersContacted:[`a2`,`a1`],revenueUpdateNote:`Raffles 翻单 PI sent ($13,680).`,moodRating:5,submittedAt:new Date(Date.now()-864e5*.6).toISOString()},{id:`dr-u3-yesterday`,userId:`u3`,date:Qi(1),todaySummary:`Bangkok Mall installation site survey complete.`,tomorrowPlan:`Bangkok PO follow-up, Aerowisata lead nurture.`,customersContacted:[`a4`,`a5`],revenueUpdateNote:`Bangkok Mall PO confirmed receipt.`,moodRating:4,submittedAt:new Date(Date.now()-864e5*.8).toISOString()},{id:`dr-u3-2daysago`,userId:`u3`,date:Qi(2),todaySummary:`Indonesia distributor call. Bangkok Mall PI status review.`,tomorrowPlan:`Site visit Bangkok Mall.`,customersContacted:[`a4`],moodRating:4,submittedAt:new Date(Date.now()-864e5*1.6).toISOString()},{id:`dr-u4-today`,userId:`u4`,date:Zi(),todaySummary:`HK Hospitality Corp demo — receptive but pricing pushback.`,tomorrowPlan:`MGM Macau follow-up. Adjust proposal.`,customersContacted:[`a7`,`a6`],revenueUpdateNote:`No new orders today.`,blockers:`Need pricing approval for HK Hospitality — 15% discount ask.`,moodRating:3,submittedAt:new Date().toISOString(),escalationNotes:`HK Hospitality 集团总部要求 15% 一次性 discount 作为框架协议条件,涉及 5 年合作金额 $3.8M。当前我们的折扣权限是 8%,需 CS",
+    "project_updates": "Ji=[{id:`pu1`,accountId:`a4`,postedById:`u12`,stage:`install`,summary:`Installed 8 of 12 D2000 units at Bangkok Mall main F&B floor. Remaining 4 scheduled for next week.`,unitsInstalled:8,createdAt:J(2)},{id:`pu2`,accountId:`a4`,postedById:`u12`,stage:`survey`,summary:`Completed site survey for the basement food court. Identified electrical capacity issue — flagged to procurement.`,createdAt:J(10)},{id:`pu3`,accountId:`a4`,postedById:`u12`,stage:`commissioning`,summary:`Commissioning of first batch complete. Quality test passed.`,unitsInstalled:8,createdAt:J(1)}],Yi=[{id:`dt1`,type:`PI`,name:`Standard Proforma Invoice (EN)`,description:`Default PI template used for distributor and direct sales orders.`,fileName:`AHT-PI-Template-EN-v2.docx`,uploadedById:`u11`,uploadedAt:J(40),isActive:!0},{id:`dt2`,type:`PI`,name:`标准形式发票（中文）`,description:`默认 PI 模板（中文版），用于经销商及直销订单。`,fileName:`AHT-PI-Template-ZH-v2.docx`,uploadedById:`u11`,uploadedAt:J(40),isActive:!1},{id:`dt3`,type:`contract`,name:`Distributor Contract Template`,description:`Used when on-boarding a new distributor partner.`,fileName:`AHT-Distributor-Contract-v3.docx`,uploadedById:`u11`,uploadedAt:J(90),isActive:!0},{id:`dt4`,type:`quote`,name:`Sales Quotation Template`,fileName:`AHT-Quote-Template-v1.docx`,uploadedById:`u11`,uploadedAt:J(120),isActive:!0}],Xi=[`Sales`,`Finance`,`Supply Chain`,`Orders`,`Legal`,`Marketing`,`Executive`,`Operations`,`Admin`],Zi=()=>new Date().toISOString().slice(0,10),Qi=e=>{let t=new Date;return t.setDate(t.getDate()-e),t.toISOString().slice(0,10)},$i=[{id:`dr-u1-today`,userId:`u1`,date:Zi(),todaySummary:`Reviewed Q2 pipeline with all 3 regions. Approved Westwind contract.`,tomorrowPlan:`Board prep + Westwind kickoff call.`,customersContacted:[`a8`],revenueUpdateNote:`No new bookings — focus is leadership.`,moodRating:4,submittedAt:new Date().toISOString()},{id:`dr-u2-yesterday`,userId:`u2`,date:Qi(1),todaySummary:`Marina Bay Sands site visit — 12 dispenser positions confirmed.`,tomorrowPlan:`Push Raffles reorder PI to client. Lunch with Genting.`,customersContacted:[`a2`,`a1`],revenueUpdateNote:`Raffles 翻单 PI sent ($13,680).`,moodRating:5,submittedAt:new Date(Date.now()-864e5*.6).toISOString()},{id:`dr-u3-yesterday`,userId:`u3`,date:Qi(1),todaySummary:`Bangkok Mall installation site survey complete.`,tomorrowPlan:`Bangkok PO follow-up, Aerowisata lead nurture.`,customersContacted:[`a4`,`a5`],revenueUpdateNote:`Bangkok Mall PO confirmed receipt.`,moodRating:4,submittedAt:new Date(Date.now()-864e5*.8).toISOString()},{id:`dr-u3-2daysago`,userId:`u3`,date:Qi(2),todaySummary:`Indonesia distributor call. Bangkok Mall PI status review.`,tomorrowPlan:`Site visit Bangkok Mall.`,customersContacted:[`a4`],moodRating:4,submittedAt:new Date(Date.now()-864e5*1.6).toISOString()},{id:`dr-u4-today`,userId:`u4`,date:Zi(),todaySummary:`HK Hospitality Corp demo — receptive but pricing pushback.`,tomorrowPlan:`MGM Macau follow-up. Adjust proposal.`,customersContacted:[`a7`,`a6`],revenueUpdateNote:`No new orders today.`,blockers:`Need pricing approval for HK Hospitality — 15% discount ask.`,moodRating:3,submittedAt:new Date().toISOString(),escalationNotes:`HK Hospitality 集团总部要求 15% 一次性 discount 作为框架协议条件,涉及 5 年合作金额 $3.8M。当前我们的折扣权限是 8%,需 CSO 决策。`,escalationPriority:`urgent`,escalationAccountIds:[`a6`]},{id:`dr-u2-escalation`,userId:`u2`,date:Zi(),todaySummary:`Marina Bay 合同续约谈判 - 客户提出新保修条款。`,tomorrowPlan:`准备保修条款对比表 + 与法务沟通。`,customersContacted:[`a2`],moodRating:4,submittedAt:new Date().toISOString(),escalationNotes:`Marina Bay 合同 22 天后到期,客户 CFO Olivia 要求增加「3 年内任意 1 次免费更换主件」条款,涉及成本约 $80k。需法务和高管决策是否接受。`,escalationPriority:`high`,escalationAccountIds:[`a2`]}],ea=[{id:`cmp-1`,code:`CMP-2026-Q1-DXB`,name:`GulfHost Dubai 2026 — Tradeshow`,type:`trade_show`,status:`completed`,market:`US`,startDate:J(95),endDate:J(92),budgetUsd:65e3,actualSpendUsd:61800,ownerId:`u15`,objective:`12+ qualified leads from GCC F&B + Hospitality buyers`,channels:[`Booth`,`Speaking slot`,`Sponsored c",
+    "document_templates": "Yi=[{id:`dt1`,type:`PI`,name:`Standard Proforma Invoice (EN)`,description:`Default PI template used for distributor and direct sales orders.`,fileName:`AHT-PI-Template-EN-v2.docx`,uploadedById:`u11`,uploadedAt:J(40),isActive:!0},{id:`dt2`,type:`PI`,name:`标准形式发票（中文）`,description:`默认 PI 模板（中文版），用于经销商及直销订单。`,fileName:`AHT-PI-Template-ZH-v2.docx`,uploadedById:`u11`,uploadedAt:J(40),isActive:!1},{id:`dt3`,type:`contract`,name:`Distributor Contract Template`,description:`Used when on-boarding a new distributor partner.`,fileName:`AHT-Distributor-Contract-v3.docx`,uploadedById:`u11`,uploadedAt:J(90),isActive:!0},{id:`dt4`,type:`quote`,name:`Sales Quotation Template`,fileName:`AHT-Quote-Template-v1.docx`,uploadedById:`u11`,uploadedAt:J(120),isActive:!0}],Xi=[`Sales`,`Finance`,`Supply Chain`,`Orders`,`Legal`,`Marketing`,`Executive`,`Operations`,`Admin`],Zi=()=>new Date().toISOString().slice(0,10),Qi=e=>{let t=new Date;return t.setDate(t.getDate()-e),t.toISOString().slice(0,10)},$i=[{id:`dr-u1-today`,userId:`u1`,date:Zi(),todaySummary:`Reviewed Q2 pipeline with all 3 regions. Approved Westwind contract.`,tomorrowPlan:`Board prep + Westwind kickoff call.`,customersContacted:[`a8`],revenueUpdateNote:`No new bookings — focus is leadership.`,moodRating:4,submittedAt:new Date().toISOString()},{id:`dr-u2-yesterday`,userId:`u2`,date:Qi(1),todaySummary:`Marina Bay Sands site visit — 12 dispenser positions confirmed.`,tomorrowPlan:`Push Raffles reorder PI to client. Lunch with Genting.`,customersContacted:[`a2`,`a1`],revenueUpdateNote:`Raffles 翻单 PI sent ($13,680).`,moodRating:5,submittedAt:new Date(Date.now()-864e5*.6).toISOString()},{id:`dr-u3-yesterday`,userId:`u3`,date:Qi(1),todaySummary:`Bangkok Mall installation site survey complete.`,tomorrowPlan:`Bangkok PO follow-up, Aerowisata lead nurture.`,customersContacted:[`a4`,`a5`],revenueUpdateNote:`Bangkok Mall PO confirmed receipt.`,moodRating:4,submittedAt:new Date(Date.now()-864e5*.8).toISOString()},{id:`dr-u3-2daysago`,userId:`u3`,date:Qi(2),todaySummary:`Indonesia distributor call. Bangkok Mall PI status review.`,tomorrowPlan:`Site visit Bangkok Mall.`,customersContacted:[`a4`],moodRating:4,submittedAt:new Date(Date.now()-864e5*1.6).toISOString()},{id:`dr-u4-today`,userId:`u4`,date:Zi(),todaySummary:`HK Hospitality Corp demo — receptive but pricing pushback.`,tomorrowPlan:`MGM Macau follow-up. Adjust proposal.`,customersContacted:[`a7`,`a6`],revenueUpdateNote:`No new orders today.`,blockers:`Need pricing approval for HK Hospitality — 15% discount ask.`,moodRating:3,submittedAt:new Date().toISOString(),escalationNotes:`HK Hospitality 集团总部要求 15% 一次性 discount 作为框架协议条件,涉及 5 年合作金额 $3.8M。当前我们的折扣权限是 8%,需 CSO 决策。`,escalationPriority:`urgent`,escalationAccountIds:[`a6`]},{id:`dr-u2-escalation`,userId:`u2`,date:Zi(),todaySummary:`Marina Bay 合同续约谈判 - 客户提出新保修条款。`,tomorrowPlan:`准备保修条款对比表 + 与法务沟通。`,customersContacted:[`a2`],moodRating:4,submittedAt:new Date().toISOString(),escalationNotes:`Marina Bay 合同 22 天后到期,客户 CFO Olivia 要求增加「3 年内任意 1 次免费更换主件」条款,涉及成本约 $80k。需法务和高管决策是否接受。`,escalationPriority:`high`,escalationAccountIds:[`a2`]}],ea=[{id:`cmp-1`,code:`CMP-2026-Q1-DXB`,name:`GulfHost Dubai 2026 — Tradeshow`,type:`trade_show`,status:`completed`,market:`US`,startDate:J(95),endDate:J(92),budgetUsd:65e3,actualSpendUsd:61800,ownerId:`u15`,objective:`12+ qualified leads from GCC F&B + Hospitality buyers`,channels:[`Booth`,`Speaking slot`,`Sponsored cocktail hour`],rollupLeadCount:18,rollupConvertedAccountCount:4,rollupOpportunityValueUsd:95e4,notes:`Premium booth in F&B equipment hall. 3-person team rotation.`,createdAt:J(120)},{id:`cmp-2`,code:`CMP-2026-Q2-LINKEDIN`,name:`LinkedIn ABM — SEA Hospitality CIOs`,type:`paid_ads`,status:`active`,startDate:J(45),endDate:Fi(15),budgetUsd:18e3,actualSpendUsd:11400,ownerId:`u14`,objective:`Reach 50 hospitality F&B procurement directors in SG/MY/TH`,channels:[`LinkedIn Sponsored InMail`,`LinkedIn Video Ads`],rollupLeadCount:9,rollupConvertedAccountCount:1,rollupOpportu",
+    "domain_tags": "Xi=[`Sales`,`Finance`,`Supply Chain`,`Orders`,`Legal`,`Marketing`,`Executive`,`Operations`,`Admin`],Zi=()=>new Date().toISOString().slice(0,10),Qi=e=>{let t=new Date;return t.setDate(t.getDate()-e),t.toISOString().slice(0,10)},$i=[{id:`dr-u1-today`,userId:`u1`,date:Zi(),todaySummary:`Reviewed Q2 pipeline with all 3 regions. Approved Westwind contract.`,tomorrowPlan:`Board prep + Westwind kickoff call.`,customersContacted:[`a8`],revenueUpdateNote:`No new bookings — focus is leadership.`,moodRating:4,submittedAt:new Date().toISOString()},{id:`dr-u2-yesterday`,userId:`u2`,date:Qi(1),todaySummary:`Marina Bay Sands site visit — 12 dispenser positions confirmed.`,tomorrowPlan:`Push Raffles reorder PI to client. Lunch with Genting.`,customersContacted:[`a2`,`a1`],revenueUpdateNote:`Raffles 翻单 PI sent ($13,680).`,moodRating:5,submittedAt:new Date(Date.now()-864e5*.6).toISOString()},{id:`dr-u3-yesterday`,userId:`u3`,date:Qi(1),todaySummary:`Bangkok Mall installation site survey complete.`,tomorrowPlan:`Bangkok PO follow-up, Aerowisata lead nurture.`,customersContacted:[`a4`,`a5`],revenueUpdateNote:`Bangkok Mall PO confirmed receipt.`,moodRating:4,submittedAt:new Date(Date.now()-864e5*.8).toISOString()},{id:`dr-u3-2daysago`,userId:`u3`,date:Qi(2),todaySummary:`Indonesia distributor call. Bangkok Mall PI status review.`,tomorrowPlan:`Site visit Bangkok Mall.`,customersContacted:[`a4`],moodRating:4,submittedAt:new Date(Date.now()-864e5*1.6).toISOString()},{id:`dr-u4-today`,userId:`u4`,date:Zi(),todaySummary:`HK Hospitality Corp demo — receptive but pricing pushback.`,tomorrowPlan:`MGM Macau follow-up. Adjust proposal.`,customersContacted:[`a7`,`a6`],revenueUpdateNote:`No new orders today.`,blockers:`Need pricing approval for HK Hospitality — 15% discount ask.`,moodRating:3,submittedAt:new Date().toISOString(),escalationNotes:`HK Hospitality 集团总部要求 15% 一次性 discount 作为框架协议条件,涉及 5 年合作金额 $3.8M。当前我们的折扣权限是 8%,需 CSO 决策。`,escalationPriority:`urgent`,escalationAccountIds:[`a6`]},{id:`dr-u2-escalation`,userId:`u2`,date:Zi(),todaySummary:`Marina Bay 合同续约谈判 - 客户提出新保修条款。`,tomorrowPlan:`准备保修条款对比表 + 与法务沟通。`,customersContacted:[`a2`],moodRating:4,submittedAt:new Date().toISOString(),escalationNotes:`Marina Bay 合同 22 天后到期,客户 CFO Olivia 要求增加「3 年内任意 1 次免费更换主件」条款,涉及成本约 $80k。需法务和高管决策是否接受。`,escalationPriority:`high`,escalationAccountIds:[`a2`]}],ea=[{id:`cmp-1`,code:`CMP-2026-Q1-DXB`,name:`GulfHost Dubai 2026 — Tradeshow`,type:`trade_show`,status:`completed`,market:`US`,startDate:J(95),endDate:J(92),budgetUsd:65e3,actualSpendUsd:61800,ownerId:`u15`,objective:`12+ qualified leads from GCC F&B + Hospitality buyers`,channels:[`Booth`,`Speaking slot`,`Sponsored cocktail hour`],rollupLeadCount:18,rollupConvertedAccountCount:4,rollupOpportunityValueUsd:95e4,notes:`Premium booth in F&B equipment hall. 3-person team rotation.`,createdAt:J(120)},{id:`cmp-2`,code:`CMP-2026-Q2-LINKEDIN`,name:`LinkedIn ABM — SEA Hospitality CIOs`,type:`paid_ads`,status:`active`,startDate:J(45),endDate:Fi(15),budgetUsd:18e3,actualSpendUsd:11400,ownerId:`u14`,objective:`Reach 50 hospitality F&B procurement directors in SG/MY/TH`,channels:[`LinkedIn Sponsored InMail`,`LinkedIn Video Ads`],rollupLeadCount:9,rollupConvertedAccountCount:1,rollupOpportunityValueUsd:18e4,notes:`A/B testing two creative variations. CTR running ahead of plan.`,createdAt:J(50)},{id:`cmp-3`,code:`CMP-2026-Q2-WEBINAR`,name:`Webinar: Water Quality Standards for Hospital Chains`,type:`webinar`,status:`completed`,startDate:J(28),endDate:J(28),budgetUsd:4500,actualSpendUsd:4120,ownerId:`u15`,objective:`80 registrations, 40 attendees, 8 qualified leads`,channels:[`Email list`,`LinkedIn organic`,`Partner co-marketing`],rollupLeadCount:11,rollupConvertedAccountCount:2,rollupOpportunityValueUsd:32e4,notes:`Featured Stephen Liu + 2 customer-success guest speakers.`,createdAt:J(45)},{id:`cmp-4`,code:`CMP-2026-Q2-REFERRAL`,name:`Q2 Distributor Referral Program`,type:`referral`,status:`active`,startDate:J(60),endDate:Fi(30),budge"
+  },
+  "mock_entities": {
+    "markets": [
+      "SG",
+      "HK",
+      "MY",
+      "TH",
+      "ID",
+      "MO",
+      "US"
+    ],
+    "account_examples": [
+      "Raffles Hospitality",
+      "Marina Bay Sands",
+      "Genting Group",
+      "Bangkok Mall Group",
+      "Soekarno Retail Distribution"
+    ],
+    "campaign_examples": [
+      "CMP-2026-Q1-DXB",
+      "CMP-2026-Q2-LINKEDIN",
+      "CMP-2026-Q2-WEBINAR",
+      "CMP-2026-Q2-REFERRAL"
+    ],
+    "lead_examples": [
+      "Faisal Al-Rashid",
+      "Lim Wei Ming",
+      "Dr. Sarah Chen",
+      "James Lee",
+      "Andrea Wijaya",
+      "Sophie Tan"
+    ],
+    "order_examples": [
+      "AHT-ORD-2026-0001",
+      "AHT-ORD-2026-0005"
+    ],
+    "product_examples": [
+      "Angel D3000 Pro Commercial Dispenser",
+      "Angel H500 Residential Whole-Home System",
+      "Angel U200 Under-Sink Filter",
+      "Standard Installation Service"
+    ],
+    "status_examples": {
+      "campaign": [
+        "completed",
+        "active"
+      ],
+      "lead": [
+        "qualified",
+        "contacted",
+        "new",
+        "converted"
+      ],
+      "contract": [
+        "active",
+        "expiring"
+      ],
+      "order": [
+        "submitted",
+        "shipped",
+        "completed"
+      ],
+      "project_update_stage": [
+        "install",
+        "survey",
+        "commissioning"
+      ]
+    }
+  }
+}

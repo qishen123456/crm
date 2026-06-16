@@ -1,0 +1,885 @@
+{
+  "appName": "ANGEL",
+  "appSubName": "GLOBAL SALES CRM",
+  "shellTitle": "Global Sales CRM",
+  "shellTagline": "AngelCRM 前端高保真重建",
+  "systemAdmin": "系統管理員",
+  "logout": "退出登錄",
+  "newButton": "+ 新建",
+  "languageLabel": "中文",
+  "currentDate": "6月16日 週二",
+  "menu": [
+    {
+      "key": "home",
+      "label": "主頁",
+      "items": [
+        {
+          "key": "/app/today",
+          "label": "今日"
+        },
+        {
+          "key": "/app/dashboard",
+          "label": "數據看板"
+        },
+        {
+          "key": "/app/workqueue",
+          "label": "待辦工作臺",
+          "badge": 2
+        },
+        {
+          "key": "/app/attendance",
+          "label": "考勤打卡"
+        }
+      ]
+    },
+    {
+      "key": "marketing",
+      "label": "營銷",
+      "items": [
+        {
+          "key": "/app/campaigns",
+          "label": "市場活動"
+        },
+        {
+          "key": "/app/leads",
+          "label": "銷售線索"
+        }
+      ]
+    },
+    {
+      "key": "retail",
+      "label": "🛍 零售業務",
+      "items": [
+        {
+          "key": "/app/retail",
+          "label": "零售運營"
+        }
+      ]
+    },
+    {
+      "key": "accounts",
+      "label": "客戶 & 聯繫人",
+      "items": [
+        {
+          "key": "/app/accounts",
+          "label": "客戶列表",
+          "badge": 2
+        },
+        {
+          "key": "/app/pool",
+          "label": "公海"
+        },
+        {
+          "key": "/app/contacts",
+          "label": "聯繫人"
+        },
+        {
+          "key": "/app/end-users",
+          "label": "終端用戶"
+        }
+      ]
+    },
+    {
+      "key": "sales",
+      "label": "銷售流程",
+      "items": [
+        {
+          "key": "/app/pipeline",
+          "label": "銷售漏斗",
+          "badge": 3
+        },
+        {
+          "key": "/app/log-activity",
+          "label": "記錄跟進"
+        },
+        {
+          "key": "/app/project-updates",
+          "label": "項目進度"
+        }
+      ]
+    },
+    {
+      "key": "orders",
+      "label": "合同 & 訂單",
+      "items": [
+        {
+          "key": "/app/contracts",
+          "label": "合同"
+        },
+        {
+          "key": "/app/orders",
+          "label": "訂單中心"
+        },
+        {
+          "key": "/app/invoices",
+          "label": "開票申請"
+        },
+        {
+          "key": "/app/payments",
+          "label": "支付登記"
+        }
+      ]
+    },
+    {
+      "key": "catalog",
+      "label": "目錄",
+      "items": [
+        {
+          "key": "/app/products",
+          "label": "產品目錄"
+        }
+      ]
+    },
+    {
+      "key": "reports",
+      "label": "報表分析",
+      "items": [
+        {
+          "key": "/app/country-reports",
+          "label": "國家報告"
+        },
+        {
+          "key": "/app/report",
+          "label": "高管報告"
+        }
+      ]
+    },
+    {
+      "key": "admin",
+      "label": "管理",
+      "items": [
+        {
+          "key": "/app/import",
+          "label": "📥 數據導入"
+        },
+        {
+          "key": "/app/invite",
+          "label": "邀請用戶"
+        },
+        {
+          "key": "/app/team",
+          "label": "團隊"
+        },
+        {
+          "key": "/app/settings",
+          "label": "設置"
+        }
+      ]
+    }
+  ],
+  "pages": {
+    "today": "今日",
+    "dashboard": "數據看板",
+    "workqueue": "待辦工作臺",
+    "attendance": "考勤打卡",
+    "campaigns": "市場活動",
+    "leads": "銷售線索",
+    "retail": "零售運營",
+    "accounts": "客戶列表",
+    "pool": "公海",
+    "contacts": "聯繫人",
+    "endUsers": "終端用戶",
+    "pipeline": "銷售漏斗",
+    "logActivity": "記錄跟進",
+    "projectUpdates": "項目進度",
+    "contracts": "合同",
+    "orders": "訂單中心",
+    "invoices": "開票申請",
+    "payments": "支付登記",
+    "products": "產品目錄",
+    "countryReports": "國家報告",
+    "executiveReport": "高管報告",
+    "import": "數據導入",
+    "invite": "邀請用戶",
+    "team": "團隊管理",
+    "settings": "系統設置"
+  },
+  "common": {
+    "search": "搜索",
+    "searchPlaceholder": "搜索客戶名稱、代碼...",
+    "create": "新建",
+    "edit": "編輯",
+    "save": "保存",
+    "cancel": "取消",
+    "submit": "提交",
+    "delete": "刪除",
+    "actions": "操作",
+    "view": "查看",
+    "status": "狀態",
+    "all": "全部",
+    "loading": "加載中...",
+    "noData": "暫無數據",
+    "confirm": "確認",
+    "successCreate": "創建成功",
+    "successUpdate": "更新成功",
+    "successDelete": "刪除成功",
+    "successSave": "保存成功",
+    "successAssign": "已分配",
+    "successClaim": "已認領",
+    "successImport": "導入任務已提交",
+    "successInvite": "邀請已發送",
+    "devToast": "功能開發中",
+    "required": "必填",
+    "date": "日期",
+    "amount": "金額",
+    "note": "備註",
+    "close": "關閉",
+    "name": "名稱",
+    "market": "市場",
+    "target": "目標",
+    "actual": "實際",
+    "progress": "進度",
+    "category": "類別",
+    "price": "單價",
+    "stock": "庫存"
+  },
+  "login": {
+    "title": "登錄 ANGEL CRM",
+    "subtitle": "AHT 全球業務管理部 · 內部工作臺",
+    "sso": "使用飛書 SSO 登錄",
+    "divider": "或",
+    "email": "工作郵箱",
+    "emailPlaceholder": "you@angel.cn",
+    "password": "密碼",
+    "passwordPlaceholder": "請輸入密碼",
+    "forgot": "忘記密碼?",
+    "tips": "演示：任意已設置郵箱 + 密碼 \"demo2026\"",
+    "submit": "登錄 →"
+  },
+  "accounts": {
+    "title": "客戶列表",
+    "subtitle": "管理所有客戶、年度目標與合同狀態。",
+    "statusAll": "全部",
+    "statusActive": "有效",
+    "statusExpiring": "即將到期",
+    "statusExpired": "已到期",
+    "marketAll": "全部",
+    "target": "年度目標",
+    "owner": "負責人",
+    "createTitle": "新建客戶",
+    "formName": "客戶名稱",
+    "formCode": "客戶代碼",
+    "formMarket": "市場",
+    "formOwner": "負責人",
+    "formType": "業務類型",
+    "formTarget": "年度目標 (USD)",
+    "formNotes": "客戶資源 / 商機深掘"
+  },
+  "orders": {
+    "title": "訂單中心",
+    "subtitle": "訂單 · PI · 收款計劃 · 履約 · 售後全生命週期管理。",
+    "viewBusiness": "業務視圖",
+    "viewFinance": "財務視圖",
+    "viewSupply": "供應鏈視圖",
+    "statusAll": "全部",
+    "colOrderNo": "訂單號",
+    "colPiNo": "PI 號",
+    "colAccount": "客戶",
+    "colRequester": "申請人",
+    "colItems": "明細",
+    "colSubtotal": "小計",
+    "colType": "類型",
+    "colKind": "訂單種類",
+    "colPo": "PO 憑證",
+    "colStatus": "狀態",
+    "colCreated": "創建時間",
+    "createTitle": "新建訂單",
+    "drawerLines": "訂單明細",
+    "drawerShipment": "發貨批次 & 報關",
+    "drawerAttachments": "附件 & 回款"
+  },
+  "today": {
+    "greeting": "下午好，",
+    "admin": "系統管理員",
+    "greetingMorning": "早上好，",
+    "greetingNoon": "中午好，",
+    "greetingAfternoon": "下午好，",
+    "greetingEvening": "晚上好，",
+    "subtitle": "今天有 {count} 項事項需要處理。",
+    "targetAchievement": "目標達成率",
+    "targetSubtitle": "核心KPI=出庫且報關。收入但未出庫不計入KPI。",
+    "shippedClearedTag": "出庫且報關",
+    "monthly": "本月",
+    "quarterly": "本季度",
+    "yearly": "全年",
+    "achieved": "已達成",
+    "todayReport": "今日日報",
+    "daysUnsubmitted": "連續{count}天未提交",
+    "reportHint": "記得寫今日日報 - 讓團隊同步你的進展。",
+    "streak": "連續{count}天",
+    "writeReport": "寫日報",
+    "viewFunnel": "查看漏斗",
+    "funnelDesc": "打開看板查看所有活躍商機",
+    "teamEvents": "團隊重大事項（近 3 天）",
+    "todo": "待處理",
+    "reportSubmitted": "今日日报已提交",
+    "reportSavedHint": "日报已保存，可随时点击右侧按钮查看或修改。",
+    "viewReport": "查看日报",
+    "streakDays": "已连续{count}天提交",
+    "reportSaveSuccess": "日报已保存",
+    "followUps": "今日待跟进",
+    "alertLevel": {
+      "urgent": "紧急",
+      "high": "高"
+    },
+    "alertText": {
+      "hkHospitalityDiscount": "HK Hospitality 集团总部要求 15% 一次性 discount 作为框架协议条件，涉及 5 年合作金额 $3.8M。当前我们的折扣权限是 8%，需 CSO 决策。",
+      "marinaBayContract": "Marina Bay 合同 22 天后到期，客户 CFO Olivia 要求增加「3 年内任意 1 次免费更换主件」条款，涉及成本约 $80k。需法务和高管决策是否接受。"
+    },
+    "todoTitle": {
+      "noFollowUp": "无跟进",
+      "expiring": "即将到期",
+      "reminder": "提醒"
+    },
+    "todoText": {
+      "hkHospitalityNoFollowUp": "HK Hospitality Corp — 已 28 天未更新",
+      "gentingNoFollowUp": "Genting Group — 已 25 天未更新",
+      "bangkokMallNoFollowUp": "Bangkok Mall Group — 已 31 天未更新",
+      "marinaBayExpiring": "Marina Bay Sands 合同 21 天后到期",
+      "soekarnoExpiring": "Soekarno Retail Distribution 合同 5 天后到期",
+      "rafflesEndUserInfo": "请收集 Raffles Hospitality 的终端用户信息（赢单后 95 天）"
+    },
+    "followUpStage": {
+      "proposal": "方案",
+      "contact": "联系"
+    },
+    "followUpTask": {
+      "mgmPricingPushback": "Follow up on pricing pushback",
+      "rafflesCatalogue": "Send F&B catalogue + reference list"
+    }
+  },
+  "settings": {
+    "tabs": {
+      "brand": "品牌",
+      "market": "市場",
+      "department": "部門",
+      "roles": "角色與權限",
+      "targets": "年度目標",
+      "templates": "文檔模板",
+      "notifications": "通知",
+      "audit": "審計日誌",
+      "account": "賬戶"
+    },
+    "title": "設置",
+    "subtitle": "管理品牌、市場、部門、權限與系統配置。",
+    "brand": {
+      "logoRules": "LOGO 使用規則",
+      "vi": "VI 規範：背景灰度 ≤40% 使用深色 logo；>40% 使用白色 logo。",
+      "sidebar": "側邊欄（深色背景）",
+      "headerLogin": "頂欄 / 登錄頁（淺色背景）",
+      "brandColors": "品牌色彩",
+      "typography": "字體",
+      "en": "英文",
+      "zh": "中文"
+    },
+    "market": {
+      "code": "市場代碼",
+      "name": "名稱",
+      "flag": "Flag"
+    },
+    "department": {
+      "name": "部門名稱",
+      "headcount": "人數"
+    },
+    "roles": {
+      "role": "角色",
+      "accounts": "客戶",
+      "orders": "訂單",
+      "contracts": "合同",
+      "reports": "報表",
+      "settings": "設置"
+    },
+    "targets": {
+      "market": "市場",
+      "year": "年份",
+      "revenueTarget": "收入目標 (USD)",
+      "kpiTarget": "KPI 目標 (USD)",
+      "strategicTarget": "戰略品目標 (臺)"
+    },
+    "templates": {
+      "type": "類型",
+      "name": "名稱",
+      "description": "描述",
+      "fileName": "文件名",
+      "enabled": "啟用"
+    },
+    "notifications": {
+      "email": "郵件通知",
+      "contractExpiry": "合同到期提醒",
+      "orderStatus": "訂單狀態變更",
+      "dailyReport": "日報提醒"
+    },
+    "audit": {
+      "time": "時間",
+      "user": "用戶",
+      "action": "操作",
+      "target": "對象"
+    },
+    "account": {
+      "displayName": "顯示名稱",
+      "email": "郵箱",
+      "currentPassword": "當前密碼",
+      "newPassword": "新密碼"
+    }
+  },
+  "createMenu": {
+    "account": "新建客戶",
+    "contact": "新建聯繫人",
+    "opportunity": "新建商機",
+    "order": "新建訂單",
+    "lead": "新建線索",
+    "campaign": "新建市場活動",
+    "activity": "記錄跟進"
+  },
+  "dashboard": {
+    "title": "數據看板",
+    "subtitle": "實時追蹤全球市場、漏斗、訂單與回款健康度。",
+    "annualTarget": "年度收入目標",
+    "kpiRate": "KPI 達成率",
+    "pipeline": "在途漏斗",
+    "monthlyWins": "本月贏單",
+    "fullYear": "2026 全年",
+    "shippedCleared": "出庫且報關",
+    "weightedForecast": "加權預測",
+    "ordersCount": "筆訂單",
+    "marketTarget": "各市場年度目標達成",
+    "arAging": "AR 賬齡分佈",
+    "salesFunnel": "銷售漏斗",
+    "topOpps": "重點商機",
+    "oppName": "商機名稱",
+    "account": "客戶",
+    "amount": "金額",
+    "stage": "階段",
+    "probability": "贏率",
+    "retailKpi": "零售 KPI",
+    "monthlySo": "本月 SO 臺數",
+    "strategicUnits": "戰略品臺數",
+    "netNewStores": "淨增門店",
+    "sellThrough": "動銷率",
+    "recentOrders": "最近訂單",
+    "orderNo": "訂單號",
+    "status": "狀態",
+    "countUnit": "個",
+    "accountPool": "客戶商機池",
+    "accountPoolDesc": "彙總各客戶的商機方向、資源與下一步深化動作。",
+    "peoplePerformance": "人員效能分析",
+    "salesBehavior": "銷售行為分析",
+    "productOrders": "產品與訂單",
+    "recentWins": "近期贏單",
+    "contact": "聯繫",
+    "calls": "電話",
+    "visits": "拜訪",
+    "trials": "試機",
+    "ytdRevenue": "YTD 實際收入",
+    "achievement": "達成率",
+    "ytdOrders": "YTD 訂單數",
+    "productName": "產品名稱",
+    "soldUnits": "已售臺數",
+    "ordersQty": "訂單量",
+    "activeCustomers": "活躍客戶",
+    "overallSales": "總體銷售結果分析",
+    "coreKpi": "出庫且報關 - 核心 KPI",
+    "kpiTag": "考核口徑",
+    "shippedYtd": "出庫且報關 YTD",
+    "target": "目標",
+    "gapToTarget": "還少",
+    "gapSub": "距離年度 KPI 目標的缺口",
+    "uncollected": "已出庫未收款",
+    "uncollectedSub": "已發貨 KPI 未回款",
+    "collected": "已出庫已收款",
+    "collectedSub": "已發貨 KPI 已回款",
+    "totalWon": "總贏單金額",
+    "winRate": "贏單率",
+    "openOpps": "無跟進商機",
+    "pendingOrders": "待處理訂單",
+    "contractExpiry": "合同到期監控(90天)",
+    "contractOk": "未來 90 天內無合同到期 — 安心。",
+    "weightedFunnel": "加權漏斗（按階段）",
+    "stageProspect": "初步接觸",
+    "stageQualify": "需求確認",
+    "stageProposal": "方案報價",
+    "stageNegotiate": "談判中",
+    "stageClosed": "已贏單",
+    "caseStudy": "商用標杆案例",
+    "caseStudies": "標杆案例",
+    "ytdSo": "海外 SO 臺數",
+    "soUnits": "海外 SO 臺數",
+    "netNew": "淨增"
+  },
+  "pipeline": {
+    "title": "銷售漏斗",
+    "subtitle": "看板視圖管理所有活躍商機。",
+    "newOpp": "新建商機"
+  },
+  "campaigns": {
+    "title": "市場活動",
+    "subtitle": "追蹤市場活動投入、線索轉化與 ROI。",
+    "create": "新建活動",
+    "searchPlaceholder": "搜索活動名稱、編號...",
+    "totalBudget": "總預算",
+    "totalSpend": "已花費",
+    "totalLeads": "線索總數",
+    "converted": "已轉化",
+    "pipeline": "Pipeline",
+    "code": "編號",
+    "name": "活動名稱",
+    "type": "類型",
+    "status": "狀態",
+    "budget": "預算",
+    "leads": "線索數",
+    "convertedCount": "已轉化",
+    "oppValue": "商機額",
+    "roi": "ROI",
+    "owner": "負責人",
+    "action": "操作",
+    "detail": "詳情",
+    "leadsTitle": "活動線索",
+    "contactName": "姓名",
+    "company": "公司",
+    "estValue": "預估金額"
+  },
+  "leads": {
+    "title": "銷售線索",
+    "subtitle": "管理從市場活動、轉介紹等渠道獲取的銷售線索。",
+    "create": "新建線索",
+    "searchPlaceholder": "搜索姓名、公司...",
+    "newLeads": "新線索",
+    "contacted": "已聯繫",
+    "qualified": "已確認意向",
+    "converted": "已轉化",
+    "name": "姓名",
+    "jobTitle": "職位",
+    "company": "公司",
+    "source": "來源",
+    "campaign": "市場活動",
+    "rating": "評級",
+    "estValue": "預估金額",
+    "status": "狀態",
+    "owner": "負責人",
+    "lastContact": "最近聯繫",
+    "convert": "轉化",
+    "convertTitle": "轉化線索為客戶/商機",
+    "accountCode": "客戶代碼",
+    "accountName": "客戶名稱",
+    "market": "市場",
+    "productLine": "產品線",
+    "oppStage": "商機階段"
+  },
+  "accountDetail": {
+    "back": "返回客戶列表",
+    "edit": "編輯客戶",
+    "newOpp": "新建商機",
+    "cumulativeSales": "累計銷售額",
+    "cumulativeReceipts": "累計回款",
+    "receivable": "應收餘額",
+    "activeOpps": "在途商機",
+    "won": "已贏單",
+    "creditLimit": "信用額度",
+    "tabs": {
+      "overview": "概覽",
+      "contacts": "聯繫人",
+      "opportunities": "商機",
+      "contracts": "合同",
+      "orders": "訂單",
+      "payments": "回款",
+      "activities": "跟進記錄",
+      "campaigns": "市場活動",
+      "documents": "文檔附件"
+    }
+  },
+  "contacts": {
+    "title": "聯繫人",
+    "subtitle": "管理客戶聯繫人、職位與聯繫方式。",
+    "create": "新建聯繫人",
+    "searchPlaceholder": "搜索姓名、公司...",
+    "name": "姓名",
+    "jobTitle": "職位",
+    "account": "客戶",
+    "email": "郵箱",
+    "phone": "電話",
+    "primary": "主要聯繫人",
+    "yes": "是",
+    "no": "-",
+    "detail": "聯繫人詳情"
+  },
+  "contracts": {
+    "title": "合同",
+    "subtitle": "管理合同生命週期、到期提醒與收款進度。",
+    "create": "新建合同",
+    "alert": "提醒：{count} 份合同將在 30 天內到期",
+    "code": "合同編號",
+    "account": "客戶",
+    "name": "名稱",
+    "type": "類型",
+    "status": "狀態",
+    "entity": "簽約主體",
+    "amount": "金額",
+    "collectionProgress": "收款進度",
+    "paymentStatus": "回款狀態",
+    "expiry": "到期日",
+    "detail": "合同詳情"
+  },
+  "payments": {
+    "title": "支付登記",
+    "subtitle": "登記與確認客戶回款，關聯訂單與合同。",
+    "create": "登記收款",
+    "receivedAt": "到賬時間",
+    "account": "客戶",
+    "order": "訂單",
+    "amount": "金額",
+    "currency": "幣種",
+    "registrar": "登記人",
+    "method": "方式",
+    "status": "狀態",
+    "detail": "收款詳情"
+  },
+  "products": {
+    "title": "產品目錄",
+    "subtitle": "管理 SKU、產品線、規格、價格與庫存。",
+    "create": "新建產品",
+    "searchPlaceholder": "搜索 SKU、產品名稱...",
+    "sku": "SKU",
+    "name": "名稱",
+    "category": "類別",
+    "productLine": "產品線",
+    "spec": "規格",
+    "unitPrice": "單價",
+    "leadTime": "交期",
+    "stock": "庫存",
+    "status": "狀態"
+  },
+  "workqueue": {
+    "title": "我的待辦工作臺",
+    "role": "你的角色",
+    "subtitle": "集中處理需要跟進的任務與審批。",
+    "cards": {
+      "orderOps": "訂單運營 待辦",
+      "supply": "供應鏈 待辦",
+      "finance": "財務 待辦"
+    },
+    "sections": {
+      "orderOps": "訂單運營",
+      "orderOpsDesc": "需要開 PI 或追客戶 PO 的訂單。",
+      "supply": "供應鏈",
+      "supplyDesc": "等待出庫或已出庫但未報關的訂單 —— 直接影響 KPI 數據準確性。",
+      "paymentVerification": "財務 - 付款核銷",
+      "paymentVerificationDesc": "等待財務確認的付款記錄以及還沒開收款確認書的款項。",
+      "collectionTracking": "財務 - 收款追蹤",
+      "collectionTrackingDesc": "14 天內到期或已逾期的收款計劃，需要提醒銷售或客戶。"
+    },
+    "table": {
+      "orderNo": "訂單號",
+      "account": "客戶",
+      "subtotal": "小計",
+      "status": "狀態",
+      "action": "待辦動作",
+      "createdAt": "創建時間",
+      "receivedAt": "到賬日期",
+      "amount": "金額",
+      "financeConfirm": "財務確認",
+      "dueDate": "到期日期",
+      "planAmount": "計劃收款",
+      "open": "打開",
+      "noData": "全部清理完畢，沒有待辦。"
+    }
+  },
+  "pool": {
+    "title": "公海",
+    "subtitle": "未被負責人跟進的客戶資源，可認領。",
+    "assign": "分配給我",
+    "claim": "認領",
+    "code": "客戶代碼",
+    "name": "客戶名稱",
+    "market": "市場",
+    "type": "業務類型",
+    "status": "狀態",
+    "target": "年度目標",
+    "action": "操作"
+  },
+  "endUsers": {
+    "title": "終端用戶",
+    "subtitle": "記錄各客戶名下的終端裝機與使用情況。",
+    "create": "新建終端用戶",
+    "searchPlaceholder": "搜索終端用戶...",
+    "name": "終端用戶名稱",
+    "account": "歸屬客戶",
+    "location": "位置",
+    "installs": "裝機數量",
+    "installDate": "安裝日期",
+    "lastService": "最近服務"
+  },
+  "team": {
+    "title": "團隊管理",
+    "subtitle": "管理團隊成員、部門、權限與在職狀態。",
+    "invite": "邀請成員",
+    "searchPlaceholder": "搜索姓名、郵箱...",
+    "name": "姓名",
+    "email": "郵箱",
+    "department": "部門",
+    "role": "權限",
+    "market": "市場",
+    "status": "狀態",
+    "active": "在職",
+    "inactive": "離職"
+  },
+  "countryReports": {
+    "title": "國家報告",
+    "subtitle": "按市場維度追蹤年度目標、KPI 與收款進度。",
+    "region": "區域",
+    "annualTask": "全年任務",
+    "monthlyTarget": "月目標",
+    "kpi": "KPI",
+    "actualReceipt": "實際收款",
+    "progress": "進度"
+  },
+  "executiveReport": {
+    "title": "高管報告",
+    "subtitle": "為管理層彙總整體業績、市場進度與重點商機。",
+    "overall": "整體業績",
+    "marketProgress": "各市場進度",
+    "topOpps": "重點商機",
+    "category": "品類 / 戰略品",
+    "annualTarget": "年度收入目標",
+    "ytdRevenue": "YTD 實際收入",
+    "achievement": "達成率",
+    "ytdOrders": "YTD 訂單數",
+    "account": "客戶",
+    "amount": "金額",
+    "stage": "階段",
+    "probability": "贏率",
+    "categoryName": "品類",
+    "units": "臺數"
+  },
+  "retail": {
+    "title": "零售運營",
+    "subtitle": "追蹤 SO 臺數、戰略品、淨增門店與動銷率。",
+    "entry": "錄入月度數據",
+    "ytdSo": "YTD SO 臺數",
+    "strategic": "戰略品臺數",
+    "netNew": "淨增門店",
+    "sellThrough": "平均動銷率",
+    "monthlyData": "月度零售數據",
+    "month": "月份",
+    "overseasSo": "海外 SO 臺數",
+    "strategicUnits": "戰略品",
+    "netNewStores": "淨增門店",
+    "activities": "活動數",
+    "notes": "備註"
+  },
+  "projectUpdates": {
+    "title": "項目進度",
+    "subtitle": "記錄客戶項目的現場勘測、安裝、調試驗收等里程碑。",
+    "log": "登記進度",
+    "project": "項目",
+    "account": "客戶",
+    "stage": "當前階段",
+    "installed": "裝機",
+    "recorder": "記錄人",
+    "date": "日期",
+    "notes": "備註"
+  },
+  "importPage": {
+    "title": "數據導入",
+    "subtitle": "通過 CSV / Excel 批量導入客戶、聯繫人或訂單數據。",
+    "upload": "上傳 CSV / Excel",
+    "drag": "點擊或拖拽文件到此處",
+    "hint": "支持 .csv / .xlsx，單次不超過 5000 行",
+    "start": "開始導入"
+  },
+  "invite": {
+    "title": "邀請用戶",
+    "subtitle": "邀請新成員加入團隊並分配角色與市場。",
+    "email": "郵箱",
+    "name": "姓名",
+    "role": "角色",
+    "market": "市場",
+    "send": "發送邀請"
+  },
+  "attendance": {
+    "title": "考勤打卡",
+    "subtitle": "每日上下班打卡與外勤登記。",
+    "status": "當前狀態",
+    "checkedIn": "已上班",
+    "notCheckedIn": "未上班",
+    "location": "打卡地點",
+    "note": "備註",
+    "placeholder": "今日外出拜訪客戶請填寫...",
+    "punchIn": "上班打卡",
+    "punchOut": "下班打卡",
+    "records": "今日打卡記錄",
+    "type": "類型",
+    "time": "時間"
+  },
+  "logActivity": {
+    "title": "記錄跟進",
+    "subtitle": "記錄與客戶、商機的每一次互動。",
+    "account": "關聯客戶",
+    "opportunity": "關聯商機",
+    "type": "跟進類型",
+    "content": "跟進內容",
+    "reminder": "下次跟進提醒",
+    "save": "保存跟進",
+    "recentRecords": "近期跟進記錄",
+    "accountPlaceholder": "選擇客戶",
+    "oppPlaceholder": "選擇商機",
+    "contentPlaceholder": "填寫本次跟進要點..."
+  },
+  "invoices": {
+    "title": "發票管理",
+    "subtitle": "管理發票申請、審核與開具狀態。",
+    "pendingReview": "待財務審核",
+    "pendingIssue": "待開具",
+    "issuedThisMonth": "本月已開具",
+    "no": "申請編號",
+    "account": "客戶",
+    "order": "訂單",
+    "amount": "金額",
+    "status": "狀態",
+    "applicant": "申請人",
+    "createdAt": "申請時間",
+    "invoiceTitle": "發票抬頭",
+    "taxId": "稅號",
+    "statusPendingReview": "待財務審核",
+    "statusPendingIssue": "待開具",
+    "statusIssued": "已開具",
+    "statusRejected": "已駁回"
+  },
+  "dailyReport": {
+    "title": "今日日报",
+    "hint": "保持简短 – 3 分钟搞定。让经理了解你今天做了什么、明天准备做什么。",
+    "workTitle": "今日工作(逐条记录,每条一件事) *",
+    "workPlaceholder": "例如:拜访 Marina Bay,推进到方案报价阶段",
+    "planTitle": "明日计划(逐条记录,每条一件事) *",
+    "planPlaceholder": "例如:跟进 Raffles 报价",
+    "paymentTitle": "回款进展(可选,可加多条)",
+    "paymentPlaceholder": "例如:Marina Bay 第二期款 $50k 已到账",
+    "problemTitle": "遇到的问题(可选,可加多条 – 会通知上级)",
+    "problemPlaceholder": "例如:客户卡在采购审批,需要协助加速",
+    "addRow": "再加一条",
+    "delete": "删除",
+    "followupTitle": "今日客户跟进",
+    "followupDesc": "在这里登记你今天接触过的客户 —— 不用再单独到每条商机里逐一录入，系统会自动把它们写入对应商机的跟进记录。",
+    "followupEmpty": "今天还没登记客户跟进。点击下方「+ 添加跟进」记录一次电话/微信/拜访/方案。",
+    "followupPlaceholder": "例如:电话拜访 Marina Bay,确认方案需求",
+    "followupAdd": "+ + 添加一条客户跟进",
+    "issueTitle": "重大事项 / 需协助跟进(可加多条)",
+    "issueDesc": "今天有什么需要领导或其他部门关注、拍板、协调的事项？一天可能有多件 —— 例如：大单卡审批 / 客户高层投诉 / 跨部门资源调度 / 集团政策征询。填写后会同步显示在 Today 页面，相关方可立即看到并跟进。",
+    "issueEmpty": "今天没有需要上报的事项。如有，点击下方「+ 添加」",
+    "issuePlaceholder": "例如:HK Hospitality 15% discount 需 CSO 拍板",
+    "issueAdd": "+ + 新增一条事项",
+    "moodTitle": "今日心情",
+    "mood": {
+      "sad": "难过/生气",
+      "upset": "委屈",
+      "neutral": "平淡",
+      "happy": "开心",
+      "excited": "大笑/兴奋"
+    },
+    "cancel": "取消",
+    "save": "保存日报",
+    "error": {
+      "workRequired": "请至少填写一项今日工作",
+      "planRequired": "请至少填写一项明日计划"
+    }
+  }
+}

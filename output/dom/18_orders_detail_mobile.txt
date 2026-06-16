@@ -1,0 +1,94 @@
+GLOBAL SALES CRM
+主页
+今日
+数据看板
+待办工作台
+2
+考勤打卡
+营销
+市场活动
+销售线索
+🛍 零售业务
+零售运营
+客户 & 联系人
+客户列表
+2
+公海
+联系人
+终端用户
+销售流程
+销售漏斗
+3
+记录跟进
+项目进度
+合同 & 订单
+合同
+订单中心
+开票申请
+支付登记
+目录
+产品目录
+报表分析
+国家报告
+高管报告
+管理
+📥 数据导入
+邀请用户
+团队
+设置
+理员
+系统管理员
+系统管理员
+中文
+退出登录
+订单中心
++ 新建
+系统管理员
+订单中心
+订单 · PI · 收款计划 · 履约 · 售后 —— 一个订单的全生命周期都在这里。开票申请、支付登记请使用左侧独立菜单。
++ 新建订单
+💼 业务视图
+💰 财务视图
+🚚 供应链视图
+订单号	PI 号	客户	申请人	明细	小计	类型	订单种类	PO 凭证	状态	创建时间
+AHT-ORD-2026-0001	PI-TH20260614	Bangkok Mall Group	苏蓬	2	$31,440	Pre-win	大货订单	PO ✓	PI 已开具	3 天前
+AHT-ORD-2026-0002	PI-SG20260529	Raffles Hospitality	杨文	2	$23,700	首单	样机订单	PO ✓	已发货	20 天前
+AHT-ORD-2026-0003	—	Westwind F&B	基思·哈灵顿	1	$108,000	首单	大货订单	PO 待收	待开具 PI	1 天前
+AHT-ORD-2026-0004	PI-SG20260609	Raffles Hospitality	杨文	2	$13,680	翻单	返单	PO ✓	已完成	8 天前
+AHT-ORD-2026-0005	PI-ID20260527	Soekarno Retail Distribution	刘世宏	2	$72,000	Pre-win	大货订单	PO ✓	已完成	22 天前
+订单 AHT-ORD-2026-0002
+PI: PI-SG20260529· issued 18 天前
+客户
+Raffles Hospitality
+申请人
+杨文
+状态
+已发货
+创建时间
+2026-05-27 19:03
+订单明细
+SKU	Product	Qty	Unit	Line total
+ANG-FB-D3000	Angel D3000 Pro Commercial Dispenser	6	$3,600	$21,600
+ANG-INSTALL-STD	Standard Installation Service	6	$350	$2,100
+小计	$23,700
+🚚 发货批次 & 报关
++ 新增批次
+暂无发货批次。供应链确认出库 + 报关后,在此登记。
+附件 & 回款
+客户 PO（采购订单）
+Raffles-PO-2026-05-08.pdf· 2026-05-30
+查看
+收款计划 · $23,700
+一次性付清 · 2026-05-28
+$23,700 / $23,700
+已收款
+$23,700 · 2026-05-28via wire
+已确认
+付款通知书（客户提供）
+Raffles-SWIFT-MT103-20260509.pdf
+收款确认书（AHT 财务出具）
+AHT-Receipt-Raffles-001.pdf
+Close
+更新状态:
+已发货
+View PI

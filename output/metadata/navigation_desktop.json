@@ -1,0 +1,102 @@
+[
+  {
+    "href": "/app/today",
+    "text": "今日"
+  },
+  {
+    "href": "/app/dashboard",
+    "text": "数据看板"
+  },
+  {
+    "href": "/app/workqueue",
+    "text": "待办工作台\n2"
+  },
+  {
+    "href": "/app/attendance",
+    "text": "考勤打卡"
+  },
+  {
+    "href": "/app/campaigns",
+    "text": "市场活动"
+  },
+  {
+    "href": "/app/leads",
+    "text": "销售线索"
+  },
+  {
+    "href": "/app/retail",
+    "text": "零售运营"
+  },
+  {
+    "href": "/app/accounts",
+    "text": "客户列表\n2"
+  },
+  {
+    "href": "/app/pool",
+    "text": "公海"
+  },
+  {
+    "href": "/app/contacts",
+    "text": "联系人"
+  },
+  {
+    "href": "/app/end-users",
+    "text": "终端用户"
+  },
+  {
+    "href": "/app/pipeline",
+    "text": "销售漏斗\n3"
+  },
+  {
+    "href": "/app/log-activity",
+    "text": "记录跟进"
+  },
+  {
+    "href": "/app/project-updates",
+    "text": "项目进度"
+  },
+  {
+    "href": "/app/contracts",
+    "text": "合同"
+  },
+  {
+    "href": "/app/orders",
+    "text": "订单中心"
+  },
+  {
+    "href": "/app/invoices",
+    "text": "开票申请"
+  },
+  {
+    "href": "/app/payments",
+    "text": "支付登记"
+  },
+  {
+    "href": "/app/products",
+    "text": "产品目录"
+  },
+  {
+    "href": "/app/country-reports",
+    "text": "国家报告"
+  },
+  {
+    "href": "/app/report",
+    "text": "高管报告"
+  },
+  {
+    "href": "/app/import",
+    "text": "📥 数据导入"
+  },
+  {
+    "href": "/app/invite",
+    "text": "邀请用户"
+  },
+  {
+    "href": "/app/team",
+    "text": "团队"
+  },
+  {
+    "href": "/app/settings",
+    "text": "设置"
+  }
+]

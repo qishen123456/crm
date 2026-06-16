@@ -1,0 +1,194 @@
+GLOBAL SALES CRM
+主页
+今日
+数据看板
+待办工作台
+2
+考勤打卡
+营销
+市场活动
+销售线索
+🛍 零售业务
+零售运营
+客户 & 联系人
+客户列表
+2
+公海
+联系人
+终端用户
+销售流程
+销售漏斗
+3
+记录跟进
+项目进度
+合同 & 订单
+合同
+订单中心
+开票申请
+支付登记
+目录
+产品目录
+报表分析
+国家报告
+高管报告
+管理
+📥 数据导入
+邀请用户
+团队
+设置
+理员
+系统管理员
+系统管理员
+中文
+退出登录
+团队
++ 新建
+系统管理员
+团队
+15 users · 10 active
++ 邀请用户
+全部
+销售
+财务
+其他
+姓名	部门	权限	市场	状态	
+
+欢枢
+Annie Guo
+郭欢枢 · annie.guo@angel.cn
+	管理层	高管	
+All markets
+	已激活	
+
+
+杨文
+Shootery Yang
+杨文 · shootery.yang@angel.cn
+	管理层	高管	
+All markets
+	已激活	
+
+
+世宏
+Stephen Liu
+刘世宏 · stephen.liu@angel.cn
+	销售	国家负责人	
+🇹🇭
+TH
+🇮🇩
+ID
+	已激活	
+
+
+杨森
+Forrest Yang
+杨森 · forrest.yang@angel.cn
+	销售	国家负责人	
+🇭🇰
+HK
+🇲🇴
+MO
+	已激活	
+
+
+灵顿
+Keith Harrington
+基思·哈灵顿 · keith.harrington@angel-us.com
+	销售	国家负责人	
+🇺🇸
+US
+	已激活	
+
+
+尔德
+Michael Blofeld
+迈克尔·布洛菲尔德 · michael.blofeld@angel-us.com
+	销售	销售经理	
+🇺🇸
+US
+	已邀请	
+
+
+波默
+Marco Spomer
+马可·斯波默 · marco.spomer@angel-us.com
+	销售	销售员	
+🇺🇸
+US
+	已邀请	
+
+
+卞策
+Bryan Bian
+卞策 · bryan.bian@angel.cn
+	财务	查看 + 评论	
+All markets
+	已邀请	
+
+
+璐璐
+Lulu Li
+李璐璐 · lulu.li@angel.cn
+	财务	查看 + 评论	
+All markets
+	已邀请	
+
+
+唐兰
+Sarah Tang
+唐兰 · sarah.tang@angel.cn
+	订单管理	仅查看	
+All markets
+	已邀请	
+
+
+理员
+System Admin
+系统管理员 · admin@angel.cn
+	系统管理	系统管理员	
+All markets
+	已激活	
+
+
+文权
+Sun Wenquan
+孙文权 · sun.wenquan@angel.cn
+	运营管理	产品经理	
+All markets
+	已激活	
+
+
+苏蓬
+Khun Suporn
+苏蓬 · suporn@bangkokmall.co.th
+	销售	经销商	
+🇹🇭
+TH
+	已激活	
+
+
+莉亚
+Amelia Wijaya
+魏阿米莉亚 · amelia.wijaya@angel.cn
+	市场营销	市场部	
+🇹🇭
+TH
+🇮🇩
+ID
+	已激活	
+
+
+方舟
+Chen Fangzhou
+陈方舟 · chen.fangzhou@angel.cn
+	市场营销	市场部	
+🇭🇰
+HK
+🇲🇴
+MO
+🇸🇬
+SG
+🇲🇾
+MY
+	已激活	
+通知中心

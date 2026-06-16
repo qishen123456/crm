@@ -1,0 +1,139 @@
+GLOBAL SALES CRM
+主页
+今日
+数据看板
+待办工作台
+2
+考勤打卡
+营销
+市场活动
+销售线索
+🛍 零售业务
+零售运营
+客户 & 联系人
+客户列表
+2
+公海
+联系人
+终端用户
+销售流程
+销售漏斗
+3
+记录跟进
+项目进度
+合同 & 订单
+合同
+订单中心
+开票申请
+支付登记
+目录
+产品目录
+报表分析
+国家报告
+高管报告
+管理
+📥 数据导入
+邀请用户
+团队
+设置
+理员
+系统管理员
+系统管理员
+中文
+退出登录
+产品目录
++ 新建
+系统管理员
+6月16日 周二
+产品目录
+由产品经理维护。销售与经销商在下单时从此列表中选择产品。
++ 新增产品
+全部产品线
+全部类别
+产品
+配件
+耗材
+	产品编号	名称	类别	产品线	规格	单价（美元）	交期	库存情况	状态	更新时间	
+
+	ANG-FB-D2000	
+安吉尔 D2000 商用净水机
+Counter-top commercial water dispenser for hotel and F&B kitchens. 5-stage RO + UV sterilisation.
+	产品	餐饮	Output 80 L/h · 5-stage RO + UV · 24V · 220V/50Hz	$2,400	21 天	现货	在售	5 days ago	
+
+
+	ANG-FB-D3000	
+安吉尔 D3000 Pro 商用净水机
+High-volume hotel/banquet model with integrated hot+cold loops.
+	产品	餐饮	Output 120 L/h · 6-stage RO + UV · Hot/Cold dual · 220V	$3,600	28 天	现货	在售	10 days ago	
+
+
+	ANG-RES-H500	
+安吉尔 H500 家用全屋净水系统
+Whole-home water purification for villas and large apartments.
+	产品	家用	Flow 3 m³/h · 4-stage filtration · Smart leak shut-off	$1,800	14 天	现货	在售	8 days ago	
+
+
+	ANG-RES-U200	
+安吉尔 U200 厨下净水器
+Compact under-sink purification with smart faucet indicator.
+	产品	家用	3-stage filtration · Smart faucet · 600 GPD	$480	7 天	现货	在售	3 days ago	
+
+
+	ANG-IND-P5000	
+安吉尔 P5000 工业净水撬装
+Skid-mounted industrial purification for factories and data centres.
+	产品	工业	Capacity 50 m³/h · Two-pass RO · Auto-CIP · 380V	$48,000	60 天	需预订	在售	12 days ago	
+
+
+	ANG-IND-P8000	
+安吉尔 P8000 重型工业净水系统
+Large-capacity system for heavy manufacturing and pharma.
+	产品	工业	Capacity 120 m³/h · Multi-stage · PLC + SCADA · 380V	$92,000	75 天	需预订	在售	18 days ago	
+
+
+	ANG-PUB-F300	
+安吉尔 F300 公共饮水台
+Outdoor and indoor public fountain for schools, transit hubs.
+	产品	公共	Output 60 L/h · Chilled + ambient · Vandal-resistant	$1,200	14 天	现货	在售	7 days ago	
+
+
+	ANG-PUB-F500	
+安吉尔 F500 智能公共饮水站
+IoT-connected public station with usage analytics.
+	产品	公共	Output 100 L/h · IoT telemetry · QR refill · Solar option	$2,900	30 天	低库存	在售	2 days ago	
+
+
+	ANG-FB-FILTER-M	
+替换滤芯组 — 中型
+Replacement filter cartridges for D2000 / H500. Annual replacement recommended.
+	耗材	餐饮	PP + GAC + RO + UV bulb (12-month lifespan)	$220	5 天	现货	在售	a day ago	
+
+
+	ANG-IND-FILTER-L	
+替换滤芯组 — 工业
+Replacement cartridges for P5000 / P8000 industrial systems.
+	耗材	工业	Two-pass RO membranes + pre-filters (24-month lifespan)	$3,400	21 天	现货	在售	15 days ago	
+
+
+	ANG-FB-D1500	
+安吉尔 D1500 紧凑型净水机（停产）
+Legacy compact dispenser. Replaced by D2000 — kept here for spare-parts orders.
+	产品	餐饮	Output 50 L/h · 3-stage filtration	$1,500	45 天	缺货	停产	4 months ago	
+
+
+	ANG-INSTALL-STD	
+标准安装服务
+On-site installation, commissioning, and training. Per-unit pricing.
+	配件	公共	Includes 1-day on-site + 1-year warranty	$350	7 天	现货	在售	20 days ago	
+
+
+	ANG-ACC-MOUNT-W	
+壁挂安装套件
+Stainless-steel wall mounting bracket and fixings for D2000 / D3000.
+	配件	餐饮	SS304 · 4-bolt pattern · Load 80 kg	$120	7 天	现货	在售	15 days ago	
+
+
+	ANG-CON-UV-BULB	
+紫外杀菌灯管（耗材）
+12-month replacement UV bulb for all D-series dispensers.
+	耗材	餐饮	254 nm UV-C · 11 W · UL/CE certified	$65	3 天	现货	在售	2 days ago	

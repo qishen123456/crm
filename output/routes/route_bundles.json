@@ -1,0 +1,502 @@
+{
+  "00_post_login": {
+    "url": "https://angelcrm.netlify.app/app/today",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "01_today": {
+    "url": "https://angelcrm.netlify.app/app/today",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "02_dashboard": {
+    "url": "https://angelcrm.netlify.app/app/dashboard",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "03_work_queue": {
+    "url": "https://angelcrm.netlify.app/app/workqueue",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "04_attendance": {
+    "url": "https://angelcrm.netlify.app/app/attendance",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "05_campaigns": {
+    "url": "https://angelcrm.netlify.app/app/campaigns",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "06_leads": {
+    "url": "https://angelcrm.netlify.app/app/leads",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "07_retail": {
+    "url": "https://angelcrm.netlify.app/app/retail",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "08_accounts": {
+    "url": "https://angelcrm.netlify.app/app/accounts",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "10_pool": {
+    "url": "https://angelcrm.netlify.app/app/pool",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "11_contacts": {
+    "url": "https://angelcrm.netlify.app/app/contacts",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "12_end_users": {
+    "url": "https://angelcrm.netlify.app/app/end-users",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "13_pipeline": {
+    "url": "https://angelcrm.netlify.app/app/pipeline",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "14_log_activity": {
+    "url": "https://angelcrm.netlify.app/app/log-activity",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "15_project_updates": {
+    "url": "https://angelcrm.netlify.app/app/project-updates",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "17_contracts": {
+    "url": "https://angelcrm.netlify.app/app/contracts",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "18_orders": {
+    "url": "https://angelcrm.netlify.app/app/orders",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "19_invoices": {
+    "url": "https://angelcrm.netlify.app/app/invoices",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "20_payments": {
+    "url": "https://angelcrm.netlify.app/app/payments",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "21_products": {
+    "url": "https://angelcrm.netlify.app/app/products",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "22_country_reports": {
+    "url": "https://angelcrm.netlify.app/app/country-reports",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "23_executive_report": {
+    "url": "https://angelcrm.netlify.app/app/report",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "24_team": {
+    "url": "https://angelcrm.netlify.app/app/team",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "25_settings": {
+    "url": "https://angelcrm.netlify.app/app/settings",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "nav_import": {
+    "url": "https://angelcrm.netlify.app/app/import",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "nav_invite": {
+    "url": "https://angelcrm.netlify.app/app/invite",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "05_campaigns_detail_modal": {
+    "url": "https://angelcrm.netlify.app/app/campaigns",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "06_leads_convert_modal": {
+    "url": "https://angelcrm.netlify.app/app/leads",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "07_retail_monthly_form": {
+    "url": "https://angelcrm.netlify.app/app/retail",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "09_account_detail_overview": {
+    "url": "https://angelcrm.netlify.app/app/account/a1",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "09_account_detail_contacts": {
+    "url": "https://angelcrm.netlify.app/app/account/a1",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "09_account_detail_opportunities": {
+    "url": "https://angelcrm.netlify.app/app/account/a1",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "09_account_detail_contracts": {
+    "url": "https://angelcrm.netlify.app/app/account/a1",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "09_account_detail_orders": {
+    "url": "https://angelcrm.netlify.app/app/account/a1",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "09_account_detail_payments": {
+    "url": "https://angelcrm.netlify.app/app/account/a1",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "09_account_detail_activities": {
+    "url": "https://angelcrm.netlify.app/app/account/a1",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "09_account_detail_campaigns": {
+    "url": "https://angelcrm.netlify.app/app/account/a1",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "09_account_detail_documents": {
+    "url": "https://angelcrm.netlify.app/app/account/a1",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "25_settings_brand": {
+    "url": "https://angelcrm.netlify.app/app/settings",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "25_settings_roles_permissions": {
+    "url": "https://angelcrm.netlify.app/app/settings",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "25_settings_targets": {
+    "url": "https://angelcrm.netlify.app/app/settings",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "25_settings_markets": {
+    "url": "https://angelcrm.netlify.app/app/settings",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "25_settings_departments": {
+    "url": "https://angelcrm.netlify.app/app/settings",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "25_settings_notifications": {
+    "url": "https://angelcrm.netlify.app/app/settings",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "25_settings_audit_logs": {
+    "url": "https://angelcrm.netlify.app/app/settings",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "25_settings_accounts": {
+    "url": "https://angelcrm.netlify.app/app/settings",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "18_orders_list": {
+    "url": "https://angelcrm.netlify.app/app/orders",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "18_orders_detail": {
+    "url": "https://angelcrm.netlify.app/app/orders",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "15_project_updates_form": {
+    "url": "https://angelcrm.netlify.app/app/project-updates",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  },
+  "19_invoices_new_form": {
+    "url": "https://angelcrm.netlify.app/app/invoices",
+    "title": "ANGEL CRM — AHT Global Sales",
+    "scripts": [
+      "/assets/index-Bs3lg_NN.js"
+    ],
+    "styles": [
+      "/assets/index-BMlGZC1p.css"
+    ]
+  }
+}

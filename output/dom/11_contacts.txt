@@ -1,0 +1,140 @@
+GLOBAL SALES CRM
+主页
+今日
+数据看板
+待办工作台
+2
+考勤打卡
+营销
+市场活动
+销售线索
+🛍 零售业务
+零售运营
+客户 & 联系人
+客户列表
+2
+公海
+联系人
+终端用户
+销售流程
+销售漏斗
+3
+记录跟进
+项目进度
+合同 & 订单
+合同
+订单中心
+开票申请
+支付登记
+目录
+产品目录
+报表分析
+国家报告
+高管报告
+管理
+📥 数据导入
+邀请用户
+团队
+设置
+理员
+系统管理员
+系统管理员
+中文
+退出登录
+联系人
++ 新建
+系统管理员
+6月16日 周二
+联系人
+客户公司里的具体联系人，记录姓名、职位和联系方式。
++ 新增联系人
+姓名	职位	客户	联系方式	
+
+美丽
+Mary Tan
+主要联系人
+陈美丽
+	F&B Director	Raffles Hospitality	
+mary.tan@raffles.com
++65 9123 4567
+	
+
+
+大伟
+David Kong
+孔大伟
+	Procurement Lead	Raffles Hospitality	
+david.kong@raffles.com
+dkong-raffles
+	
+
+
+VL
+Vincent Lee
+主要联系人
+	Facilities Manager	Marina Bay Sands	
+vincent.lee@marinabaysands.com
++65 6688 8000
+	
+
+
+伟明
+Lim Wei Ming
+主要联系人
+林伟明
+	Group Procurement Director	Genting Group	
+wm.lim@genting.com.my
+	
+
+
+KA
+Khun Anong
+主要联系人
+	Operations Manager	Bangkok Mall Group	
+anong@bangkokmall.co.th
++66 2 555 1234
+	
+
+
+BS
+Bambang Subroto
+主要联系人
+	Engineering Manager	Soekarno Retail Distribution	
+bambang.s@soekarnoresorts.id
+	
+
+
+家强
+Patrick Wong
+主要联系人
+黄家强
+	Director of Engineering	HK Hospitality Corp	
+patrick.wong@hkhospitality.hk
++852 2868 8888
+	
+
+
+秋蓉
+Christine Lao
+主要联系人
+劳秋蓉
+	F&B VP	MGM Macau	
+christine.lao@mgm.mo
+	
+
+
+BO
+Brian O'Connor
+主要联系人
+	COO	Westwind F&B	
+brian@westwindfnb.com
++1 415 555 0199
+	
+
+
+嘉敏
+Jamie Chen
+陈嘉敏
+	Procurement Manager	Westwind F&B	
+jamie.chen@westwindfnb.com
+	

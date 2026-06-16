@@ -1,0 +1,813 @@
+{
+  "appName": "ANGEL",
+  "appSubName": "GLOBAL SALES CRM",
+  "shellTitle": "CRM Global",
+  "shellTagline": "Reconstruction frontend AngelCRM",
+  "systemAdmin": "Administrateur",
+  "logout": "Se deconnecter",
+  "newButton": "+ Nouveau",
+  "languageLabel": "Francais",
+  "currentDate": "16 juin mar.",
+  "menu": [
+    {
+      "key": "home",
+      "label": "Accueil",
+      "items": [
+        {
+          "key": "/app/today",
+          "label": "Aujourd'hui"
+        },
+        {
+          "key": "/app/dashboard",
+          "label": "Tableau de bord"
+        },
+        {
+          "key": "/app/workqueue",
+          "label": "File de travail",
+          "badge": 2
+        },
+        {
+          "key": "/app/attendance",
+          "label": "Presence"
+        }
+      ]
+    },
+    {
+      "key": "marketing",
+      "label": "Marketing",
+      "items": [
+        {
+          "key": "/app/campaigns",
+          "label": "Campagnes"
+        },
+        {
+          "key": "/app/leads",
+          "label": "Leads"
+        }
+      ]
+    },
+    {
+      "key": "retail",
+      "label": "Retail",
+      "items": [
+        {
+          "key": "/app/retail",
+          "label": "Retail Ops"
+        }
+      ]
+    },
+    {
+      "key": "accounts",
+      "label": "Comptes & Contacts",
+      "items": [
+        {
+          "key": "/app/accounts",
+          "label": "Comptes",
+          "badge": 2
+        },
+        {
+          "key": "/app/pool",
+          "label": "Pool"
+        },
+        {
+          "key": "/app/contacts",
+          "label": "Contacts"
+        },
+        {
+          "key": "/app/end-users",
+          "label": "Utilisateurs finaux"
+        }
+      ]
+    },
+    {
+      "key": "sales",
+      "label": "Flux commercial",
+      "items": [
+        {
+          "key": "/app/pipeline",
+          "label": "Pipeline",
+          "badge": 3
+        },
+        {
+          "key": "/app/log-activity",
+          "label": "Journal d'activite"
+        },
+        {
+          "key": "/app/project-updates",
+          "label": "Suivi projet"
+        }
+      ]
+    },
+    {
+      "key": "orders",
+      "label": "Contrats & Commandes",
+      "items": [
+        {
+          "key": "/app/contracts",
+          "label": "Contrats"
+        },
+        {
+          "key": "/app/orders",
+          "label": "Commandes"
+        },
+        {
+          "key": "/app/invoices",
+          "label": "Factures"
+        },
+        {
+          "key": "/app/payments",
+          "label": "Paiements"
+        }
+      ]
+    },
+    {
+      "key": "catalog",
+      "label": "Catalogue",
+      "items": [
+        {
+          "key": "/app/products",
+          "label": "Produits"
+        }
+      ]
+    },
+    {
+      "key": "reports",
+      "label": "Rapports",
+      "items": [
+        {
+          "key": "/app/country-reports",
+          "label": "Rapports pays"
+        },
+        {
+          "key": "/app/report",
+          "label": "Rapport executif"
+        }
+      ]
+    },
+    {
+      "key": "admin",
+      "label": "Admin",
+      "items": [
+        {
+          "key": "/app/import",
+          "label": "Importation"
+        },
+        {
+          "key": "/app/invite",
+          "label": "Inviter"
+        },
+        {
+          "key": "/app/team",
+          "label": "Equipe"
+        },
+        {
+          "key": "/app/settings",
+          "label": "Parametres"
+        }
+      ]
+    }
+  ],
+  "pages": {
+    "today": "Aujourd'hui",
+    "dashboard": "Tableau de bord",
+    "workqueue": "File de travail",
+    "attendance": "Presence",
+    "campaigns": "Campagnes",
+    "leads": "Leads",
+    "retail": "Retail Ops",
+    "accounts": "Comptes",
+    "pool": "Pool",
+    "contacts": "Contacts",
+    "endUsers": "Utilisateurs finaux",
+    "pipeline": "Pipeline",
+    "logActivity": "Journal d'activite",
+    "projectUpdates": "Suivi projet",
+    "contracts": "Contrats",
+    "orders": "Commandes",
+    "invoices": "Factures",
+    "payments": "Paiements",
+    "products": "Produits",
+    "countryReports": "Rapports pays",
+    "executiveReport": "Rapport executif",
+    "import": "Importation",
+    "invite": "Inviter",
+    "team": "Equipe",
+    "settings": "Parametres",
+    "accountDetail": "Detail compte"
+  },
+  "common": {
+    "search": "Rechercher",
+    "searchPlaceholder": "Rechercher par nom ou code...",
+    "create": "Nouveau",
+    "edit": "Modifier",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "submit": "Soumettre",
+    "delete": "Supprimer",
+    "actions": "Actions",
+    "view": "Voir",
+    "status": "Statut",
+    "all": "Tout",
+    "loading": "Chargement...",
+    "noData": "Aucune donnee",
+    "confirm": "Confirmer",
+    "successCreate": "Cree avec succes",
+    "successUpdate": "Mis a jour",
+    "successDelete": "Supprime",
+    "successSave": "Enregistre",
+    "successAssign": "Attribue",
+    "successClaim": "Reclame",
+    "successImport": "Import soumis",
+    "successInvite": "Invitation envoyee",
+    "devToast": "Fonctionnalite en cours",
+    "required": "Requis",
+    "date": "Date",
+    "amount": "Montant",
+    "note": "Notes",
+    "close": "Fermer",
+    "name": "Nom",
+    "market": "Marche",
+    "target": "Objectif",
+    "actual": "Reel",
+    "progress": "Progression",
+    "category": "Categorie",
+    "price": "Prix unitaire",
+    "stock": "Stock"
+  },
+  "login": {
+    "title": "Connexion ANGEL CRM",
+    "subtitle": "AHT Global Sales · Espace interne",
+    "sso": "Connexion SSO Feishu",
+    "divider": "ou",
+    "email": "Email professionnel",
+    "emailPlaceholder": "you@angel.cn",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "Mot de passe",
+    "forgot": "Mot de passe oublie?",
+    "tips": "Demo: tout email + mot de passe \"demo2026\"",
+    "submit": "Connexion →"
+  },
+  "accounts": {
+    "title": "Comptes",
+    "subtitle": "Gerer les comptes, objectifs et statuts de contrat.",
+    "statusAll": "Tout",
+    "statusActive": "Actif",
+    "statusExpiring": "Expiration",
+    "statusExpired": "Expire",
+    "marketAll": "Tout",
+    "target": "Objectif annuel",
+    "owner": "Responsable",
+    "createTitle": "Nouveau compte",
+    "formName": "Nom du compte",
+    "formCode": "Code compte",
+    "formMarket": "Marche",
+    "formOwner": "Responsable",
+    "formType": "Type d'activite",
+    "formTarget": "Objectif annuel (USD)",
+    "formNotes": "Ressources & notes"
+  },
+  "orders": {
+    "title": "Commandes",
+    "subtitle": "Commandes, PI, plans de recouvrement, execution et SAV.",
+    "viewBusiness": "Commercial",
+    "viewFinance": "Finance",
+    "viewSupply": "Supply chain",
+    "statusAll": "Tout",
+    "colOrderNo": "No commande",
+    "colPiNo": "No PI",
+    "colAccount": "Compte",
+    "colRequester": "Demandeur",
+    "colItems": "Articles",
+    "colSubtotal": "Sous-total",
+    "colType": "Type",
+    "colKind": "Genre",
+    "colPo": "PO",
+    "colStatus": "Statut",
+    "colCreated": "Cree le",
+    "createTitle": "Nouvelle commande",
+    "drawerLines": "Lignes de commande",
+    "drawerShipment": "Expeditions & douane",
+    "drawerAttachments": "Pieces jointes & paiements"
+  },
+  "today": {
+    "greeting": "Bonjour, ",
+    "admin": "Admin",
+    "greetingMorning": "Bonjour, ",
+    "greetingNoon": "Bon apres-midi, ",
+    "greetingAfternoon": "Bon apres-midi, ",
+    "greetingEvening": "Bonsoir, ",
+    "subtitle": "{count} elements a traiter aujourdhui.",
+    "targetAchievement": "Realisation objectifs",
+    "targetSubtitle": "KPI core = expedie & dedouane.",
+    "shippedClearedTag": "Expedie & dedouane",
+    "monthly": "Mensuel",
+    "quarterly": "Trimestriel",
+    "yearly": "Annuel",
+    "achieved": "atteint",
+    "todayReport": "Rapport quotidien",
+    "daysUnsubmitted": "Non soumis depuis {count} jours",
+    "reportHint": "Ecrivez votre rapport pour tenir lequipe informee.",
+    "streak": "Serie {count} jours",
+    "writeReport": "Rediger",
+    "viewFunnel": "Voir funnel",
+    "funnelDesc": "Ouvrir le kanban des opportunites actives.",
+    "teamEvents": "Evenements equipe (3 jours)",
+    "todo": "A faire"
+  },
+  "settings": {
+    "tabs": {
+      "brand": "Marque",
+      "market": "Marches",
+      "department": "Departements",
+      "roles": "Roles & Permissions",
+      "targets": "Objectifs annuels",
+      "templates": "Modeles de documents",
+      "notifications": "Notifications",
+      "audit": "Journaux",
+      "account": "Compte"
+    },
+    "title": "Parametres",
+    "subtitle": "Gerer la marque, les marches, les departements, les roles et la configuration.",
+    "brand": {
+      "logoRules": "Utilisation LOGO",
+      "vi": "Logo fonce sur fond ≤40% gris; logo blanc sur >40%.",
+      "sidebar": "Barre laterale (sombre)",
+      "headerLogin": "En-tete / Connexion (clair)",
+      "brandColors": "Couleurs",
+      "typography": "Typographie",
+      "en": "Anglais",
+      "zh": "Chinois"
+    },
+    "market": {
+      "code": "Code marche",
+      "name": "Nom",
+      "flag": "Drapeau"
+    },
+    "department": {
+      "name": "Departement",
+      "headcount": "Effectif"
+    },
+    "roles": {
+      "role": "Role",
+      "accounts": "Comptes",
+      "orders": "Commandes",
+      "contracts": "Contrats",
+      "reports": "Rapports",
+      "settings": "Parametres"
+    },
+    "targets": {
+      "market": "Marche",
+      "year": "Annee",
+      "revenueTarget": "Objectif revenu (USD)",
+      "kpiTarget": "Objectif KPI (USD)",
+      "strategicTarget": "Objectif strategique (unites)"
+    },
+    "templates": {
+      "type": "Type",
+      "name": "Nom",
+      "description": "Description",
+      "fileName": "Fichier",
+      "enabled": "Actif"
+    },
+    "notifications": {
+      "email": "Notifications email",
+      "contractExpiry": "Alerte expiration contrat",
+      "orderStatus": "Changement statut commande",
+      "dailyReport": "Rappel rapport quotidien"
+    },
+    "audit": {
+      "time": "Heure",
+      "user": "Utilisateur",
+      "action": "Action",
+      "target": "Cible"
+    },
+    "account": {
+      "displayName": "Nom affiche",
+      "email": "Email",
+      "currentPassword": "Mot de passe actuel",
+      "newPassword": "Nouveau mot de passe"
+    }
+  },
+  "createMenu": {
+    "account": "Nouveau compte",
+    "contact": "Nouveau contact",
+    "opportunity": "Nouvelle opportunite",
+    "order": "Nouvelle commande",
+    "lead": "Nouveau lead",
+    "campaign": "Nouvelle campagne",
+    "activity": "Journal d'activite"
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "subtitle": "Suivi en temps reel des marches, pipeline, commandes et AR.",
+    "annualTarget": "Objectif revenu annuel",
+    "kpiRate": "Realisation KPI",
+    "pipeline": "Pipeline",
+    "monthlyWins": "Gains mensuels",
+    "fullYear": "2026",
+    "shippedCleared": "Expedie & dedouane",
+    "weightedForecast": "Prevision ponderee",
+    "ordersCount": "commandes",
+    "marketTarget": "Realisation objectifs marches",
+    "arAging": "Anciennete AR",
+    "salesFunnel": "Tunnel de vente",
+    "topOpps": "Top opportunites",
+    "oppName": "Opportunite",
+    "account": "Compte",
+    "amount": "Montant",
+    "stage": "Etape",
+    "probability": "Probabilite",
+    "retailKpi": "KPI Retail",
+    "monthlySo": "SO mensuel",
+    "strategicUnits": "Unites strategiques",
+    "netNewStores": "Nouveaux magasins",
+    "sellThrough": "Sell-through",
+    "recentOrders": "Commandes recentes",
+    "orderNo": "No commande",
+    "status": "Statut",
+    "countUnit": "",
+    "accountPool": "Pool opportunites comptes",
+    "accountPoolDesc": "Resume des opportunites, ressources et prochaines actions.",
+    "peoplePerformance": "Performance equipe",
+    "salesBehavior": "Comportement vente",
+    "productOrders": "Produits & commandes",
+    "recentWins": "Gains recents",
+    "contact": "Contact",
+    "calls": "Appels",
+    "visits": "Visites",
+    "trials": "Essais",
+    "ytdRevenue": "Revenu YTD",
+    "achievement": "Realisation",
+    "ytdOrders": "Commandes YTD",
+    "productName": "Produit",
+    "soldUnits": "Unites vendues",
+    "ordersQty": "Qt commandes",
+    "activeCustomers": "Clients actifs",
+    "overallSales": "Resultat des ventes",
+    "coreKpi": "KPI core expedie & dedouane",
+    "kpiTag": "KPI",
+    "shippedYtd": "YTD expedie & dedouane",
+    "target": "Objectif",
+    "gapToTarget": "Ecart objectif",
+    "gapSub": "Ecart objectif annuel",
+    "uncollected": "Non recouvre",
+    "uncollectedSub": "Expedie non recouvre",
+    "collected": "Recouvre",
+    "collectedSub": "Expedie recouvre",
+    "totalWon": "Total gagne",
+    "winRate": "Taux de gain",
+    "openOpps": "Opps ouverts",
+    "pendingOrders": "Commandes en attente",
+    "contractExpiry": "Expiration contrats (90j)",
+    "contractOk": "Aucun contrat expire dans 90 jours.",
+    "weightedFunnel": "Tunnel pondere",
+    "stageProspect": "Prospection",
+    "stageQualify": "Qualification",
+    "stageProposal": "Proposition",
+    "stageNegotiate": "Negociation",
+    "stageClosed": "Gagne",
+    "caseStudy": "Etude de cas",
+    "caseStudies": "Etudes de cas",
+    "ytdSo": "SO YTD",
+    "soUnits": "SO",
+    "netNew": "Net nouveaux"
+  },
+  "pipeline": {
+    "title": "Pipeline",
+    "subtitle": "Vue kanban de toutes les opportunites actives.",
+    "newOpp": "Nouvelle opportunite"
+  },
+  "campaigns": {
+    "title": "Campagnes",
+    "subtitle": "Suivi des depenses, conversions et ROI.",
+    "create": "Nouvelle campagne",
+    "searchPlaceholder": "Rechercher par nom ou code...",
+    "totalBudget": "Budget total",
+    "totalSpend": "Depense",
+    "totalLeads": "Leads total",
+    "converted": "Convertis",
+    "pipeline": "Pipeline",
+    "code": "Code",
+    "name": "Campagne",
+    "type": "Type",
+    "status": "Statut",
+    "budget": "Budget",
+    "leads": "Leads",
+    "convertedCount": "Convertis",
+    "oppValue": "Valeur opportunites",
+    "roi": "ROI",
+    "owner": "Responsable",
+    "action": "Actions",
+    "detail": "Detail",
+    "leadsTitle": "Leads campagne",
+    "contactName": "Nom",
+    "company": "Societe",
+    "estValue": "Valeur est."
+  },
+  "leads": {
+    "title": "Leads",
+    "subtitle": "Gerer les leads des campagnes, recommandations, etc.",
+    "create": "Nouveau lead",
+    "searchPlaceholder": "Rechercher par nom ou societe...",
+    "newLeads": "Nouveaux",
+    "contacted": "Contactes",
+    "qualified": "Qualifies",
+    "converted": "Convertis",
+    "name": "Nom",
+    "jobTitle": "Fonction",
+    "company": "Societe",
+    "source": "Source",
+    "campaign": "Campagne",
+    "rating": "Notation",
+    "estValue": "Valeur est.",
+    "status": "Statut",
+    "owner": "Responsable",
+    "lastContact": "Dernier contact",
+    "convert": "Convertir",
+    "convertTitle": "Convertir lead en compte/opportunite",
+    "accountCode": "Code compte",
+    "accountName": "Nom compte",
+    "market": "Marche",
+    "productLine": "Ligne produit",
+    "oppStage": "Etape opportunite"
+  },
+  "accountDetail": {
+    "back": "Retour aux comptes",
+    "edit": "Modifier compte",
+    "newOpp": "Nouvelle opportunite",
+    "cumulativeSales": "Ventes cumulees",
+    "cumulativeReceipts": "Recettes cumulees",
+    "receivable": "A recevoir",
+    "activeOpps": "Opps actives",
+    "won": "Gagnees",
+    "creditLimit": "Limite credit",
+    "tabs": {
+      "overview": "Vue ensemble",
+      "contacts": "Contacts",
+      "opportunities": "Opportunites",
+      "contracts": "Contrats",
+      "orders": "Commandes",
+      "payments": "Paiements",
+      "activities": "Activites",
+      "campaigns": "Campagnes",
+      "documents": "Documents"
+    }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "subtitle": "Gerer les contacts, fonctions et coordonnees.",
+    "create": "Nouveau contact",
+    "searchPlaceholder": "Rechercher par nom ou societe...",
+    "name": "Nom",
+    "jobTitle": "Fonction",
+    "account": "Compte",
+    "email": "Email",
+    "phone": "Telephone",
+    "primary": "Principal",
+    "yes": "Oui",
+    "no": "-",
+    "detail": "Detail contact"
+  },
+  "contracts": {
+    "title": "Contrats",
+    "subtitle": "Gerer le cycle de vie des contrats, alertes et recouvrement.",
+    "create": "Nouveau contrat",
+    "alert": "Alerte: {count} contrats expirent dans 30 jours",
+    "code": "No contrat",
+    "account": "Compte",
+    "name": "Nom",
+    "type": "Type",
+    "status": "Statut",
+    "entity": "Entite",
+    "amount": "Montant",
+    "collectionProgress": "Progression recouvrement",
+    "paymentStatus": "Statut paiement",
+    "expiry": "Expiration",
+    "detail": "Detail contrat"
+  },
+  "payments": {
+    "title": "Paiements",
+    "subtitle": "Enregistrer et confirmer les paiements clients.",
+    "create": "Enregistrer paiement",
+    "receivedAt": "Recu le",
+    "account": "Compte",
+    "order": "Commande",
+    "amount": "Montant",
+    "currency": "Devise",
+    "registrar": "Enregistre par",
+    "method": "Methode",
+    "status": "Statut",
+    "detail": "Detail paiement"
+  },
+  "products": {
+    "title": "Produits",
+    "subtitle": "Gerer SKU, ligne produit, specs, prix et stock.",
+    "create": "Nouveau produit",
+    "searchPlaceholder": "Rechercher SKU ou nom...",
+    "sku": "SKU",
+    "name": "Nom",
+    "category": "Categorie",
+    "productLine": "Ligne produit",
+    "spec": "Spec",
+    "unitPrice": "Prix unitaire",
+    "leadTime": "Delai",
+    "stock": "Stock",
+    "status": "Statut"
+  },
+  "workqueue": {
+    "title": "Ma file de travail",
+    "role": "Votre role",
+    "subtitle": "Centralisez les taches et approbations.",
+    "cards": {
+      "orderOps": "Ops commandes",
+      "supply": "Supply chain",
+      "finance": "Finance"
+    },
+    "sections": {
+      "orderOps": "Operations commandes",
+      "orderOpsDesc": "Commandes necessitant PI ou suivi PO.",
+      "supply": "Supply chain",
+      "supplyDesc": "Commandes en attente expedition ou dedouanement.",
+      "paymentVerification": "Finance - Verification paiement",
+      "paymentVerificationDesc": "Paiements en attente confirmation finance.",
+      "collectionTracking": "Finance - Suivi recouvrement",
+      "collectionTrackingDesc": "Creances echeant dans 14 jours ou en retard."
+    },
+    "table": {
+      "orderNo": "No commande",
+      "account": "Compte",
+      "subtotal": "Sous-total",
+      "status": "Statut",
+      "action": "Action",
+      "createdAt": "Cree le",
+      "receivedAt": "Recu le",
+      "amount": "Montant",
+      "financeConfirm": "Confirm finance",
+      "dueDate": "Echeance",
+      "planAmount": "Planifie",
+      "open": "Ouvrir",
+      "noData": "Aucun element en attente."
+    }
+  },
+  "pool": {
+    "title": "Pool",
+    "subtitle": "Comptes sans responsable, disponibles a reclamer.",
+    "assign": "Mattribuer",
+    "claim": "Reclamer",
+    "code": "Code compte",
+    "name": "Nom compte",
+    "market": "Marche",
+    "type": "Type",
+    "status": "Statut",
+    "target": "Objectif annuel",
+    "action": "Actions"
+  },
+  "endUsers": {
+    "title": "Utilisateurs finaux",
+    "subtitle": "Suivi des installations et interventions utilisateurs finaux.",
+    "create": "Nouvel utilisateur final",
+    "searchPlaceholder": "Rechercher...",
+    "name": "Nom",
+    "account": "Compte",
+    "location": "Emplacement",
+    "installs": "Installations",
+    "installDate": "Date d'installation",
+    "lastService": "Dernier service"
+  },
+  "team": {
+    "title": "Equipe",
+    "subtitle": "Gerer les membres, departements, roles et statuts.",
+    "invite": "Inviter membre",
+    "searchPlaceholder": "Rechercher par nom ou email...",
+    "name": "Nom",
+    "email": "Email",
+    "department": "Departement",
+    "role": "Role",
+    "market": "Marche",
+    "status": "Statut",
+    "active": "Actif",
+    "inactive": "Inactif"
+  },
+  "countryReports": {
+    "title": "Rapports pays",
+    "subtitle": "Suivi objectifs annuels, KPI et recettes par marche.",
+    "region": "Region",
+    "annualTask": "Tache annuelle",
+    "monthlyTarget": "Objectif mensuel",
+    "kpi": "KPI",
+    "actualReceipt": "Recette reelle",
+    "progress": "Progression"
+  },
+  "executiveReport": {
+    "title": "Rapport executif",
+    "subtitle": "Resume executif: performance, marches et opportunites.",
+    "overall": "Performance globale",
+    "marketProgress": "Progression marches",
+    "topOpps": "Top opportunites",
+    "category": "Categorie / Strategique",
+    "annualTarget": "Objectif revenu annuel",
+    "ytdRevenue": "Revenu YTD",
+    "achievement": "Realisation",
+    "ytdOrders": "Commandes YTD",
+    "account": "Compte",
+    "amount": "Montant",
+    "stage": "Etape",
+    "probability": "Probabilite",
+    "categoryName": "Categorie",
+    "units": "Unites"
+  },
+  "retail": {
+    "title": "Retail Ops",
+    "subtitle": "Suivi SO, unites strategiques, nouveaux magasins et sell-through.",
+    "entry": "Saisir donnees mensuelles",
+    "ytdSo": "SO YTD",
+    "strategic": "Unites strategiques",
+    "netNew": "Nouveaux magasins",
+    "sellThrough": "Sell-through moy.",
+    "monthlyData": "Donnees mensuelles retail",
+    "month": "Mois",
+    "overseasSo": "SO export",
+    "strategicUnits": "Unites strategiques",
+    "netNewStores": "Nouveaux magasins",
+    "activities": "Activites",
+    "notes": "Notes"
+  },
+  "projectUpdates": {
+    "title": "Suivi projet",
+    "subtitle": "Suivi des jalons: etude, installation et reception.",
+    "log": "Enregistrer",
+    "project": "Projet",
+    "account": "Compte",
+    "stage": "Etape",
+    "installed": "Installe",
+    "recorder": "Enregistre par",
+    "date": "Date",
+    "notes": "Notes"
+  },
+  "importPage": {
+    "title": "Importation",
+    "subtitle": "Importation en masse via CSV / Excel.",
+    "upload": "Uploader CSV / Excel",
+    "drag": "Cliquez ou glissez des fichiers ici",
+    "hint": "Supporte .csv / .xlsx, max 5000 lignes",
+    "start": "Demarrer import"
+  },
+  "invite": {
+    "title": "Inviter",
+    "subtitle": "Inviter un nouveau membre et lui assigner role et marche.",
+    "email": "Email",
+    "name": "Nom",
+    "role": "Role",
+    "market": "Marche",
+    "send": "Envoyer invitation"
+  },
+  "attendance": {
+    "title": "Pointage",
+    "subtitle": "Pointage quotidien et visites terrain.",
+    "status": "Statut actuel",
+    "checkedIn": "Pointe",
+    "notCheckedIn": "Non pointe",
+    "location": "Lieu",
+    "note": "Note",
+    "placeholder": "Note si visite client...",
+    "punchIn": "Pointer entree",
+    "punchOut": "Pointer sortie",
+    "records": "Records du jour",
+    "type": "Type",
+    "time": "Heure"
+  },
+  "logActivity": {
+    "title": "Activite",
+    "subtitle": "Enregistrer chaque interaction avec comptes et opportunites.",
+    "account": "Compte",
+    "opportunity": "Opportunite",
+    "type": "Type",
+    "content": "Contenu",
+    "reminder": "Rappel suivant",
+    "save": "Enregistrer",
+    "recentRecords": "Activites recentes",
+    "accountPlaceholder": "Choisir compte",
+    "oppPlaceholder": "Choisir opportunite",
+    "contentPlaceholder": "Saisir details..."
+  },
+  "invoices": {
+    "title": "Factures",
+    "subtitle": "Gerer demandes, verification et emission de factures.",
+    "pendingReview": "En attente verification",
+    "pendingIssue": "En attente emission",
+    "issuedThisMonth": "Emis ce mois",
+    "no": "No facture",
+    "account": "Compte",
+    "order": "Commande",
+    "amount": "Montant",
+    "status": "Statut",
+    "applicant": "Demandeur",
+    "createdAt": "Cree le",
+    "invoiceTitle": "Titre facture",
+    "taxId": "ID fiscal",
+    "statusPendingReview": "En attente verification",
+    "statusPendingIssue": "En attente emission",
+    "statusIssued": "Emis",
+    "statusRejected": "Rejete"
+  }
+}

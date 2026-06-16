@@ -1,0 +1,166 @@
+GLOBAL SALES CRM
+主页
+今日
+数据看板
+待办工作台
+2
+考勤打卡
+营销
+市场活动
+销售线索
+🛍 零售业务
+零售运营
+客户 & 联系人
+客户列表
+2
+公海
+联系人
+终端用户
+销售流程
+销售漏斗
+3
+记录跟进
+项目进度
+合同 & 订单
+合同
+订单中心
+开票申请
+支付登记
+目录
+产品目录
+报表分析
+国家报告
+高管报告
+管理
+📥 数据导入
+邀请用户
+团队
+设置
+理员
+系统管理员
+系统管理员
+中文
+退出登录
+销售漏斗
++ 新建
+系统管理员
+全部
+🇭🇰HK
+🇮🇩ID
+🇲🇴MO
+🇲🇾MY
+🇸🇬SG
+🇹🇭TH
+🇺🇸US
+新建商机
+初步接触
+3
+$230k
+Raffles Hospitality
+SG · RAFF
+fnb · distributor
+$120k
+杨文
+Bangkok Mall Group
+TH · BANG
+public · direct
+$65k
+世宏
+HK Hospitality Corp
+无跟进
+HK · HKHO
+residential · rental
+$45k
+杨森
+需求确认
+3
+$515k
+Marina Bay Sands
+SG · MARI
+fnb · direct
+$240k
+杨文
+Soekarno Retail Distribution
+ID · SOEK
+residential · distributor
+$95k
+世宏
+Genting Group
+无跟进
+MY · GENT
+industrial · direct
+$180k
+杨文
+方案报价
+4
+$965k
+MGM Macau
+MO · MGMM
+fnb · direct
+$320k
+杨森
+Westwind F&B
+US · WEST
+fnb · distributor
+$410k
+灵顿
+Bangkok Mall Group
+无跟进
+TH · BANG
+industrial · rental
+$150k
+世宏
+Soekarno Retail Distribution
+ID · SOEK
+public · direct
+$85k
+世宏
+谈判中
+3
+$1.03M
+Raffles Hospitality
+SG · RAFF
+fnb · direct
+$280k
+杨文
+HK Hospitality Corp
+HK · HKHO
+industrial · direct
+$510k
+杨森
+Marina Bay Sands
+SG · MARI
+fnb · direct
+$240k
+杨文
+已赢单 ✓
+4
+$1.54M
+首次赢单
+· 3
+$1.36M
+Raffles Hospitality
+SG · RAFF
+fnb · direct
+$460k
+杨文
+Genting Group
+MY · GENT
+residential · distributor
+$220k
+杨文
+Westwind F&B
+US · WEST
+fnb · direct
+$680k
+灵顿
+翻单（老客户）
+· 1
+$180k
+Raffles Hospitality
+翻单
+SG · RAFF
+fnb · direct
+$180k
+杨文
+通知中心

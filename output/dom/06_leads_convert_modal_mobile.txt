@@ -1,0 +1,177 @@
+GLOBAL SALES CRM
+主页
+今日
+数据看板
+待办工作台
+2
+考勤打卡
+营销
+市场活动
+销售线索
+🛍 零售业务
+零售运营
+客户 & 联系人
+客户列表
+2
+公海
+联系人
+终端用户
+销售流程
+销售漏斗
+3
+记录跟进
+项目进度
+合同 & 订单
+合同
+订单中心
+开票申请
+支付登记
+目录
+产品目录
+报表分析
+国家报告
+高管报告
+管理
+📥 数据导入
+邀请用户
+团队
+设置
+理员
+系统管理员
+系统管理员
+中文
+退出登录
+销售线索
++ 新建
+系统管理员
+销售线索
+正式客户前的初筛阶段。合格线索可转化为客户 + 商机。
++ 新建线索
+新线索
+2
+已确认意向
+1
+已转化
+1
+在途线索价值
+$670,000
+全部状态
+姓名	公司	来源	评级	预估金额	状态	负责人	最近联系	操作
+
+姓名
+	
+公司
+	
+来源
+	
+评级
+	
+预估金额
+	
+状态
+	
+负责人
+	
+最近联系
+	
+操作
+
+
+Faisal Al-Rashid
+Head of Procurement
+	
+Emirates Palace Hospitality Group
+阿联酋
+	
+市场活动
+CMP-2026-Q1-DXB
+	
+	$280,000	已确认意向	基思·哈灵顿	3 天前	
+转化
+
+
+林伟明
+F&B Procurement Director
+	
+Marina Bay Sands
+新加坡
+	
+市场活动
+CMP-2026-Q2-LINKEDIN
+	
+	$180,000	已联系	杨文	10 天前	
+转化
+
+
+陈慧珊
+Director of Facilities
+	
+Bangkok International Hospital
+泰国
+	
+市场活动
+CMP-2026-Q2-WEBINAR
+	
+	$120,000	新线索	刘世宏	—	
+转化
+
+
+James Lee
+Operations VP
+	
+Raffles Hospitality (initial outreach)
+新加坡
+	
+线下活动
+CMP-2026-Q1-DXB
+	
+	$460,000	已转化	杨文	3 个月前	
+查看客户
+
+
+Andrea Wijaya
+Procurement Manager
+	
+PT Aerowisata Hotels
+印尼
+	
+合作伙伴
+CMP-2026-Q2-REFERRAL
+	
+	$90,000	已联系	刘世宏	7 天前	
+转化
+
+
+Sophie Tan
+Sustainability Lead
+	
+Genting Highlands Resort
+马来西亚
+	
+官网咨询
+	
+	—	新线索	刘世宏	—	
+转化
+
+
+Mike Johnson
+Student Researcher
+	
+University of Sydney
+澳大利亚
+	
+官网咨询
+	
+	—	不符合	基思·哈灵顿	15 天前	
+转化 Emirates Palace Hospitality Group
+将创建新客户档案、联系人和商机。原线索记录保留作为历史参考。
+客户简称（4 字母）
+AHT 市场
+产品线
+餐饮
+成交类型
+直销
+起始阶段
+初步接触 — 初步接触
+取 消
+确认转化

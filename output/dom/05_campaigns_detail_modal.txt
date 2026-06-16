@@ -1,0 +1,125 @@
+GLOBAL SALES CRM
+主页
+今日
+数据看板
+待办工作台
+2
+考勤打卡
+营销
+市场活动
+销售线索
+🛍 零售业务
+零售运营
+客户 & 联系人
+客户列表
+2
+公海
+联系人
+终端用户
+销售流程
+销售漏斗
+3
+记录跟进
+项目进度
+合同 & 订单
+合同
+订单中心
+开票申请
+支付登记
+目录
+产品目录
+报表分析
+国家报告
+高管报告
+管理
+📥 数据导入
+邀请用户
+团队
+设置
+理员
+系统管理员
+系统管理员
+中文
+退出登录
+市场活动
++ 新建
+系统管理员
+6月16日 周二
+市场活动
+通过营销活动获取销售线索。跟踪预算、ROI 和转化为商机的情况。
++ 新建市场活动
+进行中的活动
+2
+获取线索数
+52
+转化为客户
+10
+影响商机额
+$1,930,000
+编号	活动名称	类型	状态	预算	线索数	已转化	商机额	ROI
+
+编号
+	
+活动名称
+	
+类型
+	
+状态
+	
+预算
+	
+线索数
+	
+已转化
+	
+商机额
+	
+ROI
+
+CMP-2026-Q1-DXB	
+GulfHost Dubai 2026 — Tradeshow
+2026-03-13 → 2026-03-16
+	展会	已完成	
+$65,000
+	18	4	$950,000	15.4×
+CMP-2026-Q2-LINKEDIN	
+LinkedIn ABM — SEA Hospitality CIOs
+2026-05-02 → 2026-07-01
+	付费广告	进行中	
+$18,000
+	9	1	$180,000	15.8×
+CMP-2026-Q2-WEBINAR	
+Webinar: Water Quality Standards for Hospital Chains
+2026-05-19 → 2026-05-19
+	网络研讨会	已完成	
+$4,500
+	11	2	$320,000	77.7×
+CMP-2026-Q2-REFERRAL	
+Q2 Distributor Referral Program
+2026-04-17 → 2026-07-16
+	转介绍	进行中	
+$25,000
+	14	3	$480,000	38.4×
+展会
+CMP-2026-Q1-DXB · GulfHost Dubai 2026 — Tradeshow
+获取线索数
+18
+转化为客户
+4
+影响商机额
+$950,000
+ROI
+15.4×
+活动目标
+2026-03-13 → 2026-03-16
+12+ qualified leads from GCC F&B + Hospitality buyers
+BoothSpeaking slotSponsored cocktail hour
+负责人: 陈方舟
+预算 / 实际花费
+$61,800 / $65,000
+95%
+Premium booth in F&B equipment hall. 3-person team rotation.
+获取的线索 (2)
+姓名	公司	状态	预估金额
+Faisal Al-Rashid · Head of Procurement	Emirates Palace Hospitality Group	已确认意向	$280,000
+James Lee · Operations VP	Raffles Hospitality (initial outreach)	已转化	$460,000

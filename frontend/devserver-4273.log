@@ -1,0 +1,1130 @@
+
+> frontend@0.0.0 dev
+> vite --host 127.0.0.1 --port 4273
+
+
+  [32m[1mVITE[22m v8.0.16[39m  [2mready in [0m[1m165[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m4273[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m15:56:26[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Space] `direction` is deprecated. Please use `orientation` instead.
+[2m15:56:29[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: List] The `List` component is deprecated. And will be removed in next major version.
+[2m15:56:29[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mEach child in a list should have a unique "key" prop.
+
+Check the render method of `tbody`. It was passed a child from Body. See https://react.dev/link/warning-keys for more information.
+[2m15:56:29[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Timeline] `items.children` is deprecated. Please use `items.content` instead.
+[2m16:04:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/layouts/AppLayout.tsx[22m
+[2m16:04:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CrmDashboardPage.tsx[22m
+[2m16:04:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m16:07:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/layouts/AppLayout.tsx[22m
+[2m16:07:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CrmDashboardPage.tsx[22m
+[2m16:11:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/mocks/crmData.ts[22m
+[2m16:11:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/mocks/crmData.ts[22m
+[2m16:12:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/layouts/AppLayout.tsx[22m
+[2m16:12:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/layouts/AppLayout.tsx[22m
+[2m16:12:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CrmDashboardPage.tsx[22m
+[2m16:14:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CrmDashboardPage.tsx[22m
+[2m16:15:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m16:17:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m16:20:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CrmDashboardPage.tsx[22m
+[2m16:22:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LoginPage.tsx[22m
+[2m16:23:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LoginPage.tsx[22m
+[2m16:26:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ new dependencies optimized: [33mzustand[32m[39m
+[2m16:27:32[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Space] `direction` is deprecated. Please use `orientation` instead.
+[2m16:27:34[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m16:28:26[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m16:28:35[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Space] `direction` is deprecated. Please use `orientation` instead.
+[2m16:35:49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m16:37:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m16:37:16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/mocks/crmData.ts[22m
+[2m16:38:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/mocks/crmData.ts[22m
+[2m16:38:54[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CrmDashboardPage.tsx[22m
+[2m16:41:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CrmDashboardPage.tsx[22m
+[2m16:42:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/layouts/AppLayout.tsx[22m
+[2m16:43:25[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/layouts/AppLayout.tsx[22m
+[2m16:43:45[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/AngelCrmApp.tsx[22m
+[2m16:44:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CrmDashboardPage.tsx[22m
+[2m16:44:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CrmDashboardPage.tsx[22m
+[2m16:45:43[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m16:46:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CrmDashboardPage.tsx[22m
+[2m16:46:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LoginPage.tsx[22m
+[2m16:47:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LoginPage.tsx[22m
+[2m16:53:39[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Space] `direction` is deprecated. Please use `orientation` instead.
+[2m16:53:42[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m16:54:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LoginPage.tsx[22m
+[2m16:54:33[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/pages/LoginPage.tsx (resolved id: D:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/pages/LoginPage.tsx) in D:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx. Does the file exist?
+[2m16:54:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LoginPage.tsx[22m
+[2m16:54:55[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Card] `bordered` is deprecated. Please use `variant` instead.
+[2m16:54:57[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Card] `bordered` is deprecated. Please use `variant` instead.
+[2m16:55:01[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Card] `bordered` is deprecated. Please use `variant` instead.
+[2m16:55:01[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Card] `bordered` is deprecated. Please use `variant` instead.
+[2m16:55:01[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Card] `bordered` is deprecated. Please use `variant` instead.
+[2m16:55:01[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Card] `bordered` is deprecated. Please use `variant` instead.
+[2m16:55:10[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m16:55:31[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Drawer] `width` is deprecated. Please use `size` instead.
+[2m16:55:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m16:56:21[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Card] `bordered` is deprecated. Please use `variant` instead.
+[2m16:57:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LoginPage.tsx[22m
+[2m16:57:15[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/pages/LoginPage.tsx (resolved id: D:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/pages/LoginPage.tsx) in D:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx. Does the file exist?
+[2m16:59:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m16:59:25[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/pages/LoginPage.tsx (resolved id: D:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/pages/LoginPage.tsx) in D:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx. Does the file exist?
+[2m16:59:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LoginPage.tsx[22m
+[2m16:59:44[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m16:59:45[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Card] `bordered` is deprecated. Please use `variant` instead.
+[2m17:00:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/layouts/AppLayout.tsx[22m
+[2m17:00:22[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Card] `bordered` is deprecated. Please use `variant` instead.
+[2m17:00:22[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m17:00:29[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m17:00:40[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m17:02:28[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Drawer] `width` is deprecated. Please use `size` instead.
+[2m17:02:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/mocks/crmData.ts[22m
+[2m17:02:57[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m17:07:26[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CrmDashboardPage.tsx[22m
+[2m17:07:27[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m17:08:25[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m17:11:27[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m17:40:26[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m17:40:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+[2m17:40:39[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m17:41:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/layouts/AppLayout.tsx[22m
+[2m17:41:19[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m17:42:45[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m17:43:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m17:43:48[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m17:43:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/AngelCrmApp.tsx[22m
+[2m17:43:59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../pages/AccountDetailPage" from "src/app/AngelCrmApp.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mD:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx[39m:6:34
+[33m  3  |  import { LoginPage } from "../pages/LoginPage";
+  4  |  import { CrmDashboardPage } from "../pages/CrmDashboardPage";
+  5  |  import { AccountDetailPage } from "../pages/AccountDetailPage";
+     |                                     ^
+  6  |  var _jsxFileName = "D:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx";
+  7  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";[39m
+[2m17:44:00[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../pages/AccountDetailPage" from "src/app/AngelCrmApp.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mD:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx[39m:6:34
+[33m  3  |  import { LoginPage } from "../pages/LoginPage";
+  4  |  import { CrmDashboardPage } from "../pages/CrmDashboardPage";
+  5  |  import { AccountDetailPage } from "../pages/AccountDetailPage";
+     |                                     ^
+  6  |  var _jsxFileName = "D:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx";
+  7  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";[39m
+      at TransformPluginContext._formatLog (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:30602:39)
+      at TransformPluginContext.error (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:30599:14)
+      at normalizeUrl (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:27842:18)
+      at async file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:27905:30
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:27873:4)
+      at async EnvironmentPluginContainer.transform (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at async loadAndTransform (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:24646:26)
+      at async viteTransformMiddleware (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:24440:20)
+[2m17:47:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/mocks/crmData.ts[22m
+[2m17:47:27[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../pages/AccountDetailPage" from "src/app/AngelCrmApp.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mD:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx[39m:6:34
+[33m  3  |  import { LoginPage } from "../pages/LoginPage";
+  4  |  import { CrmDashboardPage } from "../pages/CrmDashboardPage";
+  5  |  import { AccountDetailPage } from "../pages/AccountDetailPage";
+     |                                     ^
+  6  |  var _jsxFileName = "D:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx";
+  7  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";[39m
+[2m17:47:27[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../pages/AccountDetailPage" from "src/app/AngelCrmApp.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mD:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx[39m:6:34
+[33m  3  |  import { LoginPage } from "../pages/LoginPage";
+  4  |  import { CrmDashboardPage } from "../pages/CrmDashboardPage";
+  5  |  import { AccountDetailPage } from "../pages/AccountDetailPage";
+     |                                     ^
+  6  |  var _jsxFileName = "D:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx";
+  7  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";[39m
+      at TransformPluginContext._formatLog (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:30602:39)
+      at TransformPluginContext.error (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:30599:14)
+      at normalizeUrl (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:27842:18)
+      at async file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:27905:30
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:27873:4)
+      at async EnvironmentPluginContainer.transform (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at async loadAndTransform (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:24646:26)
+      at async viteTransformMiddleware (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:24440:20)
+[2m17:48:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/TodayPage.tsx[22m
+[2m17:48:32[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../pages/AccountDetailPage" from "src/app/AngelCrmApp.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mD:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx[39m:6:34
+[33m  3  |  import { LoginPage } from "../pages/LoginPage";
+  4  |  import { CrmDashboardPage } from "../pages/CrmDashboardPage";
+  5  |  import { AccountDetailPage } from "../pages/AccountDetailPage";
+     |                                     ^
+  6  |  var _jsxFileName = "D:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx";
+  7  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";[39m
+[2m17:48:32[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../pages/AccountDetailPage" from "src/app/AngelCrmApp.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mD:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx[39m:6:34
+[33m  3  |  import { LoginPage } from "../pages/LoginPage";
+  4  |  import { CrmDashboardPage } from "../pages/CrmDashboardPage";
+  5  |  import { AccountDetailPage } from "../pages/AccountDetailPage";
+     |                                     ^
+  6  |  var _jsxFileName = "D:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx";
+  7  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";[39m
+      at TransformPluginContext._formatLog (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:30602:39)
+      at TransformPluginContext.error (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:30599:14)
+      at normalizeUrl (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:27842:18)
+      at async file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:27905:30
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:27873:4)
+      at async EnvironmentPluginContainer.transform (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at async loadAndTransform (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:24646:26)
+      at async viteTransformMiddleware (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:24440:20)
+[2m17:49:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/DashboardPage.tsx[22m
+[2m17:49:12[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../pages/AccountDetailPage" from "src/app/AngelCrmApp.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mD:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx[39m:6:34
+[33m  3  |  import { LoginPage } from "../pages/LoginPage";
+  4  |  import { CrmDashboardPage } from "../pages/CrmDashboardPage";
+  5  |  import { AccountDetailPage } from "../pages/AccountDetailPage";
+     |                                     ^
+  6  |  var _jsxFileName = "D:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx";
+  7  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";[39m
+[2m17:49:12[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../pages/AccountDetailPage" from "src/app/AngelCrmApp.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mD:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx[39m:6:34
+[33m  3  |  import { LoginPage } from "../pages/LoginPage";
+  4  |  import { CrmDashboardPage } from "../pages/CrmDashboardPage";
+  5  |  import { AccountDetailPage } from "../pages/AccountDetailPage";
+     |                                     ^
+  6  |  var _jsxFileName = "D:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx";
+  7  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";[39m
+      at TransformPluginContext._formatLog (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:30602:39)
+      at TransformPluginContext.error (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:30599:14)
+      at normalizeUrl (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:27842:18)
+      at async file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:27905:30
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:27873:4)
+      at async EnvironmentPluginContainer.transform (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at async loadAndTransform (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:24646:26)
+      at async viteTransformMiddleware (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:24440:20)
+[2m17:49:54[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountsPage.tsx[22m
+[2m17:49:54[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../pages/AccountDetailPage" from "src/app/AngelCrmApp.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mD:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx[39m:6:34
+[33m  3  |  import { LoginPage } from "../pages/LoginPage";
+  4  |  import { CrmDashboardPage } from "../pages/CrmDashboardPage";
+  5  |  import { AccountDetailPage } from "../pages/AccountDetailPage";
+     |                                     ^
+  6  |  var _jsxFileName = "D:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx";
+  7  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";[39m
+[2m17:49:54[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../pages/AccountDetailPage" from "src/app/AngelCrmApp.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mD:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx[39m:6:34
+[33m  3  |  import { LoginPage } from "../pages/LoginPage";
+  4  |  import { CrmDashboardPage } from "../pages/CrmDashboardPage";
+  5  |  import { AccountDetailPage } from "../pages/AccountDetailPage";
+     |                                     ^
+  6  |  var _jsxFileName = "D:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/app/AngelCrmApp.tsx";
+  7  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";[39m
+      at TransformPluginContext._formatLog (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:30602:39)
+      at TransformPluginContext.error (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:30599:14)
+      at normalizeUrl (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:27842:18)
+      at async file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:27905:30
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:27873:4)
+      at async EnvironmentPluginContainer.transform (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at async loadAndTransform (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:24646:26)
+      at async viteTransformMiddleware (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:24440:20)
+[2m17:51:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountDetailPage.tsx[22m
+[2m17:51:03[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mSyntaxError[22m: The requested module '/src/mocks/crmData.ts?t=1781603247077' does not provide an export named 'accountDetail'
+[39m
+[2m17:58:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CrmDashboardPage.tsx[22m
+[2m17:58:34[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./PlaceholderPage" from "src/pages/CrmDashboardPage.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mD:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/pages/CrmDashboardPage.tsx[39m:27:32
+[33m  24 |  import { ImportPage } from "./ImportPage";
+  25 |  import { InvitePage } from "./InvitePage";
+  26 |  import { PlaceholderPage } from "./PlaceholderPage";
+     |                                   ^
+  27 |  var _jsxFileName = "D:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/pages/CrmDashboardPage.tsx";
+  28 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";[39m
+[2m17:58:34[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./PlaceholderPage" from "src/pages/CrmDashboardPage.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mD:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/pages/CrmDashboardPage.tsx[39m:27:32
+[33m  24 |  import { ImportPage } from "./ImportPage";
+  25 |  import { InvitePage } from "./InvitePage";
+  26 |  import { PlaceholderPage } from "./PlaceholderPage";
+     |                                   ^
+  27 |  var _jsxFileName = "D:/1、工作文件/25.自研项目/10.海外CRM/frontend/src/pages/CrmDashboardPage.tsx";
+  28 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";[39m
+      at TransformPluginContext._formatLog (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:30602:39)
+      at TransformPluginContext.error (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:30599:14)
+      at normalizeUrl (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:27842:18)
+      at async file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:27905:30
+      at async Promise.all (index 25)
+      at async TransformPluginContext.transform (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:27873:4)
+      at async EnvironmentPluginContainer.transform (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at async loadAndTransform (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:24646:26)
+      at async viteTransformMiddleware (file:///D:/1%E3%80%81%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/25.%E8%87%AA%E7%A0%94%E9%A1%B9%E7%9B%AE/10.%E6%B5%B7%E5%A4%96CRM/frontend/node_modules/vite/dist/node/chunks/node.js:24440:20)
+[2m17:58:42[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/PlaceholderPage.tsx[22m
+[2m17:58:42[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m17:59:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LoginPage.tsx[22m
+[2m17:59:12[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m17:59:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/mocks/crmData.ts[22m
+[2m17:59:29[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m17:59:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountDetailPage.tsx[22m
+[2m17:59:37[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m17:59:49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountDetailPage.tsx[22m
+[2m17:59:50[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m17:59:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CampaignsPage.tsx[22m
+[2m17:59:59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:00:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ContactsPage.tsx[22m
+[2m18:00:03[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:00:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ContractsPage.tsx[22m
+[2m18:00:07[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:00:11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CountryReportsPage.tsx[22m
+[2m18:00:11[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: Typography is not defined
+[39m > src/pages/CountryReportsPage.tsx:5:17
+    3  |  import { annualTargets, markets } from '../mocks/crmData'
+    4  |  
+    5  |  const { Text } = Typography
+       |                   ^
+    6  |  
+    7  |  const periods = ['年度', 'Q2', '6月', '本周']
+
+[2m18:00:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/DashboardPage.tsx[22m
+[2m18:00:40[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: Typography is not defined
+[39m > src/pages/CountryReportsPage.tsx:5:17
+    3  |  import { annualTargets, markets } from '../mocks/crmData'
+    4  |  
+    5  |  const { Text } = Typography
+       |                   ^
+    6  |  
+    7  |  const periods = ['年度', 'Q2', '6月', '本周']
+
+[2m18:00:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/EndUsersPage.tsx[22m
+[2m18:00:45[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: Typography is not defined
+[39m > src/pages/CountryReportsPage.tsx:5:17
+    3  |  import { annualTargets, markets } from '../mocks/crmData'
+    4  |  
+    5  |  const { Text } = Typography
+       |                   ^
+    6  |  
+    7  |  const periods = ['年度', 'Q2', '6月', '本周']
+
+[2m18:00:49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ExecutiveReportPage.tsx[22m
+[2m18:00:49[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: Typography is not defined
+[39m > src/pages/CountryReportsPage.tsx:5:17
+    3  |  import { annualTargets, markets } from '../mocks/crmData'
+    4  |  
+    5  |  const { Text } = Typography
+       |                   ^
+    6  |  
+    7  |  const periods = ['年度', 'Q2', '6月', '本周']
+
+[2m18:00:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/InvitePage.tsx[22m
+[2m18:00:53[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: Typography is not defined
+[39m > src/pages/CountryReportsPage.tsx:5:17
+    3  |  import { annualTargets, markets } from '../mocks/crmData'
+    4  |  
+    5  |  const { Text } = Typography
+       |                   ^
+    6  |  
+    7  |  const periods = ['年度', 'Q2', '6月', '本周']
+
+[2m18:01:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LeadsPage.tsx[22m
+[2m18:01:01[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: Typography is not defined
+[39m > src/pages/CountryReportsPage.tsx:5:17
+    3  |  import { annualTargets, markets } from '../mocks/crmData'
+    4  |  
+    5  |  const { Text } = Typography
+       |                   ^
+    6  |  
+    7  |  const periods = ['年度', 'Q2', '6月', '本周']
+
+[2m18:01:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LogActivityPage.tsx[22m
+[2m18:01:06[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: Typography is not defined
+[39m > src/pages/CountryReportsPage.tsx:5:17
+    3  |  import { annualTargets, markets } from '../mocks/crmData'
+    4  |  
+    5  |  const { Text } = Typography
+       |                   ^
+    6  |  
+    7  |  const periods = ['年度', 'Q2', '6月', '本周']
+
+[2m18:01:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/OrdersPage.tsx[22m
+[2m18:01:13[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: Typography is not defined
+[39m > src/pages/CountryReportsPage.tsx:5:17
+    3  |  import { annualTargets, markets } from '../mocks/crmData'
+    4  |  
+    5  |  const { Text } = Typography
+       |                   ^
+    6  |  
+    7  |  const periods = ['年度', 'Q2', '6月', '本周']
+
+[2m18:01:17[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/PaymentsPage.tsx[22m
+[2m18:01:18[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: Typography is not defined
+[39m > src/pages/CountryReportsPage.tsx:5:17
+    3  |  import { annualTargets, markets } from '../mocks/crmData'
+    4  |  
+    5  |  const { Text } = Typography
+       |                   ^
+    6  |  
+    7  |  const periods = ['年度', 'Q2', '6月', '本周']
+
+[2m18:01:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/PoolPage.tsx[22m
+[2m18:01:22[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: Typography is not defined
+[39m > src/pages/CountryReportsPage.tsx:5:17
+    3  |  import { annualTargets, markets } from '../mocks/crmData'
+    4  |  
+    5  |  const { Text } = Typography
+       |                   ^
+    6  |  
+    7  |  const periods = ['年度', 'Q2', '6月', '本周']
+
+[2m18:01:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ProductsPage.tsx[22m
+[2m18:01:27[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: Typography is not defined
+[39m > src/pages/CountryReportsPage.tsx:5:17
+    3  |  import { annualTargets, markets } from '../mocks/crmData'
+    4  |  
+    5  |  const { Text } = Typography
+       |                   ^
+    6  |  
+    7  |  const periods = ['年度', 'Q2', '6月', '本周']
+
+[2m18:01:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ProjectUpdatesPage.tsx[22m
+[2m18:01:32[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: Typography is not defined
+[39m > src/pages/CountryReportsPage.tsx:5:17
+    3  |  import { annualTargets, markets } from '../mocks/crmData'
+    4  |  
+    5  |  const { Text } = Typography
+       |                   ^
+    6  |  
+    7  |  const periods = ['年度', 'Q2', '6月', '本周']
+
+[2m18:01:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/RetailPage.tsx[22m
+[2m18:01:38[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: Typography is not defined
+[39m > src/pages/CountryReportsPage.tsx:5:17
+    3  |  import { annualTargets, markets } from '../mocks/crmData'
+    4  |  
+    5  |  const { Text } = Typography
+       |                   ^
+    6  |  
+    7  |  const periods = ['年度', 'Q2', '6月', '本周']
+
+[2m18:01:42[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/SettingsPage.tsx[22m
+[2m18:01:42[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: Typography is not defined
+[39m > src/pages/CountryReportsPage.tsx:5:17
+    3  |  import { annualTargets, markets } from '../mocks/crmData'
+    4  |  
+    5  |  const { Text } = Typography
+       |                   ^
+    6  |  
+    7  |  const periods = ['年度', 'Q2', '6月', '本周']
+
+[2m18:01:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/TeamPage.tsx[22m
+[2m18:01:48[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: Typography is not defined
+[39m > src/pages/CountryReportsPage.tsx:5:17
+    3  |  import { annualTargets, markets } from '../mocks/crmData'
+    4  |  
+    5  |  const { Text } = Typography
+       |                   ^
+    6  |  
+    7  |  const periods = ['年度', 'Q2', '6月', '本周']
+
+[2m18:01:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/TodayPage.tsx[22m
+[2m18:01:53[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: Typography is not defined
+[39m > src/pages/CountryReportsPage.tsx:5:17
+    3  |  import { annualTargets, markets } from '../mocks/crmData'
+    4  |  
+    5  |  const { Text } = Typography
+       |                   ^
+    6  |  
+    7  |  const periods = ['年度', 'Q2', '6月', '本周']
+
+[2m18:02:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountDetailPage.tsx[22m
+[2m18:02:12[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: Typography is not defined
+[39m > src/pages/CountryReportsPage.tsx:5:17
+    3  |  import { annualTargets, markets } from '../mocks/crmData'
+    4  |  
+    5  |  const { Text } = Typography
+       |                   ^
+    6  |  
+    7  |  const periods = ['年度', 'Q2', '6月', '本周']
+
+[2m18:02:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CountryReportsPage.tsx[22m
+[2m18:02:19[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:05:17[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/layouts/AppLayout.tsx[22m
+[2m18:05:18[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:05:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m18:07:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m18:07:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/mocks/crmData.ts[22m
+[2m18:07:10[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:08:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m18:09:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountsPage.tsx[22m
+[2m18:09:16[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:10:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/layouts/AppLayout.tsx[22m
+[2m18:10:35[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:10:35[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:10:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountsPage.tsx[22m
+[2m18:10:59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:10:59[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:11:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/OrdersPage.tsx[22m
+[2m18:11:15[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:11:15[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:11:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CampaignsPage.tsx[22m
+[2m18:11:29[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:11:29[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:11:41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LeadsPage.tsx[22m
+[2m18:11:42[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:11:42[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:11:54[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/RetailPage.tsx[22m
+[2m18:11:54[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:11:54[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:12:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ContactsPage.tsx[22m
+[2m18:12:08[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:12:08[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:12:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/EndUsersPage.tsx[22m
+[2m18:12:20[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:12:20[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:12:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/PoolPage.tsx[22m
+[2m18:12:33[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:12:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:12:45[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ProductsPage.tsx[22m
+[2m18:12:45[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:12:45[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:12:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/TeamPage.tsx[22m
+[2m18:12:56[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:12:56[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:13:10[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ContractsPage.tsx[22m
+[2m18:13:10[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:13:10[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:13:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/PaymentsPage.tsx[22m
+[2m18:13:22[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:13:22[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:13:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/InvoicesPage.tsx[22m
+[2m18:13:34[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:13:34[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:13:46[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ProjectUpdatesPage.tsx[22m
+[2m18:13:46[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:13:46[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:13:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/WorkQueuePage.tsx[22m
+[2m18:13:57[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:13:57[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:14:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AttendancePage.tsx[22m
+[2m18:14:09[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:14:09[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:14:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LogActivityPage.tsx[22m
+[2m18:14:21[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:14:21[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:14:31[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ImportPage.tsx[22m
+[2m18:14:32[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:14:32[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:14:43[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/InvitePage.tsx[22m
+[2m18:14:43[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: App is not defined
+[39m > AppLayout src/layouts/AppLayout.tsx:105:22
+    103 |  
+    104 |  export function AppLayout() {
+    105 |    const { message } = App.useApp()
+        |                        ^
+    106 |    const location = useLocation()
+    107 |    const navigate = useNavigate()
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:12868:12
+ > renderWithHooks node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:4213:19
+ > updateFunctionComponent node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:5569:16
+ > beginWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:6140:20
+ > runWithFiberInDEV node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:851:66
+ > performUnitOfWork node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8429:92
+ > workLoopSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8325:37
+ > renderRootSync node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:8309:6
+ > performWorkOnRoot node_modules/.vite/deps/client-BcpD7XeE.js?v=a05eefc5:7994:27
+
+[2m18:14:43[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <AppLayout> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m18:15:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/layouts/AppLayout.tsx[22m
+[2m18:15:23[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:15:41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountsPage.tsx[22m
+[2m18:15:42[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:18:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/SettingsPage.tsx[22m
+[2m18:18:01[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:18:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/OrdersPage.tsx[22m
+[2m18:18:39[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:19:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m18:20:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/OrdersPage.tsx[22m
+[2m18:20:01[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:20:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/OrdersPage.tsx[22m
+[2m18:20:58[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:21:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/OrdersPage.tsx[22m
+[2m18:22:00[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:23:16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/OrdersPage.tsx[22m
+[2m18:23:16[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:24:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/OrdersPage.tsx[22m
+[2m18:24:16[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:45:31[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountDetailPage.tsx[22m
+[2m18:45:32[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:46:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountDetailPage.tsx[22m
+[2m18:46:40[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:47:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountsPage.tsx[22m
+[2m18:47:15[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:47:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountsPage.tsx[22m
+[2m18:47:51[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:48:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountsPage.tsx[22m
+[2m18:48:06[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:48:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/OrdersPage.tsx[22m
+[2m18:48:40[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:53:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/OrdersPage.tsx[22m
+[2m18:53:03[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:53:25[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/OrdersPage.tsx[22m
+[2m18:53:26[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:53:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/OrdersPage.tsx[22m
+[2m18:53:39[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:53:41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/OrdersPage.tsx[22m
+[2m18:53:42[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m18:59:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CrmDashboardPage.tsx[22m
+[2m18:59:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LoginPage.tsx[22m
+[2m18:59:21[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m19:02:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/TodayPage.tsx[22m
+[2m19:02:56[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m19:12:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CampaignsPage.tsx[22m
+[2m19:12:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ProductsPage.tsx[22m
+[2m19:12:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/RetailPage.tsx[22m
+[2m19:12:56[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m19:17:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/WorkQueuePage.tsx[22m
+[2m19:17:57[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m19:22:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/SettingsPage.tsx[22m
+[2m19:22:57[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m19:47:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountDetailPage.tsx[22m
+[2m19:47:57[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m19:52:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountsPage.tsx[22m
+[2m19:52:59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m19:57:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/OrdersPage.tsx[22m
+[2m19:57:59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: [antd: Progress] `trailColor` is deprecated. Please use `railColor` instead.
+[2m20:28:46[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m20:29:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m20:29:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m20:29:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m20:30:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m20:30:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LoginPage.tsx[22m
+[2m20:31:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountsPage.tsx[22m
+[2m20:31:45[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountsPage.tsx[22m
+[2m20:32:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/OrdersPage.tsx[22m
+[2m20:32:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/OrdersPage.tsx[22m
+[2m20:33:41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/TodayPage.tsx[22m
+[2m20:34:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/SettingsPage.tsx[22m
+[2m20:35:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/InvoicesPage.tsx[22m
+[2m20:35:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/InvoicesPage.tsx[22m
+[2m20:36:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/InvoicesPage.tsx[22m
+[2m20:36:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AttendancePage.tsx[22m
+[2m20:37:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LogActivityPage.tsx[22m
+[2m20:40:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m20:41:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/layouts/AppLayout.tsx[22m
+[2m20:41:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m20:42:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m20:43:04[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/DashboardPage.tsx[22m
+[2m20:43:42[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m20:44:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/PipelinePage.tsx[22m
+[2m20:44:46[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m20:45:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CampaignsPage.tsx[22m
+[2m20:45:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CampaignsPage.tsx[22m
+[2m20:46:41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m20:47:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m20:48:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LeadsPage.tsx[22m
+[2m20:49:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m20:50:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountDetailPage.tsx[22m
+[2m21:13:17[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m21:14:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/SettingsPage.tsx[22m
+[2m21:15:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m21:16:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m21:17:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ContactsPage.tsx[22m
+[2m21:17:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ContractsPage.tsx[22m
+[2m21:18:25[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/PaymentsPage.tsx[22m
+[2m21:18:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ProductsPage.tsx[22m
+[2m21:19:16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/PaymentsPage.tsx[22m
+[2m21:27:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m21:27:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m21:28:54[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/WorkQueuePage.tsx[22m
+[2m21:31:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LoginPage.tsx[22m
+[2m21:32:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/OrdersPage.tsx[22m
+[2m21:33:52[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m21:35:28[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/DashboardPage.tsx[22m
+[2m21:35:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/DashboardPage.tsx[22m
+[2m21:36:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/InvoicesPage.tsx[22m
+[2m21:37:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m21:37:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AttendancePage.tsx[22m
+[2m21:39:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m21:40:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/PoolPage.tsx[22m
+[2m21:40:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/EndUsersPage.tsx[22m
+[2m21:40:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/TeamPage.tsx[22m
+[2m21:41:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CountryReportsPage.tsx[22m
+[2m21:41:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ExecutiveReportPage.tsx[22m
+[2m21:41:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/layouts/AppLayout.tsx[22m
+[2m21:41:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/RetailPage.tsx[22m
+[2m21:41:49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ProjectUpdatesPage.tsx[22m
+[2m21:41:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ImportPage.tsx[22m
+[2m21:42:04[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/InvitePage.tsx[22m
+[2m21:42:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m21:42:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m21:47:10[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m21:47:10[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CampaignsPage.tsx[22m
+[2m21:47:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m21:48:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AttendancePage.tsx[22m
+[2m21:48:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LogActivityPage.tsx[22m
+[2m21:48:49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/InvoicesPage.tsx[22m
+[2m21:51:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/SettingsPage.tsx[22m
+[2m21:51:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountDetailPage.tsx[22m
+[2m21:51:49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/SettingsPage.tsx[22m
+[2m21:53:28[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/SettingsPage.tsx[22m
+[2m21:53:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/SettingsPage.tsx[22m
+[2m21:58:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/DashboardPage.tsx[22m
+[2m21:58:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/DashboardPage.tsx[22m
+[2m21:59:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m22:00:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m22:00:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/DashboardPage.tsx[22m
+[2m22:02:43[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/DashboardPage.tsx[22m
+[2m22:03:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/DashboardPage.tsx[22m
+[2m22:03:26[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/DashboardPage.tsx[22m
+[2m22:05:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/DashboardPage.tsx[22m
+[2m22:07:04[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/SettingsPage.tsx[22m
+[2m22:07:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/SettingsPage.tsx[22m
+[2m22:12:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/SettingsPage.tsx[22m
+[2m22:17:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ContactsPage.tsx[22m
+[2m22:17:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ContractsPage.tsx[22m
+[2m22:22:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/PaymentsPage.tsx[22m
+[2m22:22:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ProductsPage.tsx[22m
+[2m22:25:04[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/layouts/AppLayout.tsx[22m
+[2m22:25:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountsPage.tsx[22m
+[2m22:26:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/AccountsPage.tsx[22m
+[2m22:26:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ContactsPage.tsx[22m
+[2m22:28:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CampaignsPage.tsx[22m
+[2m22:28:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ContractsPage.tsx[22m
+[2m22:28:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/LeadsPage.tsx[22m
+[2m22:28:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/PaymentsPage.tsx[22m
+[2m22:28:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ProductsPage.tsx[22m
+[2m22:28:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/OrdersPage.tsx[22m
+[2m22:28:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/InvoicesPage.tsx[22m
+[2m22:29:49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ContractsPage.tsx[22m
+[2m22:30:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ContractsPage.tsx[22m
+[2m22:30:52[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m22:31:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m22:31:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/PaymentsPage.tsx[22m
+[2m22:32:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ProductsPage.tsx[22m
+[2m22:33:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ProductsPage.tsx[22m
+[2m22:34:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/InvoicesPage.tsx[22m
+[2m22:34:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/InvoicesPage.tsx[22m
+[2m22:35:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ContactsPage.tsx[22m
+[2m22:36:35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/TodayPage.tsx[22m
+[2m22:37:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/TodayPage.tsx[22m
+[2m22:37:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/TodayPage.tsx[22m
+[2m22:38:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/TodayPage.tsx[22m
+[2m22:39:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/DashboardPage.tsx[22m
+[2m22:39:35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/DashboardPage.tsx[22m
+[2m22:39:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/DashboardPage.tsx[22m
+[2m22:40:35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/TodayPage.tsx[22m
+[2m22:41:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/layouts/AppLayout.tsx[22m
+[2m22:43:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/ProjectUpdatesPage.tsx[22m
+[2m22:43:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/RetailPage.tsx[22m
+[2m22:50:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/i18n.ts[22m
+[2m22:52:31[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/TodayPage.tsx[22m
+[2m23:06:11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/TodayPage.tsx[22m
+[2m23:13:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/SettingsPage.tsx[22m
+[2m23:20:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/TodayPage.tsx[22m
+[2m23:20:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/TodayPage.tsx[22m
+[2m23:20:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/TodayPage.tsx[22m

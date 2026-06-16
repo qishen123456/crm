@@ -664,12 +664,6 @@
     "docType": {
       "po": "采购订单",
       "receipt": "收款确认书"
-    },
-    "stage": {
-      "prospect": "初步接触",
-      "qualify": "需求确认",
-      "proposal": "方案报价",
-      "negotiate": "谈判中"
     }
   },
   "contacts": {

@@ -208,6 +208,8 @@
     "status": "Trạng thái",
     "all": "Tất cả",
     "loading": "Đang tải...",
+    "loadError": "Tải thất bại",
+    "saveError": "Lưu thất bại",
     "noData": "Chưa có dữ liệu",
     "confirm": "Xác nhận",
     "successCreate": "Tạo thành công",
@@ -220,6 +222,8 @@
     "successInvite": "Lời mời đã được gửi",
     "devToast": "Tính năng đang phát triển",
     "required": "Bắt buộc",
+    "selectAccount": "Chọn khách hàng",
+    "selectOwner": "Chọn ngườiphụ trách",
     "date": "Ngày",
     "amount": "Số tiền",
     "note": "Ghi chú",
@@ -247,6 +251,7 @@
     "password": "Mật khẩu",
     "passwordPlaceholder": "Vui lòng nhập mật khẩu",
     "forgot": "Quên mật khẩu?",
+    "invalid": "Email hoặc mật khẩu không chính xác",
     "tips": "Demo: bất kỳ email đã thiết lập + mật khẩu \"demo2026\"",
     "submit": "Đăng nhập →"
   },
@@ -395,6 +400,10 @@
       "headcount": "Số nhân viên"
     },
     "roles": {
+      "scope": "Pham vi truy cap du lieu",
+      "locked": "He thong",
+      "description": "Chon quyen va pham vi truy cap du lieu cho tung vai tro. Vai tro he thong bi khoa.",
+      "save": "Luu thay doi",
       "role": "Vai trò",
       "accounts": "Khách hàng",
       "orders": "Đơn hàng",
@@ -530,7 +539,16 @@
   "pipeline": {
     "title": "Phễu bán hàng",
     "subtitle": "Quản lý tất cả cơ hội đang hoạt động ở dạng bảng kanban.",
-    "newOpp": "Tạo cơ hội mới"
+    "newOpp": "Tạo cơ hội mới",
+    "editOpp": "Chỉnh sửa cơ hội",
+    "noFollowUp": "Chưa theo dõi",
+    "winType": "Loại thắng",
+    "searchPlaceholder": "Tìm khách hàng / số hợp đồng",
+    "firstWin": "Thắng đầu tiên",
+    "reorder": "Đơn hàng lặp lại",
+    "firstWinGroup": "Thắng đầu tiên",
+    "reorderGroup": "Đơn hàng lặp lại (Khách hàng cũ)",
+    "regionAll": "Tất cả"
   },
   "campaigns": {
     "title": "Chiến dịch marketing",
@@ -1112,5 +1130,44 @@
     "comingSoon": "Sắp ra mắt",
     "description": "Hiện tại là trang chuyển tiếp tái tạo chất lượng cao, các tương tác và dữ liệu đầy đủ sẽ được bổ sung sau."
   },
-  "adminAvatar": "Quản lý"
+  "adminAvatar": "Quản lý",
+  "roles": {
+    "salesRep": "Dai dien ban hang",
+    "salesManager": "Giam doc ban hang",
+    "countryManager": "Giam doc quoc gia",
+    "executive": "Lanh dao",
+    "distributor": "Nha phan phoi",
+    "productManager": "Giam doc san pham",
+    "marketing": "Marketing",
+    "finance": "Tai chinh",
+    "supplyChain": "Chuoi cung ung",
+    "orderOps": "Van hanh don hang",
+    "readComment": "Doc + Binh luan",
+    "readOnly": "Chi doc",
+    "admin": "Quan tri he thong"
+  },
+  "permissions": {
+    "viewSalesFunnel": "Xem phoi ban hang",
+    "editAccountFields": "Sua truong khach hang",
+    "reassignAccounts": "Phan cong lai khach hang",
+    "viewContractsPage": "Xem trang hop dong",
+    "viewTeamPage": "Xem trang doi nhom",
+    "inviteUsers": "Moi nguoi dung moi",
+    "accessSystemSettings": "Truy cap cai dat he thong",
+    "generateExecutiveReports": "Tao bao cao lanh dao",
+    "viewAuditLogs": "Xem nhat ky kiem toan"
+  },
+  "scopes": {
+    "own": "Ca nhan",
+    "team": "Nhom",
+    "market": "Thi truong",
+    "distributor": "Nha phan phoi",
+    "all": "Tat ca"
+  },
+  "user": {
+    "logout": "Dang xuat",
+    "switchRole": "Xem truoc vai tro",
+    "preview": "Dang xem truoc",
+    "switchRoleBack": "Chuyen vai tro / Quay lai"
+  }
 }

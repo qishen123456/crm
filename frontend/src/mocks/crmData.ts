@@ -587,6 +587,43 @@ export const endUsers: EndUser[] = [
   { id: 'eu4', accountId: 'a4', name: 'Bangkok Mall Main F&B', location: 'Bangkok', units: 8, installDate: '2026-06-10', lastService: '2026-06-14' },
 ]
 
+export interface OpportunityCard {
+  id: string
+  companyName: string
+  regionCode: string
+  tags: string
+  amount: string
+  ownerName: string
+  stage: 'prospect' | 'qualify' | 'proposal' | 'negotiate' | 'closedWon'
+  isNoFollowUp?: boolean
+  winType?: 'first' | 'reorder'
+}
+
+export const opportunityCards: OpportunityCard[] = [
+  // 初步接触
+  { id: 'oc-1', companyName: 'Raffles Hospitality', regionCode: 'SG · RAFF', tags: 'fnb · distributor', amount: '$120k', ownerName: '杨文', stage: 'prospect' },
+  { id: 'oc-2', companyName: 'Bangkok Mall Group', regionCode: 'TH · BANG', tags: 'public · direct', amount: '$65k', ownerName: '世宏', stage: 'prospect' },
+  { id: 'oc-3', companyName: 'HK Hospitality Corp', regionCode: 'HK · HKHO', tags: 'residential · rental', amount: '$45k', ownerName: '杨森', stage: 'prospect', isNoFollowUp: true },
+  // 需求确认
+  { id: 'oc-4', companyName: 'Marina Bay Sands', regionCode: 'SG · MARI', tags: 'fnb · direct', amount: '$240k', ownerName: '杨文', stage: 'qualify' },
+  { id: 'oc-5', companyName: 'Soekarno Retail Distribution', regionCode: 'ID · SOEK', tags: 'residential · distributor', amount: '$95k', ownerName: '世宏', stage: 'qualify' },
+  { id: 'oc-6', companyName: 'Genting Group', regionCode: 'MY · GENT', tags: 'industrial · direct', amount: '$180k', ownerName: '杨森', stage: 'qualify', isNoFollowUp: true },
+  // 方案报价
+  { id: 'oc-7', companyName: 'MGM Macau', regionCode: 'MO · MGMM', tags: 'fnb · direct', amount: '$320k', ownerName: '杨森', stage: 'proposal' },
+  { id: 'oc-8', companyName: 'Westwind F&B', regionCode: 'US · WEST', tags: 'fnb · distributor', amount: '$410k', ownerName: 'Keith', stage: 'proposal' },
+  { id: 'oc-9', companyName: 'Bangkok Mall Group', regionCode: 'TH · BANG', tags: 'industrial · rental', amount: '$150k', ownerName: '世宏', stage: 'proposal', isNoFollowUp: true },
+  { id: 'oc-10', companyName: 'Soekarno Retail Distribution', regionCode: 'ID · SOEK', tags: 'public · direct', amount: '$85k', ownerName: '世宏', stage: 'proposal' },
+  // 谈判中
+  { id: 'oc-11', companyName: 'Raffles Hospitality', regionCode: 'SG · RAFF', tags: 'fnb · direct', amount: '$280k', ownerName: '杨文', stage: 'negotiate' },
+  { id: 'oc-12', companyName: 'HK Hospitality Corp', regionCode: 'HK · HKHO', tags: 'industrial · direct', amount: '$510k', ownerName: '杨森', stage: 'negotiate' },
+  { id: 'oc-13', companyName: 'Marina Bay Sands', regionCode: 'SG · MARI', tags: 'fnb · direct', amount: '$240k', ownerName: '杨文', stage: 'negotiate' },
+  // 已赢单
+  { id: 'oc-14', companyName: 'Raffles Hospitality', regionCode: 'SG · RAFF', tags: 'fnb · direct', amount: '$460k', ownerName: '杨文', stage: 'closedWon', winType: 'first' },
+  { id: 'oc-15', companyName: 'Genting Group', regionCode: 'MY · GENT', tags: 'residential · distributor', amount: '$220k', ownerName: '杨文', stage: 'closedWon', winType: 'first' },
+  { id: 'oc-16', companyName: 'Westwind F&B', regionCode: 'US · WEST', tags: 'fnb · direct', amount: '$680k', ownerName: 'Keith', stage: 'closedWon', winType: 'first' },
+  { id: 'oc-17', companyName: 'Raffles Hospitality', regionCode: 'SG · RAFF', tags: 'fnb · direct', amount: '$180k', ownerName: '杨文', stage: 'closedWon', winType: 'reorder' },
+]
+
 export interface ProjectUpdate {
   id: string
   accountId: string

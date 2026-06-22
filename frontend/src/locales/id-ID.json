@@ -208,6 +208,8 @@
     "status": "Status",
     "all": "Semua",
     "loading": "Memuat...",
+    "loadError": "Gagal memuat",
+    "saveError": "Gagal menyimpan",
     "noData": "Belum ada data",
     "confirm": "Konfirmasi",
     "successCreate": "Berhasil dibuat",
@@ -220,6 +222,8 @@
     "successInvite": "Undangan telah dikirim",
     "devToast": "Fitur dalam pengembangan",
     "required": "Wajib diisi",
+    "selectAccount": "Pilih akun",
+    "selectOwner": "Pilih pemilik",
     "date": "Tanggal",
     "amount": "Jumlah",
     "note": "Catatan",
@@ -247,6 +251,7 @@
     "password": "Kata Sandi",
     "passwordPlaceholder": "Masukkan kata sandi",
     "forgot": "Lupa kata sandi?",
+    "invalid": "Email atau kata sandi salah",
     "tips": "Demo: email apa pun yang terdaftar + kata sandi \"demo2026\"",
     "submit": "Masuk →"
   },
@@ -395,6 +400,10 @@
       "headcount": "Jumlah Karyawan"
     },
     "roles": {
+      "scope": "Cakupan akses data",
+      "locked": "Sistem",
+      "description": "Centang izin dan pilih cakupan akses data untuk setiap peran. Peran sistem tidak dapat diedit.",
+      "save": "Simpan perubahan",
       "role": "Peran",
       "accounts": "Pelanggan",
       "orders": "Pesanan",
@@ -530,7 +539,16 @@
   "pipeline": {
     "title": "Pipeline Penjualan",
     "subtitle": "Kelola semua peluang aktif dalam tampilan papan.",
-    "newOpp": "Peluang Baru"
+    "newOpp": "Peluang Baru",
+    "editOpp": "Edit peluang",
+    "noFollowUp": "Tidak ada tindak lanjut",
+    "winType": "Jenis menang",
+    "searchPlaceholder": "Cari akun / nomor kontrak",
+    "firstWin": "Menang Pertama",
+    "reorder": "Pesanan Ulang",
+    "firstWinGroup": "Menang Pertama",
+    "reorderGroup": "Pesanan Ulang (Pelanggan Lama)",
+    "regionAll": "Semua"
   },
   "campaigns": {
     "title": "Kampanye",
@@ -1112,5 +1130,44 @@
     "comingSoon": "Segera Hadir",
     "description": "Saat ini merupakan halaman transisi rekonstruksi fidelitas tinggi, interaksi dan data lengkap akan ditambahkan kemudian."
   },
-  "adminAvatar": "Admin"
+  "adminAvatar": "Admin",
+  "roles": {
+    "salesRep": "Sales Rep",
+    "salesManager": "Sales Manager",
+    "countryManager": "Country Manager",
+    "executive": "Eksekutif",
+    "distributor": "Distributor",
+    "productManager": "Product Manager",
+    "marketing": "Marketing",
+    "finance": "Keuangan",
+    "supplyChain": "Rantai Pasok",
+    "orderOps": "Operasional Pesanan",
+    "readComment": "Baca + Komentar",
+    "readOnly": "Hanya Baca",
+    "admin": "Admin Sistem"
+  },
+  "permissions": {
+    "viewSalesFunnel": "Lihat funnel penjualan",
+    "editAccountFields": "Edit kolom akun",
+    "reassignAccounts": "Tugaskan ulang akun",
+    "viewContractsPage": "Lihat halaman kontrak",
+    "viewTeamPage": "Lihat halaman tim",
+    "inviteUsers": "Undang pengguna baru",
+    "accessSystemSettings": "Akses pengaturan sistem",
+    "generateExecutiveReports": "Buat laporan eksekutif",
+    "viewAuditLogs": "Lihat log audit"
+  },
+  "scopes": {
+    "own": "Sendiri",
+    "team": "Tim",
+    "market": "Pasar",
+    "distributor": "Distributor",
+    "all": "Semua"
+  },
+  "user": {
+    "logout": "Keluar",
+    "switchRole": "Pratinjau peran",
+    "preview": "Sedang pratinjau",
+    "switchRoleBack": "Ganti peran / Kembali"
+  }
 }

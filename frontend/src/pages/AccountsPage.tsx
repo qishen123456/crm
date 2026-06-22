@@ -1,19 +1,12 @@
 import { EditOutlined, EllipsisOutlined, SearchOutlined, UserOutlined } from '@ant-design/icons'
 import { Avatar, Button, Card, Col, Form, Input, Modal, Progress, Row, Select, Typography } from 'antd'
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useAutoCreate } from '../hooks/useAutoCreate'
 import { useGlobalMessage } from '../hooks/useGlobalMessage'
 import { useI18n } from '../hooks/useI18n'
-import {
-  accounts,
-  flagForMarket,
-  getUserById,
-  markets,
-  statusTone,
-  type Account,
-  type MarketCode,
-} from '../mocks/crmData'
+import { listAccounts, type Account } from '../api/accounts'
+import { flagForMarket, getUserById, markets, statusTone, type MarketCode } from '../mocks/crmData'
 
 const { Text, Title } = Typography
 
@@ -26,12 +19,24 @@ const statusFilters = (t: (k: string) => string) => [
 
 export function AccountsPage() {
   const { t } = useI18n()
-  const { success } = useGlobalMessage()
+  const { success, error } = useGlobalMessage()
   const [search, setSearch] = useState('')
   const [statusFilter, setStatusFilter] = useState('all')
   const [marketFilter, setMarketFilter] = useState<MarketCode | 'all'>('all')
   const [createOpen, setCreateOpen] = useState(false)
+  const [accounts, setAccounts] = useState<Account[]>([])
+  const [loading, setLoading] = useState(true)
   const clearCreateParam = useAutoCreate(setCreateOpen)
+
+  useEffect(() => {
+    let mounted = true
+    setLoading(true)
+    listAccounts()
+      .then((data) => { if (mounted) setAccounts(data) })
+      .catch(() => error(t('common.loadError')))
+      .finally(() => { if (mounted) setLoading(false) })
+    return () => { mounted = false }
+  }, [])
 
   const filtered = useMemo(() => {
     return accounts.filter((a) => {
@@ -99,11 +104,15 @@ export function AccountsPage() {
           </div>
         </div>
 
-        <div className="accounts-grid">
-          {filtered.map((a) => (
-            <AccountCard key={a.id} account={a} />
-          ))}
-        </div>
+        {loading ? (
+          <div style={{ textAlign: 'center', padding: 40 }}>{t('common.loading')}</div>
+        ) : (
+          <div className="accounts-grid">
+            {filtered.map((a) => (
+              <AccountCard key={a.id} account={a} />
+            ))}
+          </div>
+        )}
       </Card>
 
       <Modal
@@ -156,7 +165,7 @@ function AccountCard({ account }: { account: Account }) {
             <div className="account-card-title-wrap">
               <Title level={5} className="account-card-name">{account.name}</Title>
               <Text className="account-card-meta">
-                <span className="flag">{flagForMarket(account.market)}</span>
+                <span className="flag">{flagForMarket(account.market as MarketCode)}</span>
                 {account.market} · {account.code}
               </Text>
             </div>

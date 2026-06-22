@@ -208,6 +208,8 @@
     "status": "状态",
     "all": "全部",
     "loading": "加载中...",
+    "loadError": "加载失败",
+    "saveError": "保存失败",
     "noData": "暂无数据",
     "confirm": "确认",
     "successCreate": "创建成功",
@@ -220,6 +222,8 @@
     "successInvite": "邀请已发送",
     "devToast": "功能开发中",
     "required": "必填",
+    "selectAccount": "选择客户",
+    "selectOwner": "选择负责人",
     "date": "日期",
     "amount": "金额",
     "note": "备注",
@@ -247,6 +251,7 @@
     "password": "密码",
     "passwordPlaceholder": "请输入密码",
     "forgot": "忘记密码?",
+    "invalid": "邮箱或密码错误",
     "tips": "演示：任意已设置邮箱 + 密码 \"demo2026\"",
     "submit": "登录 →"
   },
@@ -395,6 +400,10 @@
       "headcount": "人数"
     },
     "roles": {
+      "scope": "记录访问范围",
+      "locked": "系统",
+      "description": "勾选权限并选择每个角色的数据访问范围。系统角色不可编辑。",
+      "save": "保存更改",
       "role": "角色",
       "accounts": "客户",
       "orders": "订单",
@@ -530,7 +539,16 @@
   "pipeline": {
     "title": "销售漏斗",
     "subtitle": "看板视图管理所有活跃商机。",
-    "newOpp": "新建商机"
+    "newOpp": "新建商机",
+    "editOpp": "编辑商机",
+    "noFollowUp": "无跟进",
+    "winType": "赢单类型",
+    "searchPlaceholder": "搜索客户 / 合同编号",
+    "firstWin": "首次赢单",
+    "reorder": "翻单",
+    "firstWinGroup": "首次赢单",
+    "reorderGroup": "翻单（老客户）",
+    "regionAll": "全部"
   },
   "campaigns": {
     "title": "市场活动",
@@ -1112,5 +1130,44 @@
     "comingSoon": "敬请期待",
     "description": "当前为高保真复刻过渡页，后续将补充完整交互与数据。"
   },
-  "adminAvatar": "管理"
+  "adminAvatar": "管理",
+  "roles": {
+    "salesRep": "销售员",
+    "salesManager": "销售经理",
+    "countryManager": "国家负责人",
+    "executive": "高管",
+    "distributor": "经销商",
+    "productManager": "产品经理",
+    "marketing": "市场部",
+    "finance": "财务",
+    "supplyChain": "供应链",
+    "orderOps": "订单运营",
+    "readComment": "查看+评论",
+    "readOnly": "仅查看",
+    "admin": "系统管理员"
+  },
+  "permissions": {
+    "viewSalesFunnel": "查看销售漏斗",
+    "editAccountFields": "编辑客户字段",
+    "reassignAccounts": "重新分配客户",
+    "viewContractsPage": "查看合同页面",
+    "viewTeamPage": "查看团队页面",
+    "inviteUsers": "邀请新用户",
+    "accessSystemSettings": "访问系统设置",
+    "generateExecutiveReports": "生成高管报告",
+    "viewAuditLogs": "查看审计日志"
+  },
+  "scopes": {
+    "own": "本人",
+    "team": "团队",
+    "market": "市场",
+    "distributor": "经销商",
+    "all": "全部"
+  },
+  "user": {
+    "logout": "退出登录",
+    "switchRole": "切换角色预览",
+    "preview": "预览中",
+    "switchRoleBack": "切换角色 / 返回"
+  }
 }

@@ -209,6 +209,8 @@
     "status": "Statut",
     "all": "Tout",
     "loading": "Chargement...",
+    "loadError": "Echec du chargement",
+    "saveError": "Echec de l'enregistrement",
     "noData": "Aucune donnee",
     "confirm": "Confirmer",
     "successCreate": "Cree avec succes",
@@ -221,6 +223,8 @@
     "successInvite": "Invitation envoyee",
     "devToast": "Fonctionnalite en cours",
     "required": "Requis",
+    "selectAccount": "Selectionner un compte",
+    "selectOwner": "Selectionner un responsable",
     "date": "Date",
     "amount": "Montant",
     "note": "Notes",
@@ -244,6 +248,7 @@
     "password": "Mot de passe",
     "passwordPlaceholder": "Mot de passe",
     "forgot": "Mot de passe oublie?",
+    "invalid": "Email ou mot de passe invalide",
     "tips": "Demo: tout email + mot de passe \"demo2026\"",
     "submit": "Connexion →"
   },
@@ -348,6 +353,10 @@
       "headcount": "Effectif"
     },
     "roles": {
+      "scope": "Portee d'acces",
+      "locked": "Systeme",
+      "description": "Cochez les permissions et choisissez la portee d'acces. Les roles systeme sont verrouilles.",
+      "save": "Enregistrer",
       "role": "Role",
       "accounts": "Comptes",
       "orders": "Commandes",
@@ -475,7 +484,16 @@
   "pipeline": {
     "title": "Pipeline",
     "subtitle": "Vue kanban de toutes les opportunites actives.",
-    "newOpp": "Nouvelle opportunite"
+    "newOpp": "Nouvelle opportunite",
+    "editOpp": "Modifier l'opportunite",
+    "noFollowUp": "Sans suivi",
+    "searchPlaceholder": "Rechercher client / no de contrat",
+    "firstWin": "Premiere victoire",
+    "reorder": "Recommande",
+    "firstWinGroup": "Premiere victoire",
+    "reorderGroup": "Recommande (client existant)",
+    "regionAll": "Tous",
+    "winType": "Type de victoire"
   },
   "campaigns": {
     "title": "Campagnes",
@@ -809,5 +827,44 @@
     "statusPendingIssue": "En attente emission",
     "statusIssued": "Emis",
     "statusRejected": "Rejete"
+  },
+  "roles": {
+    "salesRep": "Commercial",
+    "salesManager": "Chef des ventes",
+    "countryManager": "Responsable pays",
+    "executive": "Cadre",
+    "distributor": "Distributeur",
+    "productManager": "Chef de produit",
+    "marketing": "Marketing",
+    "finance": "Finance",
+    "supplyChain": "Supply Chain",
+    "orderOps": "Operations commandes",
+    "readComment": "Lecture + Commentaire",
+    "readOnly": "Lecture seule",
+    "admin": "Admin systeme"
+  },
+  "permissions": {
+    "viewSalesFunnel": "Voir funnel ventes",
+    "editAccountFields": "Modifier champs client",
+    "reassignAccounts": "Reattribuer clients",
+    "viewContractsPage": "Voir contrats",
+    "viewTeamPage": "Voir equipe",
+    "inviteUsers": "Inviter utilisateurs",
+    "accessSystemSettings": "Acces parametres",
+    "generateExecutiveReports": "Rapports executifs",
+    "viewAuditLogs": "Voir journaux audit"
+  },
+  "scopes": {
+    "own": "Soi",
+    "team": "Equipe",
+    "market": "Marche",
+    "distributor": "Distributeur",
+    "all": "Tous"
+  },
+  "user": {
+    "logout": "Deconnexion",
+    "switchRole": "Apercu du role",
+    "preview": "Apercu",
+    "switchRoleBack": "Changer de role / Retour"
   }
 }

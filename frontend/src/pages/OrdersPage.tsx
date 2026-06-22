@@ -1,10 +1,11 @@
 import { EyeOutlined, SearchOutlined } from '@ant-design/icons'
 import { Button, Card, Col, DatePicker, Drawer, Form, Input, Modal, Row, Select, Table, Typography } from 'antd'
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useAutoCreate } from '../hooks/useAutoCreate'
 import { useGlobalMessage } from '../hooks/useGlobalMessage'
 import { useI18n } from '../hooks/useI18n'
-import { accounts, flagForMarket, getAccountById, getUserById, orders, products, statusTone, type Order } from '../mocks/crmData'
+import { listOrders, type Order } from '../api/orders'
+import { accounts, flagForMarket, getAccountById, getUserById, products, statusTone } from '../mocks/crmData'
 
 const { Text } = Typography
 
@@ -24,13 +25,25 @@ const statusList = (t: (k: string) => string) => [
 
 export function OrdersPage() {
   const { t } = useI18n()
-  const { success } = useGlobalMessage()
+  const { success, error } = useGlobalMessage()
   const [search, setSearch] = useState('')
   const [view, setView] = useState('business')
   const [statusFilter, setStatusFilter] = useState('all')
   const [selected, setSelected] = useState<Order | null>(null)
   const [createOpen, setCreateOpen] = useState(false)
+  const [orders, setOrders] = useState<Order[]>([])
+  const [loading, setLoading] = useState(true)
   const clearCreateParam = useAutoCreate(setCreateOpen)
+
+  useEffect(() => {
+    let mounted = true
+    setLoading(true)
+    listOrders()
+      .then((data) => { if (mounted) setOrders(data) })
+      .catch(() => error(t('common.loadError')))
+      .finally(() => { if (mounted) setLoading(false) })
+    return () => { mounted = false }
+  }, [])
 
   const filtered = useMemo(() => {
     return orders.filter((o) => {
@@ -90,6 +103,7 @@ export function OrdersPage() {
         <Table
           dataSource={filtered}
           rowKey="id"
+          loading={loading}
           pagination={{ pageSize: 10 }}
           scroll={{ x: 1200 }}
           columns={[

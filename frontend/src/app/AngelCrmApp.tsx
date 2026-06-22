@@ -1,5 +1,6 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
 import { AppLayout } from '../layouts/AppLayout'
+import { AuthGuard } from './AuthGuard'
 import { LoginPage } from '../pages/LoginPage'
 import { CrmDashboardPage } from '../pages/CrmDashboardPage'
 import type { PageKey } from '../mocks/crmData'
@@ -11,7 +12,7 @@ export function AngelCrmApp() {
   return (
     <Routes>
       <Route path="/login" element={<LoginPage />} />
-      <Route path="/app/*" element={<AppLayout />}>
+      <Route path="/app/*" element={<AuthGuard><AppLayout /></AuthGuard>}>
         <Route path="today" element={route('today')} />
         <Route path="dashboard" element={route('dashboard')} />
         <Route path="workqueue" element={route('workqueue')} />

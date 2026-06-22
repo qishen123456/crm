@@ -208,6 +208,8 @@
     "status": "狀態",
     "all": "全部",
     "loading": "載入中...",
+    "loadError": "載入失敗",
+    "saveError": "儲存失敗",
     "noData": "暫無數據",
     "confirm": "確認",
     "successCreate": "建立成功",
@@ -220,6 +222,8 @@
     "successInvite": "邀請已發送",
     "devToast": "功能開發中",
     "required": "必填",
+    "selectAccount": "選擇客戶",
+    "selectOwner": "選擇負責人",
     "date": "日期",
     "amount": "金額",
     "note": "備註",
@@ -247,6 +251,7 @@
     "password": "密碼",
     "passwordPlaceholder": "請輸入密碼",
     "forgot": "忘記密碼?",
+    "invalid": "電郵或密碼錯誤",
     "tips": "演示：任意已設置電郵 + 密碼 \"demo2026\"",
     "submit": "登入 →"
   },
@@ -395,6 +400,10 @@
       "headcount": "人數"
     },
     "roles": {
+      "scope": "記錄訪問範圍",
+      "locked": "系統",
+      "description": "勾選權限並選擇每個角色的數據訪問範圍。系統角色不可編輯。",
+      "save": "儲存變更",
       "role": "角色",
       "accounts": "客戶",
       "orders": "訂單",
@@ -530,7 +539,16 @@
   "pipeline": {
     "title": "銷售漏斗",
     "subtitle": "看板視圖管理所有活躍商機。",
-    "newOpp": "新增商機"
+    "newOpp": "新增商機",
+    "editOpp": "編輯商機",
+    "noFollowUp": "無跟進",
+    "winType": "贏單類型",
+    "searchPlaceholder": "搜尋客戶 / 合同編號",
+    "firstWin": "首次贏單",
+    "reorder": "翻單",
+    "firstWinGroup": "首次贏單",
+    "reorderGroup": "翻單（老客戶）",
+    "regionAll": "全部"
   },
   "campaigns": {
     "title": "市場活動",
@@ -1112,5 +1130,44 @@
     "comingSoon": "敬請期待",
     "description": "目前為高保真復刻過渡頁，後續將補充完整互動與數據。"
   },
-  "adminAvatar": "管理"
+  "adminAvatar": "管理",
+  "roles": {
+    "salesRep": "銷售員",
+    "salesManager": "銷售經理",
+    "countryManager": "國家負責人",
+    "executive": "高管",
+    "distributor": "經銷商",
+    "productManager": "產品經理",
+    "marketing": "市場部",
+    "finance": "財務",
+    "supplyChain": "供應鏈",
+    "orderOps": "訂單運營",
+    "readComment": "查看+評論",
+    "readOnly": "僅查看",
+    "admin": "系統管理員"
+  },
+  "permissions": {
+    "viewSalesFunnel": "查看銷售漏斗",
+    "editAccountFields": "編輯客戶字段",
+    "reassignAccounts": "重新分配客戶",
+    "viewContractsPage": "查看合約頁面",
+    "viewTeamPage": "查看團隊頁面",
+    "inviteUsers": "邀請新用戶",
+    "accessSystemSettings": "訪問系統設定",
+    "generateExecutiveReports": "生成高管報告",
+    "viewAuditLogs": "查看審計日誌"
+  },
+  "scopes": {
+    "own": "本人",
+    "team": "團隊",
+    "market": "市場",
+    "distributor": "經銷商",
+    "all": "全部"
+  },
+  "user": {
+    "logout": "登出",
+    "switchRole": "切換角色預覽",
+    "preview": "預覽中",
+    "switchRoleBack": "切換角色 / 返回"
+  }
 }

@@ -208,6 +208,8 @@
     "status": "Status",
     "all": "All",
     "loading": "Loading...",
+    "loadError": "Failed to load",
+    "saveError": "Failed to save",
     "noData": "No data",
     "confirm": "Confirm",
     "successCreate": "Created successfully",
@@ -220,6 +222,8 @@
     "successInvite": "Invitation sent",
     "devToast": "Feature under development",
     "required": "Required",
+    "selectAccount": "Select account",
+    "selectOwner": "Select owner",
     "date": "Date",
     "amount": "Amount",
     "note": "Notes",
@@ -247,6 +251,7 @@
     "password": "Password",
     "passwordPlaceholder": "Enter password",
     "forgot": "Forgot password?",
+    "invalid": "Invalid email or password",
     "tips": "Demo: any email + password \"demo2026\"",
     "submit": "Sign in →"
   },
@@ -395,6 +400,10 @@
       "headcount": "Headcount"
     },
     "roles": {
+      "scope": "Record access scope",
+      "locked": "System",
+      "description": "Check permissions and choose the data access scope for each role. System roles are locked.",
+      "save": "Save changes",
       "role": "Role",
       "accounts": "Accounts",
       "orders": "Orders",
@@ -530,7 +539,16 @@
   "pipeline": {
     "title": "Pipeline",
     "subtitle": "Kanban view of all active opportunities.",
-    "newOpp": "New Opportunity"
+    "newOpp": "New Opportunity",
+    "editOpp": "Edit Opportunity",
+    "noFollowUp": "No follow-up",
+    "winType": "Win type",
+    "searchPlaceholder": "Search account / contract no.",
+    "firstWin": "First Win",
+    "reorder": "Reorder",
+    "firstWinGroup": "First Win",
+    "reorderGroup": "Reorder (Existing)",
+    "regionAll": "All"
   },
   "campaigns": {
     "title": "Campaigns",
@@ -1112,5 +1130,44 @@
     "comingSoon": "Coming soon",
     "description": "This is currently a high-fidelity replica transition page; full interactions and data will be added later."
   },
-  "adminAvatar": "Admin"
+  "adminAvatar": "Admin",
+  "roles": {
+    "salesRep": "Sales Rep",
+    "salesManager": "Sales Manager",
+    "countryManager": "Country Manager",
+    "executive": "Executive",
+    "distributor": "Distributor",
+    "productManager": "Product Manager",
+    "marketing": "Marketing",
+    "finance": "Finance",
+    "supplyChain": "Supply Chain",
+    "orderOps": "Order Operations",
+    "readComment": "Read + Comment",
+    "readOnly": "Read Only",
+    "admin": "System Admin"
+  },
+  "permissions": {
+    "viewSalesFunnel": "View sales funnel",
+    "editAccountFields": "Edit account fields",
+    "reassignAccounts": "Reassign accounts",
+    "viewContractsPage": "View contracts page",
+    "viewTeamPage": "View team page",
+    "inviteUsers": "Invite new users",
+    "accessSystemSettings": "Access system settings",
+    "generateExecutiveReports": "Generate executive reports",
+    "viewAuditLogs": "View audit logs"
+  },
+  "scopes": {
+    "own": "Own",
+    "team": "Team",
+    "market": "Market",
+    "distributor": "Distributor",
+    "all": "All"
+  },
+  "user": {
+    "logout": "Log out",
+    "switchRole": "Preview role",
+    "preview": "Previewing",
+    "switchRoleBack": "Switch role / Back"
+  }
 }

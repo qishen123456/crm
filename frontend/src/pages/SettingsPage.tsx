@@ -1,5 +1,7 @@
-import { Card, Form, Input, Switch, Table, Tabs, Typography } from 'antd'
-import { useMemo, useState } from 'react'
+import { Card, Form, Input, Select, Switch, Table, Tabs, Typography, Button, Checkbox, Spin } from 'antd'
+import { useEffect, useMemo, useState } from 'react'
+import { listRoles, updateRole, type Role } from '../api/settings'
+import { useGlobalMessage } from '../hooks/useGlobalMessage'
 import { useI18n } from '../hooks/useI18n'
 import {
   annualTargets,
@@ -23,8 +25,7 @@ const tabKeys = [
   'account',
 ]
 
-const roleModules = ['accounts', 'orders', 'contracts', 'reports', 'settings']
-const roles = ['Admin', 'Sales', 'Finance', 'Supply Chain', 'Orders', 'Legal', 'Marketing', 'Executive', 'Operations']
+const SCOPE_OPTIONS = ['own', 'team', 'market', 'distributor', 'all']
 
 export function SettingsPage() {
   const { t } = useI18n()
@@ -155,16 +156,158 @@ function DepartmentsTab({ t }: { t: (k: string) => string }) {
 }
 
 function RolesTab({ t }: { t: (k: string) => string }) {
+  const { success, error } = useGlobalMessage()
+  const [roles, setRoles] = useState<Role[]>([])
+  const [loading, setLoading] = useState(true)
+  const [saving, setSaving] = useState(false)
+  const [dirty, setDirty] = useState<Set<string>>(new Set())
+
+  const fetchRoles = async () => {
+    try {
+      setLoading(true)
+      const data = await listRoles()
+      setRoles(data)
+    } catch (e) {
+      error(t('common.loadError'))
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  useEffect(() => {
+    fetchRoles()
+  }, [])
+
+  const permissionCodes = useMemo(() => {
+    if (roles.length === 0) return []
+    return roles[0].permissions.map((p) => p.permission_code)
+  }, [roles])
+
+  const togglePermission = (roleCode: string, permCode: string, granted: boolean) => {
+    setRoles((prev) =>
+      prev.map((r) =>
+        r.code === roleCode
+          ? {
+              ...r,
+              permissions: r.permissions.map((p) => (p.permission_code === permCode ? { ...p, granted } : p)),
+            }
+          : r
+      )
+    )
+    setDirty((prev) => new Set(prev).add(roleCode))
+  }
+
+  const changeScope = (roleCode: string, scope: string) => {
+    setRoles((prev) => prev.map((r) => (r.code === roleCode ? { ...r, record_access_scope: scope } : r)))
+    setDirty((prev) => new Set(prev).add(roleCode))
+  }
+
+  const handleSave = async () => {
+    setSaving(true)
+    try {
+      for (const code of dirty) {
+        const role = roles.find((r) => r.code === code)
+        if (!role || role.is_system) continue
+        const permissions: Record<string, boolean> = {}
+        role.permissions.forEach((p) => {
+          permissions[p.permission_code] = p.granted
+        })
+        await updateRole(code, { record_access_scope: role.record_access_scope, permissions })
+      }
+      success(t('common.successSave'))
+      setDirty(new Set())
+      await fetchRoles()
+    } catch (e) {
+      error(t('common.saveError'))
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  const columns = [
+    {
+      title: t('settings.roles.role'),
+      dataIndex: 'code',
+      fixed: 'left' as const,
+      width: 140,
+      render: (_: unknown, role: Role) => (
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+          <Text strong>{t(`roles.${role.code}`)}</Text>
+          {role.is_system && <span className="role-locked">{t('settings.roles.locked')}</span>}
+        </div>
+      ),
+    },
+    ...permissionCodes.map((code) => ({
+      title: t(`permissions.${code}`),
+      dataIndex: code,
+      width: 110,
+      align: 'center' as const,
+      render: (_: unknown, role: Role) => {
+        const perm = role.permissions.find((p) => p.permission_code === code)
+        return (
+          <Checkbox
+            checked={perm?.granted || role.is_system}
+            disabled={role.is_system}
+            onChange={(e) => togglePermission(role.code, code, e.target.checked)}
+          />
+        )
+      },
+    })),
+    {
+      title: t('settings.roles.scope'),
+      dataIndex: 'record_access_scope',
+      width: 220,
+      render: (scope: string, role: Role) =>
+        role.is_system ? (
+          <Text type="secondary">{t('scopes.all')}</Text>
+        ) : (
+          <Select
+            value={scope}
+            style={{ width: '100%' }}
+            disabled={role.is_system}
+            onChange={(v) => changeScope(role.code, v)}
+            options={SCOPE_OPTIONS.map((s) => ({ value: s, label: t(`scopes.${s}`) }))}
+          />
+        ),
+    },
+  ]
+
+  if (loading) {
+    return (
+      <div style={{ textAlign: 'center', padding: 40 }}>
+        <Spin />
+      </div>
+    )
+  }
+
   return (
-    <Table
-      dataSource={roles.map((r) => ({ role: r, ...Object.fromEntries(roleModules.map((m) => [m, t('labels.readWrite')])) }))}
-      rowKey="role"
-      pagination={false}
-      columns={[
-        { title: t('settings.roles.role'), dataIndex: 'role' },
-        ...roleModules.map((m) => ({ title: t(`settings.roles.${m}`), dataIndex: m })),
-      ]}
-    />
+    <div>
+      <div style={{ marginBottom: 16 }}>
+        <Text type="secondary">{t('settings.roles.description')}</Text>
+      </div>
+      <Table
+        dataSource={roles}
+        rowKey="code"
+        pagination={false}
+        scroll={{ x: 1200 }}
+        columns={columns}
+      />
+      <div style={{ marginTop: 16, textAlign: 'right' }}>
+        <Button type="primary" loading={saving} disabled={dirty.size === 0} onClick={handleSave}>
+          {t('settings.roles.save')}
+        </Button>
+      </div>
+      <style>{`
+        .role-locked {
+          font-size: 11px;
+          color: #ee2737;
+          border: 1px solid #ee2737;
+          padding: 1px 6px;
+          border-radius: 4px;
+          font-weight: 600;
+        }
+      `}</style>
+    </div>
   )
 }
 

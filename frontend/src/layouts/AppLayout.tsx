@@ -15,12 +15,14 @@ import {
   GlobalOutlined,
   HomeOutlined,
   ImportOutlined,
+  LogoutOutlined,
   NotificationOutlined,
   OrderedListOutlined,
   ProductOutlined,
   ScheduleOutlined,
   SettingOutlined,
   ShopOutlined,
+  SwapOutlined,
   TeamOutlined,
   TranslationOutlined,
   UserAddOutlined,
@@ -37,12 +39,14 @@ import {
   Menu,
   Select,
   Space,
+  Tag,
   Typography,
 } from 'antd'
 import type { MenuProps } from 'antd'
 import { Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useI18n } from '../hooks/useI18n'
 import { localeNames, type LocaleKey } from '../locales'
+import { useAuthStore } from '../store/useAuthStore'
 import { useUiStore } from '../store/useUiStore'
 
 const { Header, Sider, Content } = Layout
@@ -104,6 +108,22 @@ const routeToPageKey: Record<string, string> = {
   '/app/settings': 'settings',
 }
 
+const ROLE_OPTIONS = [
+  { code: 'salesRep', name_en: 'Sales Rep', name_zh: '销售员' },
+  { code: 'salesManager', name_en: 'Sales Manager', name_zh: '销售经理' },
+  { code: 'countryManager', name_en: 'Country Manager', name_zh: '国家负责人' },
+  { code: 'executive', name_en: 'Executive', name_zh: '高管' },
+  { code: 'distributor', name_en: 'Distributor', name_zh: '经销商' },
+  { code: 'productManager', name_en: 'Product Manager', name_zh: '产品经理' },
+  { code: 'marketing', name_en: 'Marketing', name_zh: '市场部' },
+  { code: 'finance', name_en: 'Finance', name_zh: '财务' },
+  { code: 'supplyChain', name_en: 'Supply Chain', name_zh: '供应链' },
+  { code: 'orderOps', name_en: 'Order Operations', name_zh: '订单运营' },
+  { code: 'readComment', name_en: 'Read + Comment', name_zh: '查看+评论' },
+  { code: 'readOnly', name_en: 'Read Only', name_zh: '仅查看' },
+  { code: 'admin', name_en: 'System Admin', name_zh: '系统管理员' },
+]
+
 export function AppLayout() {
   App.useApp()
   const location = useLocation()
@@ -111,12 +131,73 @@ export function AppLayout() {
   const locale = useUiStore((state) => state.locale)
   const setLocale = useUiStore((state) => state.setLocale)
   const { t, bundle } = useI18n()
+  const user = useAuthStore((state) => state.user)
+  const isRolePreview = useAuthStore((state) => state.isRolePreview)
+  const logout = useAuthStore((state) => state.logout)
+  const switchRole = useAuthStore((state) => state.switchRole)
+
   const selectedKey = location.pathname.startsWith('/app/account')
     ? '/app/accounts'
     : location.pathname
   const pageKey = location.pathname.startsWith('/app/account')
     ? 'accountDetail'
     : (routeToPageKey[location.pathname] ?? routeToPageKey[selectedKey] ?? 'today')
+
+  const displayName = user?.name || bundle.systemAdmin
+  const roleName = user?.role_name || user?.role_code || '-'
+  const avatarText = user?.avatar || displayName.slice(0, 2) || 'U'
+  const canPreviewRoles = user?.role_code === 'admin' || user?.permissions?.includes('accessSystemSettings')
+  const showRoleSwitch = canPreviewRoles || isRolePreview
+
+  const handleLogout = () => {
+    logout()
+    navigate('/login')
+  }
+
+  const handleSwitchRole = async (roleCode: string) => {
+    try {
+      await switchRole(roleCode)
+      window.location.reload()
+    } catch {
+      // silent; permission denied
+    }
+  }
+
+  const userMenuItems: MenuProps['items'] = [
+    {
+      key: 'profile',
+      label: (
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 2, padding: '4px 0' }}>
+          <Typography.Text strong>{displayName}</Typography.Text>
+          <Typography.Text type="secondary" style={{ fontSize: 12 }}>{roleName}</Typography.Text>
+        </div>
+      ),
+      disabled: true,
+    },
+    { key: 'divider-1', type: 'divider' as const },
+    ...(showRoleSwitch
+      ? [
+          {
+            key: 'switch-role',
+            label: isRolePreview ? t('user.switchRoleBack') : t('user.switchRole'),
+            icon: <SwapOutlined />,
+            children: ROLE_OPTIONS.map((r) => ({
+              key: r.code,
+              label: t(`roles.${r.code}`),
+              onClick: () => handleSwitchRole(r.code),
+            })),
+          },
+          { key: 'divider-2', type: 'divider' as const },
+        ]
+      : []),
+    {
+      key: 'logout',
+      label: t('user.logout'),
+      icon: <LogoutOutlined />,
+      danger: true,
+      onClick: handleLogout,
+    },
+  ]
 
   const menuItems: MenuProps['items'] = bundle.menu.map((group) => ({
     key: `grp-${group.key}`,
@@ -172,12 +253,12 @@ export function AppLayout() {
         <div className="crm-sider-footer">
           <div className="crm-profile">
             <Avatar size={36} className="crm-profile-avatar">
-              {locale.startsWith('zh') ? t('adminAvatar') : 'A'}
+              {avatarText}
             </Avatar>
             <div className="crm-profile-meta">
-              <Typography.Text className="crm-profile-name">{bundle.systemAdmin}</Typography.Text>
+              <Typography.Text className="crm-profile-name">{displayName}</Typography.Text>
               <Typography.Text className="crm-profile-sub">
-                {bundle.systemAdmin}
+                {roleName}
               </Typography.Text>
             </div>
           </div>
@@ -191,7 +272,7 @@ export function AppLayout() {
               popupMatchSelectWidth={false}
               suffixIcon={<TranslationOutlined />}
             />
-            <Button type="text" className="crm-logout-btn" onClick={() => navigate('/login')}>
+            <Button type="text" className="crm-logout-btn" onClick={handleLogout}>
               {bundle.logout}
             </Button>
           </div>
@@ -234,9 +315,15 @@ export function AppLayout() {
               </Button>
             </Dropdown>
 
-            <Button className="crm-header-user" icon={<UserOutlined />}>
-              {bundle.systemAdmin}
-            </Button>
+            <Dropdown menu={{ items: userMenuItems }} placement="bottomRight">
+              <Button className="crm-header-user" icon={<UserOutlined />}>
+                {displayName} <DownOutlined style={{ fontSize: 10 }} />
+              </Button>
+            </Dropdown>
+
+            {isRolePreview && (
+              <Tag color="orange" style={{ marginLeft: -4 }}>{t('user.preview')}</Tag>
+            )}
 
             <Badge dot>
               <Button className="crm-header-icon" icon={<BellOutlined />} />

@@ -1,8 +1,11 @@
 import { GlobalOutlined, LockOutlined, MailOutlined } from '@ant-design/icons'
 import { Button, Card, Form, Input, Select, Typography } from 'antd'
+import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { useGlobalMessage } from '../hooks/useGlobalMessage'
 import { useI18n } from '../hooks/useI18n'
 import { localeNames, type LocaleKey } from '../locales'
+import { useAuthStore } from '../store/useAuthStore'
 import { useUiStore } from '../store/useUiStore'
 
 const { Title, Paragraph } = Typography
@@ -10,8 +13,28 @@ const { Title, Paragraph } = Typography
 export function LoginPage() {
   const navigate = useNavigate()
   const { t } = useI18n()
+  const { error } = useGlobalMessage()
+  const [loading, setLoading] = useState(false)
   const locale = useUiStore((s) => s.locale)
   const setLocale = useUiStore((s) => s.setLocale)
+  const login = useAuthStore((s) => s.login)
+  const isAuthenticated = useAuthStore((s) => s.isAuthenticated)
+
+  useEffect(() => {
+    if (isAuthenticated) navigate('/app/today')
+  }, [isAuthenticated])
+
+  const handleLogin = async (values: { email: string; password: string }) => {
+    try {
+      setLoading(true)
+      await login(values.email, values.password)
+      navigate('/app/today')
+    } catch (e) {
+      error(t('login.invalid'))
+    } finally {
+      setLoading(false)
+    }
+  }
 
   return (
     <div className="angel-login-page">
@@ -50,7 +73,7 @@ export function LoginPage() {
             layout="vertical"
             className="angel-login-form"
             initialValues={{ email: 'admin@angel.cn', password: 'demo2026' }}
-            onFinish={() => navigate('/app/today')}
+            onFinish={handleLogin}
           >
             <Form.Item label={t('login.email')} name="email">
               <Input
@@ -75,7 +98,7 @@ export function LoginPage() {
               <button type="button">{t('login.forgot')}</button>
             </div>
 
-            <Button type="primary" htmlType="submit" size="large" block className="angel-login-submit">
+            <Button type="primary" htmlType="submit" size="large" block className="angel-login-submit" loading={loading}>
               {t('login.submit')}
             </Button>
           </Form>
